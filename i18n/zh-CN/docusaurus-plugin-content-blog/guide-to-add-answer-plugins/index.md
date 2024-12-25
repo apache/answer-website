@@ -15,7 +15,7 @@ description: "教你轻松添加 Apache Answer 插件，扩展 Answer 功能"
 
 1. 点击[此处](https://github.com/apache/incubator-answer-plugins/tree/main)从官方 Apache Answer 插件仓库下载所需插件。
 2. 放置插件：将下载的插件文件，放置到项目目录下的 `./ui/src/plugins` 中
-3. 插件类型参考： https://answer.apache.org/docs/development/plugins
+3. 插件类型参考：https://answer.apache.org/zh-CN/docs/development/plugins/
 
 _注意：文件夹应该是 plugins，而不是 plugin。_
 ![files](files.png)
@@ -61,6 +61,6 @@ go mod edit -replace="github.com/apache/incubator-answer-plugins/my-plugin"="./u
 5. 启动项目：`go run cmd/answer/main.go run -C ./answer-data`。
 ![go-tidy](go-tidy.png)
 
-在浏览器打开后端借口网址，可在 Admin - Installed Plugins 里看到添加的插件，点击 Action 列的 `⋮` 即可激活和移除该插件。
+在浏览器打开后端接口网址，可在 Admin - Installed Plugins 里看到添加的插件，点击 Action 列的 `⋮` 即可激活和移除该插件。
 
 你已经完成了插件添加，点击[此处](https://answer.apache.org/plugins/)可以了解更多社区构建的插件。此外，我们还提供了 [Apache Answer 使用插件的详细教程](https://answer.apache.org/zh-CN/blog/how-to-package-and-deploy-answer-plugins/)，以及[插件开发指南](https://answer.apache.org/zh-CN/docs/development/plugins/)，让你的 Apache Answer 变得更加强大。
