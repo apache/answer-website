@@ -109,6 +109,9 @@ const config = {
           {
             label: 'Plugins',
             to: '/plugins',
+            tos: {
+              'zh-CN': 'https://test.com'
+            }
           },
           {
             label: 'Blog',
@@ -130,6 +133,9 @@ const config = {
               {
                 label: 'Q&A Community',
                 to: 'https://meta.answer.dev',
+                tos: {
+                  'zh-CN': 'https://baidu.com',
+                }
               },
               {
                 label: 'Team',
