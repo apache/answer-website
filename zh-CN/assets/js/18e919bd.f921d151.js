@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkanswer=self.webpackChunkanswer||[]).push([[1290],{99899:e=>{e.exports=JSON.parse('{"label":"Best Practice","count":2,"permalink":"/blog/category/best-practice"}')}}]);
