@@ -43,7 +43,7 @@ docker run -d -p 9080:80 -v answer-data:/data --name answer apache/answer:latest
 
 如果你使用的是 answer 的二进制安装版本，升级步骤如下：
 
-1. 下载适用于你系统的[最新二进制版本](https://github.com/apache/incubator-answer/releases)。
+1. 下载适用于你系统的[最新二进制版本](https://github.com/apache/answer/releases)。
 2. 停止旧版本。
 3. 执行升级命令`./answer upgrade -C ./answer-data/`。
 4. 运行最新版本`./answer run -C ./answer-data/`。

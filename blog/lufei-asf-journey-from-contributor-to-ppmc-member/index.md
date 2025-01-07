@@ -19,9 +19,9 @@ Becoming a PPMC member of the Apache Answer incubator project means so much to m
 
 I actually had a chance to join the SegmentFault team before Answer was even open-sourced, but things didn't work out. Looking back, I kind of kicked myself for missing out on this opportunity!
 
-On October 24th 2022, Answer was launched and open sourced. When I saw that news, I jumped right in and checked on the repo. Then, I submitted my first [PR](https://github.com/apache/incubator-answer/pull/2): `doc: update install`. Answer is built with Go and Node.js while I’m a more of a PHP person, so I was swaying away from it. 
+On October 24th 2022, Answer was launched and open sourced. When I saw that news, I jumped right in and checked on the repo. Then, I submitted my first [PR](https://github.com/apache/answer/pull/2): `doc: update install`. Answer is built with Go and Node.js while I’m a more of a PHP person, so I was swaying away from it. 
 
-The following year, Answer passed the vote and joined the ASF incubator. My second [PR](https://github.com/apache/incubator-answer/pull/577): `fix: typo` was submitted by that time.
+The following year, Answer passed the vote and joined the ASF incubator. My second [PR](https://github.com/apache/answer/pull/577): `fix: typo` was submitted by that time.
 
 ![Answer Enters Incubator](ASF.png)
 
@@ -63,7 +63,7 @@ On June 27, 2024, I received the email: Welcome to the Apache Software Foundatio
 Just a week later, on July 8th, I was added to the Apache Answer Committer list. Becoming a Committer is more than an identity, but taking on more responsibilities, including code reviews, quality checks, and helping new contributors. 
 
 ## From Committer to PPMC Member
-Becoming a Committer made me even more invested in Apache Answer. Beyond active participation in mailing lists and voting on releases, I started diving into issues, tackling bug fixes and feature enhancements. I also [contributed new plugins](https://github.com/apache/incubator-answer-plugins/pulls?q=is%3Apr+author%3Asy-records+is%3Aclosed), such as [Tencent COS Storage](https://github.com/apache/incubator-answer-plugins/tree/main/storage-tencentyuncos), [DingTalk Notifications](https://github.com/apache/incubator-answer-plugins/tree/main/notification-dingtalk), and [Baidu Reviewer](https://github.com/apache/incubator-answer-plugins/tree/main/reviewer-baidu).
+Becoming a Committer made me even more invested in Apache Answer. Beyond active participation in mailing lists and voting on releases, I started diving into issues, tackling bug fixes and feature enhancements. I also [contributed new plugins](https://github.com/apache/answer-plugins/pulls?q=is%3Apr+author%3Asy-records+is%3Aclosed), such as [Tencent COS Storage](https://github.com/apache/answer-plugins/tree/main/storage-tencentyuncos), [DingTalk Notifications](https://github.com/apache/answer-plugins/tree/main/notification-dingtalk), and [Baidu Reviewer](https://github.com/apache/answer-plugins/tree/main/reviewer-baidu).
 
 Being nominated for PPMC was both exciting and humbling. As a PPMC member, I’ll be working closely with the community to guide the project's direction, ensure we're following the Apache Way, and attract more developers. It's a big responsibility, but I'm thrilled to be a part of it.
 

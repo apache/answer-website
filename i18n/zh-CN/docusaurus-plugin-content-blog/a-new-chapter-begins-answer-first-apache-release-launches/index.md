@@ -21,7 +21,7 @@ For admins, simply go Admin page, then Contents. Recover the content by clicking
 You can also click the post and jump to the deleted content for a double check before the recovery. 
 
 ## Delete Users and Content in One Click
-The feature was brought by the user in the [community](https://github.com/apache/incubator-answer/issues/429), and he discussed accessibility to the content from that user after leaving the community. 
+The feature was brought by the user in the [community](https://github.com/apache/answer/issues/429), and he discussed accessibility to the content from that user after leaving the community. 
 
 ![A Developer Shares Opinion of a Feature](voice-from-the-community.png)
 

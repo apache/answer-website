@@ -18,9 +18,9 @@ description: "了解 Lu Fei 从开发者到 PPMC Member 的成长之路。"
 其实在 2022 年 6 月的时候，joyqi 就曾邀请过我加入 SegmentFault 思否团队，当晚也通过电话聊了聊，不过当时因为工作和个人关系原因婉拒了，回过头想想可能那会就是研发 Answer 这个项目（错过拍大腿系列）。
 
 2022 年 10 月 24 日，SegmentFault 思否团队正式宣布[对外开源问答社区软件 Answer](https://segmentfault.com/a/1190000042672978)。
-其实当时看到 Answer 开源的消息后，我就点开了 repo，在扫了一眼安装文档后，我的第一个 [PR](https://github.com/apache/incubator-answer/pull/2) ：`doc: update install` 便诞生了。由于我在工作中主要使用的技术栈是 PHP，Answer 的技术栈是 Golang 和 Node.js，所以在后来的一段时间里，我按下了贡献的暂停键。
+其实当时看到 Answer 开源的消息后，我就点开了 repo，在扫了一眼安装文档后，我的第一个 [PR](https://github.com/apache/answer/pull/2) ：`doc: update install` 便诞生了。由于我在工作中主要使用的技术栈是 PHP，Answer 的技术栈是 Golang 和 Node.js，所以在后来的一段时间里，我按下了贡献的暂停键。
 
-次年，恰逢开源一周年，Answer 社区发布公告宣布项目已顺利通过投票，正式进入 Apache 软件基金会（ASF）孵化器，而我在这个时候也提交了我的第二个 [PR](https://github.com/apache/incubator-answer/pull/577): `fix: typo`。
+次年，恰逢开源一周年，Answer 社区发布公告宣布项目已顺利通过投票，正式进入 Apache 软件基金会（ASF）孵化器，而我在这个时候也提交了我的第二个 [PR](https://github.com/apache/answer/pull/577): `fix: typo`。
 
 ![Alt text](ASF.png)
 
@@ -59,7 +59,7 @@ Apache 孵化器为每个孵化项目（podling）指派了一些导师，他们
 
 为了尽快上手，我首先从社区的 `good first issue` 标签入手。
 
-这些问题通常比较简单，非常适合新人了解项目结构和贡献流程。我从修复文档问题、优化简单逻辑代码开始，一步步熟悉项目的代码风格和设计理念。在社区的帮助下，我逐渐理解了项目的架构，并开始尝试增加功能，比如为 [Dockerfile 增加时区](https://github.com/apache/incubator-answer/pull/581)和[邮件服务支持 TLS](https://github.com/apache/incubator-answer/pull/953) 等。
+这些问题通常比较简单，非常适合新人了解项目结构和贡献流程。我从修复文档问题、优化简单逻辑代码开始，一步步熟悉项目的代码风格和设计理念。在社区的帮助下，我逐渐理解了项目的架构，并开始尝试增加功能，比如为 [Dockerfile 增加时区](https://github.com/apache/answer/pull/581)和[邮件服务支持 TLS](https://github.com/apache/answer/pull/953) 等。
 
 这一过程中，我的 Go 技能得到了极大的提升，也让我对高效协作和代码质量的重要性有了更深的体会，我的代码质量和贡献数量逐步提升，这也让我得到了成为 Committer 的机会。
 
@@ -77,7 +77,7 @@ Apache 孵化器为每个孵化项目（podling）指派了一些导师，他们
 
 成为 Committer 之后，我开始更加关注 Apache Answer 的动态了。除了在邮件列表中积极沟通，版本发布的验证、投票外，我还会在收到 issue 的邮件通知后打开看看是什么问题，能不能解决，其中包括了 Bug 修复和功能改进。
 
-除此之外，我也参考了其他 Apache Answer 的插件，[提交新的插件](https://github.com/apache/incubator-answer-plugins/pulls?q=is%3Apr+author%3Asy-records+is%3Aclosed)，丰富插件市场：[腾讯云对象存储 COS](https://github.com/apache/incubator-answer-plugins/tree/main/storage-tencentyuncos)、[钉钉通知](https://github.com/apache/incubator-answer-plugins/tree/main/notification-dingtalk)和[百度内容审核插件](https://github.com/apache/incubator-answer-plugins/tree/main/reviewer-baidu)。
+除此之外，我也参考了其他 Apache Answer 的插件，[提交新的插件](https://github.com/apache/answer-plugins/pulls?q=is%3Apr+author%3Asy-records+is%3Aclosed)，丰富插件市场：[腾讯云对象存储 COS](https://github.com/apache/answer-plugins/tree/main/storage-tencentyuncos)、[钉钉通知](https://github.com/apache/answer-plugins/tree/main/notification-dingtalk)和[百度内容审核插件](https://github.com/apache/answer-plugins/tree/main/reviewer-baidu)。
 
 当我收到成为 PPMC Member 的提议时，我既兴奋又感觉到肩上的责任更重了。PPMC Member 的角色不仅是技术贡献，更重要的是帮助社区成长、维护项目方向，并确保 Apache Way 的实践。在这个新的角色中，我将与其他社区成员密切合作，推动项目的孵化进程，吸引更多开发者加入，并探索 Apache Answer 在全球范围内的更多应用场景。
 

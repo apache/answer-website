@@ -30,7 +30,7 @@ It's easy to build a `Translator` structure, just like this:
 
 ```go
 import (
-    "github.com/apache/incubator-answer/plugin"
+    "github.com/apache/answer/plugin"
 )
 
 plugin.MakeTranslator("plugin.github_connector.backend.name")
@@ -126,7 +126,7 @@ go run ./cmd/answer/main.go i18n -s $PLUGIN_PATH -t $ANSWER_DATA_PATH
 Example:
 
 ```bash
-go run ./cmd/answer/main.go i18n -s ../incubator-answer-plugins/ -t ./answer-data/i18n/
+go run ./cmd/answer/main.go i18n -s ../answer-plugins/ -t ./answer-data/i18n/
 ```
 
 ## Backend translation

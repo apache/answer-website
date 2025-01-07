@@ -18,7 +18,7 @@ export default function Plugins(): JSX.Element {
   const getPluginList = async () => {
     try {
       const res = await fetch(
-        'https://raw.githubusercontent.com/apache/incubator-answer-plugins/main/plugins_desc.json'
+        'https://raw.githubusercontent.com/apache/answer-plugins/main/plugins_desc.json'
       );
       const data = await res.json();
 
@@ -48,7 +48,7 @@ export default function Plugins(): JSX.Element {
               <Translate id="plugins.instruction.create">Create a plugin</Translate>
             </a>
             {' · '}
-            <a href="https://github.com/apache/incubator-answer-plugins" target='_blank'>
+            <a href="https://github.com/apache/answer-plugins" target='_blank'>
               <Translate id="plugins.instruction.submit">Submit a plugin</Translate>
             </a>
           </div>

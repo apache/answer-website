@@ -13,7 +13,7 @@ slug: /blog-post
 
 ## 存储库（Repository）地址
 
-- [GitHub](https://github.com/apache/incubator-answer-website): 编写和存储博客文章。
+- [GitHub](https://github.com/apache/answer-website): 编写和存储博客文章。
 - [Crowdin](https://crowdin.com/project/answer-website): 将博客文章翻译成多种语言，以方便更多用户阅读。
 
 ## 博客目录

@@ -8,9 +8,9 @@ Apache Answer 项目中有一些仓库，你可以在不同的仓库提 issue。
 
 | 仓库 | 描述 | Issues |
 | --- | --- | --- |
-| Apache Answer | Apache Answer 核心代码 | [Issues](https://github.com/apache/incubator-answer/issues) |
-| Apache Answer 插件 | Apache Answer 插件代码 | [Issues](https://github.com/apache/incubator-answer-plugins/issues) |
-| Apache Answer 网页 | Apache Answer 网页代码 | [Issues](https://github.com/apache/incubator-answer-website/issues) |
+| Apache Answer | Apache Answer 核心代码 | [Issues](https://github.com/apache/answer/issues) |
+| Apache Answer 插件 | Apache Answer 插件代码 | [Issues](https://github.com/apache/answer-plugins/issues) |
+| Apache Answer 网页 | Apache Answer 网页代码 | [Issues](https://github.com/apache/answer-website/issues) |
 
 当提交新的 issue 时，请务必填根据模板进行填写。**这一步非常重要！** 如果没有按照模版填写，可能会导致延迟处理。如果发生这种情况，请不要介意。只需根据模板填充完所需信息后，即可重新提交议题。
 
@@ -33,7 +33,7 @@ Apache Answer 项目中有一些仓库，你可以在不同的仓库提 issue。
 
 ## 安全漏洞
 
-如果你发现了安全漏洞，请不要提交公开的 issue。你可以按照[安全政策](https://github.com/apache/incubator-answer/security/policy)中的说明进行私密报告。
+如果你发现了安全漏洞，请不要提交公开的 issue。你可以按照[安全政策](https://github.com/apache/answer/security/policy)中的说明进行私密报告。
 
 ## 功能建议
 

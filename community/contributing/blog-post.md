@@ -13,7 +13,7 @@ To get started, just read our blog guidelines and get writing!
 
 ## Repository address
 
-- [GitHub](https://github.com/apache/incubator-answer-website): Write and store blog posts.
+- [GitHub](https://github.com/apache/answer-website): Write and store blog posts.
 - [Crowdin](https://crowdin.com/project/answer-website): Translate blog posts into multiple languages to make them more accessible to a wider audience.
 
 ## Blog directory

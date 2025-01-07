@@ -90,7 +90,7 @@ We would also love to give a big applause and thank you to contributors and volu
 Answer's power comes from the talented contributers in its community. While we celebrate this moment, we would also like to invite more contributors to be a part of our Apache journey. If you are interested in this project, please check out and join us.
 
 Visit Answer's official website: http://answer.apache.org/     
-Explore and contribute to our GitHub: https://github.com/apache/incubator-answer       
+Explore and contribute to our GitHub: https://github.com/apache/answer       
 Check our documentation: https://answer.apache.org/docs          
 Join our official community: https://meta.answer.dev/         
 Meet us in Discord: https://discord.gg/c537sFxu

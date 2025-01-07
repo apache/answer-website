@@ -20,9 +20,9 @@ console.log('ignoreList', ignoreList);
 
 // 获取所有仓库的地址
 var repositoryUrls = [
-  'https://api.github.com/repos/apache/incubator-answer/contributors?page=%d&per_page=100',
-  'https://api.github.com/repos/apache/incubator-answer-plugins/contributors?page=%d&per_page=100',
-  'https://api.github.com/repos/apache/incubator-answer-website/contributors?page=%d&per_page=100',
+  'https://api.github.com/repos/apache/answer/contributors?page=%d&per_page=100',
+  'https://api.github.com/repos/apache/answer-plugins/contributors?page=%d&per_page=100',
+  'https://api.github.com/repos/apache/answer-website/contributors?page=%d&per_page=100',
 ];
 
 var allContributors = [];

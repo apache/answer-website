@@ -30,7 +30,7 @@ _Note: pnpm can be installed using various methods suitable for different operat
 
 ### 2. Clone the Repository
 
-Click [here](https://github.com/apache/incubator-answer) to visit the Apache Answer GitHub repository.
+Click [here](https://github.com/apache/answer) to visit the Apache Answer GitHub repository.
 
 
 #### 2.1 Fork Answer Porject

@@ -27,7 +27,7 @@ In Answer 1.3.5, the plugin build process and some plugin commands have been adj
 2. editor-formula
 3. embed-basic (only available 1.3.5 and later)
 
-Find the [commit ID](https://github.com/apache/incubator-answer-plugins/commit/e224fee9b8a0b936e143e852050d9345aa249201) for the plugin you need to update. In its package.json files, the hyphens (-) in the plugin name with underscores (\_). For instance:
+Find the [commit ID](https://github.com/apache/answer-plugins/commit/e224fee9b8a0b936e143e852050d9345aa249201) for the plugin you need to update. In its package.json files, the hyphens (-) in the plugin name with underscores (\_). For instance:
 ![image.png](01.webp)
 
 ## I. Build Docker Images with Plugins
@@ -48,10 +48,10 @@ Please keep local code up-to-date. The steps are as below:
 
 ### 1.Add Required Plugins
 ```
-github.com/apache/incubator-answer-plugins/connector-basic@latest
-github.com/apache/incubator-answer-plugins/reviewer-basic@latest
-github.com/apache/incubator-answer-plugins/captcha-basic@latest
-github.com/apache/incubator-answer-plugins/editor-formula@latest
+github.com/apache/answer-plugins/connector-basic@latest
+github.com/apache/answer-plugins/reviewer-basic@latest
+github.com/apache/answer-plugins/captcha-basic@latest
+github.com/apache/answer-plugins/editor-formula@latest
 
 ```
 
@@ -111,24 +111,24 @@ Success：
 Please view [Answer plugin docs](https://answer.apache.org/docs/plugins/#binary-build).
 ```
 # answer build --with [plugin@plugin_version=[replacement]] --output [file]
-$ ./answer build --with github.com/apache/incubator-answer-plugins/connector-github
+$ ./answer build --with github.com/apache/answer-plugins/connector-github
 
 # build a new answer with github login plugin then output to ./new_answer.
-$ ./answer build --with github.com/apache/incubator-answer-plugins/connector-github@1.0.0 --output ./new_answer
+$ ./answer build --with github.com/apache/answer-plugins/connector-github@1.0.0 --output ./new_answer
 
 # with multiple plugins
 $ ./answer build \
---with github.com/apache/incubator-answer-plugins/connector-github \
---with github.com/apache/incubator-answer-plugins/connector-google
+--with github.com/apache/answer-plugins/connector-github \
+--with github.com/apache/answer-plugins/connector-google
 
 # with local plugins
-$ ./answer build --with github.com/apache/incubator-answer-plugins/connector-github@1.0.0=/my-local-space
+$ ./answer build --with github.com/apache/answer-plugins/connector-github@1.0.0=/my-local-space
 
 # cross compilation. Build a linux-amd64 binary in macos
-$ CGO_ENABLED=0 GOOS=linux GOARCH=amd64 ./answer build --with github.com/apache/incubator-answer-plugins/connector-github
+$ CGO_ENABLED=0 GOOS=linux GOARCH=amd64 ./answer build --with github.com/apache/answer-plugins/connector-github
 
 # specify the answer version using ANSWER_MODULE environment variable
-$ ANSWER_MODULE=github.com/apache/incubator-answer@v1.2.0-RC1 ./answer build --with github.com/apache/incubator-answer-plugins/connector-github
+$ ANSWER_MODULE=github.com/apache/answer@v1.2.0-RC1 ./answer build --with github.com/apache/answer-plugins/connector-github
 ```
 
 You can choose the required plugins according to the instructions in the documentation. Compiling plugins will rebuild the front-end static resources. Plugins may have special dependencies, so dependency installation and compilation will be performed again here. After successful compilation, the `new_answer` binary file will be generated in the dist directory.
@@ -140,7 +140,7 @@ Example:
 #### 2.1.Build Single Plugin 
 
 
-`./answer build --with github.com/apache/incubator-answer-plugins/connector-github`
+`./answer build --with github.com/apache/answer-plugins/connector-github`
 
 Effect:
 ![build progress](2.1.1.webp)
@@ -157,7 +157,7 @@ Verify plugin installation command: `./new_answer plugin`.
 #### 2.2.Build Single Plugin Using Local Plugin Code 
 If you need to modify some plugin information or build a plugin using your own private implementation, you need to use the command `with local plugins`. For example, the `editor-formula` plugin mentioned above is compatible with Answer versions below 1.3.5, so you need to modify some plugin information. In this case, you can use the following command to build the plugin:
 
-`./answer build --with github.com/apache/incubator-answer-plugins/editor-formula@0.0.3=/Users/shuai/answer/plugins/editor-formula`
+`./answer build --with github.com/apache/answer-plugins/editor-formula@0.0.3=/Users/shuai/answer/plugins/editor-formula`
 
 Output:
 ![build progress](2.2.1.webp)

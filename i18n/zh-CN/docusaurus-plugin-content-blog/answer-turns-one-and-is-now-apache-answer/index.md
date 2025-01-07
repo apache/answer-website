@@ -44,6 +44,6 @@ We are truly thankful to contributors and volunteers for their time and effort s
 
 Working with the community that consists of a group of product users, lovers, and helpers is wonderful, we cannot tell how amazing it is. Gear up, here comes a new episode.
 
-We’re always open for feedback and advice, so please let us know if you’re coming up with something, on [Twitter](https://twitter.com/AnswerDev), [Discord](https://discord.gg/c537sFxu), or [Meta Answer](https://meta.answer.dev/). If you loved to join our Apache journey, check on our repository [here](https://github.com/apache/incubator-answer).
+We’re always open for feedback and advice, so please let us know if you’re coming up with something, on [Twitter](https://twitter.com/AnswerDev), [Discord](https://discord.gg/c537sFxu), or [Meta Answer](https://meta.answer.dev/). If you loved to join our Apache journey, check on our repository [here](https://github.com/apache/answer).
 
 Shout out to everyone, and thanks for making the past year a lovely memory. Stay tuned, and there will be new stuff coming. 

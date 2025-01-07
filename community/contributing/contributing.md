@@ -29,14 +29,14 @@ Anyone can contribute to Apache Answer. In addition to contributing code, there 
 ##### Triaging issues and pull requests
 
 - Ask for more information if you believe the [issues](/community/issues) does not provide all the details required to solve it.
-- Suggest [labels](https://github.com/apache/incubator-answer/labels) that can help categorize issues.
+- Suggest [labels](https://github.com/apache/answer/labels) that can help categorize issues.
 - Flag issues that are stale or that should be closed.
 - Ask for test plans and review code.
 
 ##### Contributing code
 
 - Claim the issue if you find one that you can solve. Create a [pull request](/community/pull-request) to submit your changes.
-- Issues labeled as [`good first issue`](https://github.com/apache/incubator-answer/labels/good%20first%20issue) are great for getting started.
+- Issues labeled as [`good first issue`](https://github.com/apache/answer/labels/good%20first%20issue) are great for getting started.
 
 ##### Improving documentations
 
@@ -76,7 +76,7 @@ Anyone can contribute to Apache Answer. In addition to contributing code, there 
 
 ## Development process
 
-Apache Answer uses [GitHub](https://github.com/apache/incubator-answer) as its source of truth. The core team will be working directly there. All changes will be public from the beginning.
+Apache Answer uses [GitHub](https://github.com/apache/answer) as its source of truth. The core team will be working directly there. All changes will be public from the beginning.
 
 All pull requests will be checked by the continuous integration system, GitHub actions. There are unit tests, and much more.
 

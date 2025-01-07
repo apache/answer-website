@@ -40,7 +40,7 @@ const HomeHead: FC = () => {
 
 
   useEffect(() => {
-    fetch('https://img.shields.io/github/stars/apache/incubator-answer')
+    fetch('https://img.shields.io/github/stars/apache/answer')
       .then((response) => response.text())
       .then((data) => {
         const num = data.match(/<text .*>(.*?)<\/text>/)[1];
@@ -134,21 +134,13 @@ const HomeHead: FC = () => {
                 size="lg"
                 variant="dark"
                 className="btnMain fw-normal fs-20"
-                href="https://github.com/apache/incubator-answer"
+                href="https://github.com/apache/answer"
                 target="_blank"
               >
                 <Icon name="github" size="24px"  className="me-2" />
                 {` Star `}
                 {stars !== 0 ? numWord(stars) : ''}
               </Button>
-            </div>
-
-            <div className="text-secondary text-center fs-14">
-              <Translate
-                id="home.apache.answer"
-              >
-                Apache Answer is an effort undergoing incubation at The Apache Software Foundation.
-              </Translate>
             </div>
           </Col>
         </Row>

@@ -22,7 +22,7 @@ Apache Answer is an open-source Q&A platform software. Launched in October 2022,
 
 Find out more about us with the links below:      
 [Homepage](https://answer.apache.org/)     
-[GitHub](https://github.com/apache/incubator-answer)        
+[GitHub](https://github.com/apache/answer)        
 [Blog: Why Open Source Matters to Answer](https://answer.apache.org/blog/why-open-source-is-the-essence-of-answer)
 
 ## Our Projects for OSPP 2024
@@ -46,7 +46,7 @@ Mentor: LinkinStar
 Description: Choose an instant messaging platform (such as Slack, etc.) and integrate it into Apache Answer with plugin to allow users log in and bind accounts, receive notification reminders from Answer, and directly `ask` questions through `keywords/ask` and search content through keywords/search. etc,. There’s no need for users to leave current workflow to ask or answer a question.           
 [Apply Now](https://summer-ospp.ac.cn/org/prodetail/246a40172?list=org&navpage=org)
 
-If you are interested or having questions about the project, we encourage you to reach out to the mentor directly via email. We are more than happy to address your inquiries and provide assistance. We strongly recommend you to explore our [GitHub](https://github.com/apache/incubator-answer) and [official documentation](https://answer.apache.org/docs) beforehand, which will give you comprehensive view of our project.
+If you are interested or having questions about the project, we encourage you to reach out to the mentor directly via email. We are more than happy to address your inquiries and provide assistance. We strongly recommend you to explore our [GitHub](https://github.com/apache/answer) and [official documentation](https://answer.apache.org/docs) beforehand, which will give you comprehensive view of our project.
 
 ## What You Can Get
 * Connect with open source peers and tech experts.
@@ -69,5 +69,5 @@ Upon successful registration, you can choose the projects and communicate with t
 [Apache Answer Community Page](https://summer-ospp.ac.cn/org/orgdetail/6a467fc2-8a16-486d-9d85-ad7ebdf9fd4b?lang=en)      
 [Home Page](https://answer.apache.org/)        
 [Documentations](https://answer.apache.org/docs)      
-[GitHub](https://github.com/apache/incubator-answer)    
+[GitHub](https://github.com/apache/answer)    
 [Be a Part of Apache Answer Community](https://answer.apache.org/community/contributing)

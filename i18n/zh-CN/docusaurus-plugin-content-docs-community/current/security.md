@@ -4,7 +4,7 @@ slug: /security
 
 # 安全
 
-Apache 软件基金会在解决软件项目安全问题上采取严格的态度。如果发现安全漏洞，请注意不要提交公开议题。你可以按照[安全政策](https://github.com/apache/incubator-answer/security/policy)中的说明进行私下报告。我们会尽快修复它。
+Apache 软件基金会在解决软件项目安全问题上采取严格的态度。如果发现安全漏洞，请注意不要提交公开议题。你可以按照[安全政策](https://github.com/apache/answer/security/policy)中的说明进行私下报告。我们会尽快修复它。
 
 # 安全修复
 

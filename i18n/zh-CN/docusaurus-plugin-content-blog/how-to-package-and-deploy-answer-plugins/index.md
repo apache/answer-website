@@ -25,7 +25,7 @@ description: "手把手教你如何使用 Answer 插件"
 2. editor-formula
 3. embed-basic (该插件 1.3.5版本后才有）
 
-更改的[commit id](https://github.com/apache/incubator-answer-plugins/commit/e224fee9b8a0b936e143e852050d9345aa249201), 需要将对应的插件的 `package.json` 文件中的插件名称的 '-' 替换成 '_'， 例如：
+更改的[commit id](https://github.com/apache/answer-plugins/commit/e224fee9b8a0b936e143e852050d9345aa249201), 需要将对应的插件的 `package.json` 文件中的插件名称的 '-' 替换成 '_'， 例如：
 ![image.png](01.webp)
 
 ## 一：构建包含插件的镜像
@@ -47,10 +47,10 @@ description: "手把手教你如何使用 Answer 插件"
 
 ### 1.添加所需插件
 ```
-github.com/apache/incubator-answer-plugins/connector-basic@latest
-github.com/apache/incubator-answer-plugins/reviewer-basic@latest
-github.com/apache/incubator-answer-plugins/captcha-basic@latest
-github.com/apache/incubator-answer-plugins/editor-formula@latest
+github.com/apache/answer-plugins/connector-basic@latest
+github.com/apache/answer-plugins/reviewer-basic@latest
+github.com/apache/answer-plugins/captcha-basic@latest
+github.com/apache/answer-plugins/editor-formula@latest
 
 ```
 
@@ -110,24 +110,24 @@ docker run -d -p 9080:80 -v answer-data:/data --name answer101 answer-plugin
 参考 [Answer 文档](https://answer.apache.org/docs/plugins/#binary-build)
 ```
 # answer build --with [plugin@plugin_version=[replacement]] --output [file]
-$ ./answer build --with github.com/apache/incubator-answer-plugins/connector-github
+$ ./answer build --with github.com/apache/answer-plugins/connector-github
 
 # build a new answer with github login plugin then output to ./new_answer.
-$ ./answer build --with github.com/apache/incubator-answer-plugins/connector-github@1.0.0 --output ./new_answer
+$ ./answer build --with github.com/apache/answer-plugins/connector-github@1.0.0 --output ./new_answer
 
 # with multiple plugins
 $ ./answer build \
---with github.com/apache/incubator-answer-plugins/connector-github \
---with github.com/apache/incubator-answer-plugins/connector-google
+--with github.com/apache/answer-plugins/connector-github \
+--with github.com/apache/answer-plugins/connector-google
 
 # with local plugins
-$ ./answer build --with github.com/apache/incubator-answer-plugins/connector-github@1.0.0=/my-local-space
+$ ./answer build --with github.com/apache/answer-plugins/connector-github@1.0.0=/my-local-space
 
 # cross compilation. Build a linux-amd64 binary in macos
-$ CGO_ENABLED=0 GOOS=linux GOARCH=amd64 ./answer build --with github.com/apache/incubator-answer-plugins/connector-github
+$ CGO_ENABLED=0 GOOS=linux GOARCH=amd64 ./answer build --with github.com/apache/answer-plugins/connector-github
 
 # specify the answer version using ANSWER_MODULE environment variable
-$ ANSWER_MODULE=github.com/apache/incubator-answer@v1.2.0-RC1 ./answer build --with github.com/apache/incubator-answer-plugins/connector-github
+$ ANSWER_MODULE=github.com/apache/answer@v1.2.0-RC1 ./answer build --with github.com/apache/answer-plugins/connector-github
 ```
 
 可以根据文档上的提示来选择所需要的插件,打包插件的会重新构建前端静态资源，插件可能有特有的依赖项，所以这里会重新执行依赖安装跟构建。构建成功后会在更目录生成 `new_answer` 二进制文件。
@@ -137,7 +137,7 @@ eg:
 
 #### 2.1.打包单个插件
 
-`./answer build --with github.com/apache/incubator-answer-plugins/connector-github`
+`./answer build --with github.com/apache/answer-plugins/connector-github`
 
 效果：
 ![build progress](2.1.1.webp)
@@ -155,7 +155,7 @@ eg:
 
 如果需要调整插件的一些信息或者使用自己实现的私有插件来构建，需要使用 `with local plugins` 命令来构建，比如上面提到的 `editor-formula` 插件，并且使用的 Answer 代码版本是小于 1.3.5 的，所以需要调整插件的一些信息，这种情况就需要使用该命令来完成构建。
 
-`./answer build --with github.com/apache/incubator-answer-plugins/editor-formula@0.0.3=/Users/shuai/answer/plugins/editor-formula`
+`./answer build --with github.com/apache/answer-plugins/editor-formula@0.0.3=/Users/shuai/answer/plugins/editor-formula`
 
 结果：
 ![build progress](2.2.1.webp)

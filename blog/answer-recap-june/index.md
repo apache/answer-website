@@ -23,7 +23,7 @@ Our PPMC member Nadia brought us to Community Over Code Europe held in Slovakia.
 We were lucky to have 2 selected student for our first year’s [OSPP](https://summer-ospp.ac.cn/org/projectlist?lang=en&pageNum=1&pageSize=50&programName). Our mentors shuai and LinkinStar are ready to add some open sauce to make this summer memorable.
 
 ## ✌️ Coming up Next
-Our next big release 1.3.5 entered the voting process, and it just passed the vote. Click [here](https://github.com/apache/incubator-answer/releases/tag/v1.3.5) for the new release details.
+Our next big release 1.3.5 entered the voting process, and it just passed the vote. Click [here](https://github.com/apache/answer/releases/tag/v1.3.5) for the new release details.
 
 
 This July, Apache Answer will have 2 sessions in Community over Code Asia 2024. Our PPMC members LinkinStar and Anne will share our first Apache release and ways to engage your users.

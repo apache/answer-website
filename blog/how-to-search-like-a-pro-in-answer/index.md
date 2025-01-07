@@ -47,4 +47,4 @@ Don’t panic if you forget the rules. The advanced search tips are displayed on
 You can also combine the search rules together to hunt the exact content down.
 
 ## We Love to Hear from You
-It’s always nice to have feedback and advice. If you have feature requests, bug report, or show your Answer. You are welcome to reach out on [X](https://twitter.com/answerdev), [Discord](https://discord.gg/a6PZZbfnFx), [GitHub](https://github.com/apache/incubator-answer), [Meta Answer](https://meta.answer.dev/), or our [mailing list](https://answer.apache.org/community/support).
+It’s always nice to have feedback and advice. If you have feature requests, bug report, or show your Answer. You are welcome to reach out on [X](https://twitter.com/answerdev), [Discord](https://discord.gg/a6PZZbfnFx), [GitHub](https://github.com/apache/answer), [Meta Answer](https://meta.answer.dev/), or our [mailing list](https://answer.apache.org/community/support).

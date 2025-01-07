@@ -30,7 +30,7 @@ _注：pnpm有许多其他下载方式，适用于不同操作系统，详细请
 
 ### 2. Clone the Repository
 
-这个步骤目的是从 GitHub 中获取 Apache Answer 整个项目，点击[此处](https://github.com/apache/incubator-answer)访问 Apache Answer 的 GitHub Repo。
+这个步骤目的是从 GitHub 中获取 Apache Answer 整个项目，点击[此处](https://github.com/apache/answer)访问 Apache Answer 的 GitHub Repo。
 
 
 #### 2.1 Fork Answer 项目

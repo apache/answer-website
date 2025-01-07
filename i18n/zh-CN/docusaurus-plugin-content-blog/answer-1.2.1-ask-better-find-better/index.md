@@ -32,7 +32,7 @@ If the button is switched off, there'll be 2 options provided. Once user clicked
 ![Switch off Button](switched-off-options.gif)
 
 ## Admin Takes Control of Access
-We heard the voice of the [community](https://github.com/apache/incubator-answer/issues/565), and valued the privacy and security of a Q&A platform. Now, admins have the access to disable the default password login form, having more control over who can and how to access the platform.
+We heard the voice of the [community](https://github.com/apache/answer/issues/565), and valued the privacy and security of a Q&A platform. Now, admins have the access to disable the default password login form, having more control over who can and how to access the platform.
 
 ### How to
 1. Admin - Settings - Login
@@ -76,4 +76,4 @@ Cheers to the lovely contributors (🥁drumrolls here), and you rock this releas
 
 Big applause to our lovely [translators](https://crowdin.com/project/answer/activity-stream) who pave the way to knowledge palace to more people. We surely can't forget people who provided suggestions, reported issues, and cheered us on. You are the heart of Answer. 
 
-Dive into the [update](https://github.com/apache/incubator-answer/releases/tag/v1.2.1) and experience the latest Answer for yourself, and you're always welcome to [join the community](https://answer.apache.org/community/about).
+Dive into the [update](https://github.com/apache/answer/releases/tag/v1.2.1) and experience the latest Answer for yourself, and you're always welcome to [join the community](https://answer.apache.org/community/about).

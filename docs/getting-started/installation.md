@@ -23,7 +23,7 @@ If you are using [Docker Desktop](https://www.docker.com/products/docker-desktop
 :::
 
 ```bash
-curl -fsSL https://raw.githubusercontent.com/apache/incubator-answer/main/docker-compose.yaml | docker compose -p answer -f - up
+curl -fsSL https://raw.githubusercontent.com/apache/answer/main/docker-compose.yaml | docker compose -p answer -f - up
 ```
 
 The default port for Apache Answer is `9080`. You can access it at http://localhost:9080.
@@ -48,7 +48,7 @@ If you can't access the installation page, you can use the command `docker logs 
   </TabItem>
   <TabItem value="binary" label="Binary">
 
-As a golang project, Apache Answer can be compiled into a binary file. You can download the binary file that matches your operating system from the [release page](https://github.com/apache/incubator-answer/releases).
+As a golang project, Apache Answer can be compiled into a binary file. You can download the binary file that matches your operating system from the [release page](https://github.com/apache/answer/releases).
 
 ```bash
 INSTALL_PORT=80 ./answer init -C ./answer-data/

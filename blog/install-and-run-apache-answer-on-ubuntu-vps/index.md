@@ -65,7 +65,7 @@ To install and run Apache Answer on Ubuntu VPS, follow the steps below:
     1. Start Apache Answer with Docker Compose:
 
         ```shell-session
-        curl -fsSL https://raw.githubusercontent.com/apache/incubator-answer/main/docker-compose.yaml | docker compose -p answer -f - up
+        curl -fsSL https://raw.githubusercontent.com/apache/answer/main/docker-compose.yaml | docker compose -p answer -f - up
         ```
 
        The default port for Answer is 9080. You can access it at http://localhost:9080.

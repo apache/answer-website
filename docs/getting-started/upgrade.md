@@ -43,7 +43,7 @@ docker run -d -p 9080:80 -v answer-data:/data --name answer apache/answer:latest
 
 If you are using a binary installation of answer, the upgrade steps are as follows.
 
-1. Download the [latest binary version](https://github.com/apache/incubator-answer/releases) for your system.
+1. Download the [latest binary version](https://github.com/apache/answer/releases) for your system.
 2. Stop old version
 3. Execute the upgrade command `./answer upgrade -C ./answer-data/`
 4. Run the latest version `./answer run -C ./answer-data/`

@@ -164,7 +164,7 @@ export default function Plugins(): JSX.Element {
                 </ul>
               </td>
               <td>
-                <a href={`https://github.com/apache/incubator-answer/releases/tag/v${item}`}>
+                <a href={`https://github.com/apache/answer/releases/tag/v${item}`}>
                   Release Notes
                 </a>
               </td>

@@ -29,14 +29,14 @@ Apache Answer 是一个由热情的用户、贡献者和PMC成员共同打造的
 ##### 参与处理问题和代码提交请求
 
 - 如果你认为[问题](/community/issues)没有提供解决它所需的所有细节，请询问用户提供更多信息。
-- 帮助问题添加[标签](https://github.com/apache/incubator-answer/labels)有助于对问题进行分类。
+- 帮助问题添加[标签](https://github.com/apache/answer/labels)有助于对问题进行分类。
 - 标记过时或应该关闭的问题。
 - 询问测试计划和审查代码。
 
 ##### 贡献代码
 
 - 如果你找到你可以解决的问题，请认领它。创建一个[拉取请求](/community/pull-request)来提交你的更改。
-- 标记为[`good first issue`](https://github.com/apache/incubator-answer/labels/good%20first%20issue)的问题非常适合新手们。
+- 标记为[`good first issue`](https://github.com/apache/answer/labels/good%20first%20issue)的问题非常适合新手们。
 
 ##### 改进文档
 
@@ -76,7 +76,7 @@ Apache Answer 是一个由热情的用户、贡献者和PMC成员共同打造的
 
 ## 开发过程
 
-Apache Answer 使用[GitHub](https://github.com/apache/incubator-answer)作为代码版本库。核心团队将在该平台进行协作开发。所有的代码变更都是对外公开的。
+Apache Answer 使用[GitHub](https://github.com/apache/answer)作为代码版本库。核心团队将在该平台进行协作开发。所有的代码变更都是对外公开的。
 
 所有 Pull Request 都将由持续集成系统（GitHub Actions）进行检查，其中包括单元测试等其它测试方法。
 

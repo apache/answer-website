@@ -8,9 +8,9 @@ There are some repos in the Apache Answer project, you can raise your issue for 
 
 | Repo | Description | Issues |
 | --- | --- | --- |
-| Apache Answer | Apache Answer core code | [Issues](https://github.com/apache/incubator-answer/issues) |
-| Apache Answer Plugins | Apache Answer plugins code | [Issues](https://github.com/apache/incubator-answer-plugins/issues) |
-| Apache Answer Website | Apache Answer website code | [Issues](https://github.com/apache/incubator-answer-website/issues) |
+| Apache Answer | Apache Answer core code | [Issues](https://github.com/apache/answer/issues) |
+| Apache Answer Plugins | Apache Answer plugins code | [Issues](https://github.com/apache/answer-plugins/issues) |
+| Apache Answer Website | Apache Answer website code | [Issues](https://github.com/apache/answer-website/issues) |
 
 When opening a new issue, always make sure to fill out the issue template. **This step is very important!** Not doing so may result in your issue not being managed in a timely fashion. Don't take this personally if this happens, and feel free to open a new issue once you've gathered all the information required by the template.
 
@@ -33,7 +33,7 @@ If no existing issue exists, please open a new issue and fill out the issue temp
 
 ## Security bugs
 
-If you find a security bug, with that in mind, please do not file public issues. You can follow the instructions in the [security policy](https://github.com/apache/incubator-answer/security/policy) to report it privately.
+If you find a security bug, with that in mind, please do not file public issues. You can follow the instructions in the [security policy](https://github.com/apache/answer/security/policy) to report it privately.
 
 ## Feature requests
 

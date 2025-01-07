@@ -27,7 +27,7 @@ const config = {
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
   organizationName: 'apache', // Usually your GitHub org/user name.
-  projectName: 'incubator-answer', // Usually your repo name.
+  projectName: 'answer', // Usually your repo name.
 
   // Even if you don't use internalization, you can use this field to set useful
   // metadata like html lang. For example, if your site is Chinese, you may want
@@ -68,7 +68,7 @@ const config = {
             if (locale !== 'en') {
               return `https://crowdin.com/project/answer-website/zh-CN`;
             }
-            return `https://github.com/apache/incubator-answer-website/edit/main/${versionDocsDirPath}/${docPath}`;
+            return `https://github.com/apache/answer-website/edit/main/${versionDocsDirPath}/${docPath}`;
           },
           showLastUpdateAuthor: true,
           showLastUpdateTime: true,
@@ -145,7 +145,7 @@ const config = {
               },
               {
                 label: 'Roadmap',
-                to: 'https://github.com/apache/incubator-answer/projects',
+                to: 'https://github.com/apache/answer/projects',
               },
             ],
           },
@@ -174,7 +174,7 @@ const config = {
             className: 'bi bi-discord navbar-icon-link',
           },
           {
-            href: 'https://github.com/apache/incubator-answer',
+            href: 'https://github.com/apache/answer',
             position: 'right',
             className: 'bi bi-github navbar-icon-link',
           },
@@ -205,7 +205,7 @@ const config = {
           if (locale !== 'en') {
             return `https://crowdin.com/project/answer-website/zh-CN`;
           }
-          return `https://github.com/apache/incubator-answer-website/edit/main/${blogDirPath}/${blogPath}`;
+          return `https://github.com/apache/answer-website/edit/main/${blogDirPath}/${blogPath}`;
         },
       },
     ],
@@ -222,7 +222,7 @@ const config = {
           if (locale !== 'en') {
             return `https://crowdin.com/project/answer-website/zh-CN`;
           }
-          return `https://github.com/apache/incubator-answer-website/edit/main/${versionDocsDirPath}/${docPath}`;
+          return `https://github.com/apache/answer-website/edit/main/${versionDocsDirPath}/${docPath}`;
         },
         showLastUpdateAuthor: true,
         showLastUpdateTime: true,

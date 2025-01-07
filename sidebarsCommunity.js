@@ -21,12 +21,12 @@ module.exports = {
     },
     {
       type: 'link',
-      href: 'https://github.com/apache/incubator-answer/issues',
+      href: 'https://github.com/apache/answer/issues',
       label: 'Feature Request',
     },
     {
       type: 'link',
-      href: 'https://github.com/apache/incubator-answer/projects',
+      href: 'https://github.com/apache/answer/projects',
       label: 'Roadmap',
     },
   ],

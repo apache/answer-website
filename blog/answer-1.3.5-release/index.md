@@ -22,9 +22,9 @@ When you come across a question that aligns perfectly with your confusion, or a 
 ![Add Reaction in Apache Answer](Add%20Reactions.gif)
 
 ## Better Content Showcase
-We heard your [call](https://github.com/apache/incubator-answer-plugins/issues/84), and here we are. Now, knowledge sharing is at the next level with a new embed plugin. It helps to refer to relevant article, tutorials, coding snippets, etc. 
+We heard your [call](https://github.com/apache/answer-plugins/issues/84), and here we are. Now, knowledge sharing is at the next level with a new embed plugin. It helps to refer to relevant article, tutorials, coding snippets, etc. 
 
-After activate the [embed plugin](https://github.com/apache/incubator-answer-plugins/tree/main/embed-basic), you can customize the title with a brief summary of the content, and then paste the URL of the content you are adding.  
+After activate the [embed plugin](https://github.com/apache/answer-plugins/tree/main/embed-basic), you can customize the title with a brief summary of the content, and then paste the URL of the content you are adding.  
 ![Use Embed Plugin](Embed%20Plugin.gif)
 
 It looks like this. Better than multiple cold links, right?  
@@ -39,7 +39,7 @@ We understand the need for an easy email address update. Users can now request t
 
 ![Edit Profile](Edit%20Profile.png)
 
-Issue such as invalid link, incomplete display, and incorrect count are all fixed! If you spot a bug, don’t hesitate to report it [here](https://github.com/apache/incubator-answer/issues). 
+Issue such as invalid link, incomplete display, and incorrect count are all fixed! If you spot a bug, don’t hesitate to report it [here](https://github.com/apache/answer/issues). 
 
 ## Here’s to You. Amazing Contributors!
 We couldn’t have done it without the dedication and hard work from the community. This release is brought to you by eight fantastic contributors, including two new faces that we are thrilled to have them here. 
@@ -47,5 +47,5 @@ We couldn’t have done it without the dedication and hard work from the communi
 Cheers to [kumfo](https://github.com/kumfo), [hgaol](https://github.com/hgaol), [robinv8](https://github.com/robinv8), [LinkinStars](https://github.com/LinkinStars), [shuaishuai](https://github.com/shuashuai), [sy-records](https://github.com/sy-records), [nayanthulkar28](https://github.com/nayanthulkar28), and [byerer](https://github.com/byerer).
 
 ## Got a Time for Feedback
-We’re always open for ways to make Q&A platform better. Do you have any ideas to share? Head over to our [SourceForge](https://sourceforge.net/projects/incubator-answer/) and rate us stars or leave a review. Thank you so much!
+We’re always open for ways to make Q&A platform better. Do you have any ideas to share? Head over to our [SourceForge](https://sourceforge.net/projects/answer/) and rate us stars or leave a review. Thank you so much!
 

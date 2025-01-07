@@ -23,7 +23,7 @@ import TabItem from '@theme/TabItem';
 :::
 
 ```bash
-curl -fsSL https://raw.githubusercontent.com/apache/incubator-answer/main/docker-compose.yaml | docker compose -p answer -f - up
+curl -fsSL https://raw.githubusercontent.com/apache/answer/main/docker-compose.yaml | docker compose -p answer -f - up
 ```
 
 Apache Answer 的默认端口是 `9080`，你可以通过 http://localhost:9080 访问它。
@@ -48,7 +48,7 @@ docker run -d -p 9080:80 -v answer-data:/data --name answer apache/answer:latest
   </TabItem>
   <TabItem value="binary" label="Binary">
 
-作为一个 Go 项目，Apache Answer 可以编译为二进制文件。你可以从[发布页面](https://github.com/apache/incubator-answer/releases)下载与你的操作系统匹配的二进制文件。
+作为一个 Go 项目，Apache Answer 可以编译为二进制文件。你可以从[发布页面](https://github.com/apache/answer/releases)下载与你的操作系统匹配的二进制文件。
 
 ```bash
 INSTALL_PORT=80 ./answer init -C ./answer-data/

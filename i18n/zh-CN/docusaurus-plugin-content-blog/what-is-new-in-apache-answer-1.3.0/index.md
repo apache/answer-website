@@ -11,7 +11,7 @@ description: "Find out how the review process and navigation gets more efficient
 
 We know we all have different habits to browse, navigate, and manage your online community, support center, or knowledge base. We built Apache Answer to stay out of your way, so you can focus and do everything in the way you want, with features and interactions that are just right.
 
-In [Answer 1.3.0](https://github.com/apache/incubator-answer/releases/tag/v1.3.0), we’re moving forward to make review and navigation better for you. Here are the features, new improves, and gratitude to all the contributors. [Upgrade](https://answer.apache.org/docs/upgrade) now and enjoy the reading today.
+In [Answer 1.3.0](https://github.com/apache/answer/releases/tag/v1.3.0), we’re moving forward to make review and navigation better for you. Here are the features, new improves, and gratitude to all the contributors. [Upgrade](https://answer.apache.org/docs/upgrade) now and enjoy the reading today.
 
 ## What’s New
 ### Review in One Place
@@ -30,7 +30,7 @@ We add an example review plugin to check user’s first post before it officiall
 
 ![Switch to Turn on Review Plugin](Switch%20on%20Review%20Basic.png)
 
-You can build your review plugin for unpublished posts based on your review process based on this example plugin. Click [here](https://github.com/apache/incubator-answer-plugins/tree/main/reviewer-basic) to know more about this plugin. 
+You can build your review plugin for unpublished posts based on your review process based on this example plugin. Click [here](https://github.com/apache/answer-plugins/tree/main/reviewer-basic) to know more about this plugin. 
 
 ### Sort Answer from Oldest to Newest
 Observing how an answer develops until the current version can bring clarity. Now there’s no need to scroll to the bottom for earlier answers, simply click the Oldest. 
@@ -60,4 +60,4 @@ We’re so glad to have 6 contributors joining in this update, and here they are
 Who will be joining our next version release?  
 
 ## We are Listening
-We'd love your feedback!  Share your thoughts on the latest releases, suggest features for the future roadmap, or just let us know what's on your mind.  Feel free to reach out on [X](https://twitter.com/answerdev), [Discord](https://discord.gg/a6PZZbfnFx), [GitHub](https://github.com/apache/incubator-answer), [Meta Answer](https://meta.answer.dev/), or our [mailing list](https://answer.apache.org/community/support).
+We'd love your feedback!  Share your thoughts on the latest releases, suggest features for the future roadmap, or just let us know what's on your mind.  Feel free to reach out on [X](https://twitter.com/answerdev), [Discord](https://discord.gg/a6PZZbfnFx), [GitHub](https://github.com/apache/answer), [Meta Answer](https://meta.answer.dev/), or our [mailing list](https://answer.apache.org/community/support).

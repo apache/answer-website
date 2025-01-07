@@ -41,7 +41,7 @@ Apache Answer 是一款问答社区软件，由中国领先的技术问答社区
 项目简述：选择一个即时通讯平台(如: Slack等)，以插件的形式集成到 Apache Answer 中，以实现登录并绑定账号，接收 Answer 的通知提醒，通过关键字 `/ask` 直接提问、关键字 `/search` 搜索内容等，使用户无需离开原本工作流完成提问和回答。      
 [立即申请](https://summer-ospp.ac.cn/org/prodetail/246a40172?list=org&navpage=org)
 
-对项目感兴趣或者有疑问的同学，我们鼓励你通过导师邮箱，与导师及时联系沟通，我们非常乐意解答和帮助你。我们非常欢迎你浏览我们的 [GitHub](https://github.com/apache/incubator-answer) 库和[官方文档](https://answer.apache.org/docs)，这会帮助你更好地了解产品。
+对项目感兴趣或者有疑问的同学，我们鼓励你通过导师邮箱，与导师及时联系沟通，我们非常乐意解答和帮助你。我们非常欢迎你浏览我们的 [GitHub](https://github.com/apache/answer) 库和[官方文档](https://answer.apache.org/docs)，这会帮助你更好地了解产品。
 
 ## 参与开源之夏，你将收获
 - 导师一对一指导，学习并提升项目开发技能
@@ -64,5 +64,5 @@ Apache Answer 是一款问答社区软件，由中国领先的技术问答社区
 [Apache Answer 项目页面](https://summer-ospp.ac.cn/org/orgdetail/6a467fc2-8a16-486d-9d85-ad7ebdf9fd4b?lang=zh)      
 [Apache Answer 官方网站](https://answer.apache.org/)
 [官方文档](https://answer.apache.org/docs)
-[GitHub 库](https://github.com/apache/incubator-answer)     
+[GitHub 库](https://github.com/apache/answer)     
 [为 Apache Answer 做贡献](https://answer.apache.org/community/contributing)

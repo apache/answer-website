@@ -13,10 +13,10 @@
   },
   "sidebar.community.link.Feature Request": {
     "message": "功能需求",
-    "description": "The label for link Feature Request in sidebar community, linking to https://github.com/apache/incubator-answer/issues"
+    "description": "The label for link Feature Request in sidebar community, linking to https://github.com/apache/answer/issues"
   },
   "sidebar.community.link.Roadmap": {
     "message": "路线图",
-    "description": "The label for link Roadmap in sidebar community, linking to https://github.com/apache/incubator-answer/projects"
+    "description": "The label for link Roadmap in sidebar community, linking to https://github.com/apache/answer/projects"
   }
 }

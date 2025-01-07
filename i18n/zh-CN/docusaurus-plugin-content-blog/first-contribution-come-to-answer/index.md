@@ -18,9 +18,9 @@ We welcome new contributors to join our open-source journey. No matter your skil
 ## Why Apache Answer
 We are a group of Q&A enthusiasts, and it’s lovely to deliver a product that we truly love. Answer is an open-source Q&A software aiming to help people find the right answers, while unleashing collective wisdom for every team.
 
-We’ve tagged different issues for novices and veterans to get hands on in the [repository](https://github.com/apache/incubator-answer/issues).
+We’ve tagged different issues for novices and veterans to get hands on in the [repository](https://github.com/apache/answer/issues).
 
-[![Issues](GitHub%20Screenshot.jpeg)](https://github.com/apache/incubator-answer/issues)
+[![Issues](GitHub%20Screenshot.jpeg)](https://github.com/apache/answer/issues)
 
 We know how important it is to have well-written and complete documentation to guide you. The Contributing doc covers everything you need, from how to submit an [issue](https://answer.apache.org/community/issues), to develop a [plugin](https://answer.apache.org/docs/development/plugins), and how to write a [blog](https://answer.apache.org/community/blog-post).
 
@@ -35,7 +35,7 @@ We know it takes courage to take the first step into the open-source world, and 
 
 2. [ovio.org/projects](https://ovio.org/projects?searchText=apache+answer&primaryOrder=SEARCH_RELEVANCE)    
 	It helps developers find open-source projects that align with their skills and interests, making it easier to get involved in the open-source community. You can locate projects or issues via skills, topics, repo stars, etc.
-	[![Answer on Ovio](Ovio.png)](https://ovio.org/project/apache/incubator-answer)
+	[![Answer on Ovio](Ovio.png)](https://ovio.org/project/apache/answer)
 
 ## What You can Do
 A lot! More than coding.
@@ -51,7 +51,7 @@ No matter big or small, every contribution makes a difference. Here’s the [coo
 ## We Got Your Back
 Need help? Our community is always here for you!
 
-You can always post your questions on [X](https://twitter.com/answerdev), [Discord](https://discord.gg/a6PZZbfnFx), [GitHub](https://github.com/apache/incubator-answer), or [Answer Meta](https://meta.answer.dev/). We will reply to you as soon as we can, but please keep patience since we’re a small team at the moment.
+You can always post your questions on [X](https://twitter.com/answerdev), [Discord](https://discord.gg/a6PZZbfnFx), [GitHub](https://github.com/apache/answer), or [Answer Meta](https://meta.answer.dev/). We will reply to you as soon as we can, but please keep patience since we’re a small team at the moment.
 
 Our journey is just beginning, and we’re excited to continue pushing the boundaries with you. Join us ;)
 

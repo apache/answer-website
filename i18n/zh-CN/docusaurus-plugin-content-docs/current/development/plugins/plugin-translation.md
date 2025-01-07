@@ -30,7 +30,7 @@ It's easy to build a `Translator` structure, just like this:
 
 ```go
 import (
-    "github.com/apache/incubator-answer/plugin"
+    "github.com/apache/answer/plugin"
 )
 
 plugin.MakeTranslator("plugin.github_connector.backend.name")

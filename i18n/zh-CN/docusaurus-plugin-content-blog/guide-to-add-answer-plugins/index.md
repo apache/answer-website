@@ -13,7 +13,7 @@ description: "教你轻松添加 Apache Answer 插件，扩展 Answer 功能"
 
 ## 下载插件
 
-1. 点击[此处](https://github.com/apache/incubator-answer-plugins/tree/main)从官方 Apache Answer 插件仓库下载所需插件。
+1. 点击[此处](https://github.com/apache/answer-plugins/tree/main)从官方 Apache Answer 插件仓库下载所需插件。
 2. 放置插件：将下载的插件文件，放置到项目目录下的 `./ui/src/plugins` 中
 3. 插件类型参考：https://answer.apache.org/zh-CN/docs/development/plugins/
 
@@ -36,9 +36,9 @@ _注意：文件夹应该是 plugins，而不是 plugin。_
 2. 导入插件：在 `cmd/answer/main.go` 文件中，导入插件（将my-plugin替换成插件名）
 ```
 import (
-    answercmd "github.com/apache/incubator-answer/cmd"
+    answercmd "github.com/apache/answer/cmd"
     // Import the plugins
-    _ "github.com/apache/incubator-answer-plugins/my-plugin"
+    _ "github.com/apache/answer-plugins/my-plugin"
 )
 ```
 
@@ -47,11 +47,11 @@ import (
 
 3. 更新 go.mod：通过执行 `cd ..` 命令退回到 answer 根目录。使用 go mod edit 将插件添加到 go.mod 文件。
 ```
-go mod edit -replace=github.com/apache/incubator-answer-plugins/my-plugin=./ui/src/plugins/my-plugin
+go mod edit -replace=github.com/apache/answer-plugins/my-plugin=./ui/src/plugins/my-plugin
 ```
 注意：Windows 用户需要使用双引号，可参考下面的代码：
 ```
-go mod edit -replace="github.com/apache/incubator-answer-plugins/my-plugin"="./ui/src/plugins/my-plugin"
+go mod edit -replace="github.com/apache/answer-plugins/my-plugin"="./ui/src/plugins/my-plugin"
 ```
 
 以 editor-chart, editor-formula, embed-basic 插件为例。

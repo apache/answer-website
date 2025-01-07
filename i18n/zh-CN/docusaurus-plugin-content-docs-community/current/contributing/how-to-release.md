@@ -156,13 +156,13 @@ Hello,
         https://dist.apache.org/repos/dist/dev/incubator/answer/{release-version}/
     
     Release notes:
-        https://github.com/apache/incubator-answer/releases/tag/{release-version}
+        https://github.com/apache/answer/releases/tag/{release-version}
 
     Git tag for the release:
-        https://github.com/apache/incubator-answer/releases/tag/{release-version}
+        https://github.com/apache/answer/releases/tag/{release-version}
     
     Git commit id for the release:
-        https://github.com/apache/incubator-answer/commit/{id}
+        https://github.com/apache/answer/commit/{id}
 
     Keys to verify the Release Candidate:
         https://downloads.apache.org/incubator/answer/KEYS
@@ -186,7 +186,7 @@ Hello,
 
     To compile from the source, please refer to:
     
-    https://github.com/apache/incubator-answer#building-from-source
+    https://github.com/apache/answer#building-from-source
 
 Thanks,
 <YOUR NAME>
@@ -204,12 +204,12 @@ Whether it's a community forum, help center, or knowledge management platform, y
 
 Download Links: https://downloads.apache.org/incubator/answer/
 
-Release Notes: https://github.com/apache/incubator-answer/releases/tag/{release-version}
+Release Notes: https://github.com/apache/answer/releases/tag/{release-version}
 
 Website: https://answer.apache.org/
 
 Resources:
-- Issue: https://github.com/apache/incubator-answer/issues
+- Issue: https://github.com/apache/answer/issues
 - Mailing list: dev@answer.apache.org
 
 Thanks,
