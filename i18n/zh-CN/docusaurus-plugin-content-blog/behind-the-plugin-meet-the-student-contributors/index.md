@@ -11,7 +11,7 @@ description: "聆听学生开发者开源首秀背后的故事。"
 
 开源世界因贡献的多样性而更加精彩。我们也始终相信，每个人都有潜力为开源做出贡献，无论你是一名经验丰富的开发者，还是刚刚接触开源的新手。除了在技术问题上提供帮助，我们还积极鼓励各种形式的贡献，无论是代码、文档、还是创意。
 
-我们在 [ovio](https://ovio.org/project/apache/answer)、[LibHunt](https://www.libhunt.com/r/answer) 以及 [SourceForge](https://sourceforge.net/projects/answer/) 等开源新手友好平台上展示我们的项目，帮助更多人了解并加入我们。同时，我们也非常重视对年轻一代的培养。最近 Apache Answer 迎来了两位厦门大学马来西亚分校的学生的贡献插件，这是也是他们首次的开源贡献。让我们来听听他们是如何完成第一次开源贡献的，如何解决遇到的问题的，以及他们想的收获。
+我们在 [ovio](https://ovio.org/project/apache/answer)、[LibHunt](https://www.libhunt.com/r/answer) 以及 [SourceForge](https://sourceforge.net/projects/incubator-answer/) 等开源新手友好平台上展示我们的项目，帮助更多人了解并加入我们。同时，我们也非常重视对年轻一代的培养。最近 Apache Answer 迎来了两位厦门大学马来西亚分校的学生的贡献插件，这是也是他们首次的开源贡献。让我们来听听他们是如何完成第一次开源贡献的，如何解决遇到的问题的，以及他们想的收获。
 
 ## 能够向大家介绍一下你们做的这款插件吗？  
 我们开发的是一款代码高亮插件，旨在为用户提供更优质的代码显示体验。该插件支持多种编程语言的代码高亮，并且可以动态切换明暗主题，例如 GitHub Light 和 GitHub Dark。

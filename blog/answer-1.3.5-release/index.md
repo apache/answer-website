@@ -47,5 +47,5 @@ We couldn’t have done it without the dedication and hard work from the communi
 Cheers to [kumfo](https://github.com/kumfo), [hgaol](https://github.com/hgaol), [robinv8](https://github.com/robinv8), [LinkinStars](https://github.com/LinkinStars), [shuaishuai](https://github.com/shuashuai), [sy-records](https://github.com/sy-records), [nayanthulkar28](https://github.com/nayanthulkar28), and [byerer](https://github.com/byerer).
 
 ## Got a Time for Feedback
-We’re always open for ways to make Q&A platform better. Do you have any ideas to share? Head over to our [SourceForge](https://sourceforge.net/projects/answer/) and rate us stars or leave a review. Thank you so much!
+We’re always open for ways to make Q&A platform better. Do you have any ideas to share? Head over to our [SourceForge](https://sourceforge.net/projects/incubator-answer/) and rate us stars or leave a review. Thank you so much!
 

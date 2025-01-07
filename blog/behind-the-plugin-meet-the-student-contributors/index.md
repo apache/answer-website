@@ -11,7 +11,7 @@ description: "Find out the process of building the plugin and reflection from th
 
 The open-source world is a place for everyone. It thrives on diversity and that's why we believe that there's always a place for you. Whether you're a seasoned developer or just getting started, your contributions-code, documentations, or shining ideas-are valuable.
 
-To make it easier for beginners, we've listed our projects on platforms like [ovio](https://ovio.org/project/apache/answer), [LibHunt](https://www.libhunt.com/r/answer), and [SourceForge](https://sourceforge.net/projects/answer/) for easier discovery. We're glad to have received a plugin contribution from [Melody](https://github.com/IamMelody233) and her classmate from Xiamen University Malaysia Campus. It's their first open-source contribution, and let's hear about the process and their reflection.
+To make it easier for beginners, we've listed our projects on platforms like [ovio](https://ovio.org/project/apache/answer), [LibHunt](https://www.libhunt.com/r/answer), and [SourceForge](https://sourceforge.net/projects/incubator-answer/) for easier discovery. We're glad to have received a plugin contribution from [Melody](https://github.com/IamMelody233) and her classmate from Xiamen University Malaysia Campus. It's their first open-source contribution, and let's hear about the process and their reflection.
 
 ## Tell us more about the plugin.
 
