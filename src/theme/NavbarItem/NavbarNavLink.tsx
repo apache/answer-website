@@ -40,6 +40,12 @@ export default function NavbarNavLink({
   const normalizedHref = useBaseUrl(href, {forcePrependBaseUrl: true});
   const isExternalLink = label && href && !isInternalUrl(href);
 
+  const clickLink = (e) => {
+     if (e.target?.lang) {
+       localStorage.setItem('_lang_user_', e.target.lang);
+     }
+  }
+
   // Link content is set through html XOR label
   const linkContentProps = html
     ? {dangerouslySetInnerHTML: {__html: html}}
@@ -62,6 +68,7 @@ export default function NavbarNavLink({
         href={prependBaseUrlToHref ? normalizedHref : href}
         {...props}
         {...linkContentProps}
+        onClick={clickLink}
       />
     );
   }
@@ -78,6 +85,7 @@ export default function NavbarNavLink({
       })}
       {...props}
       {...linkContentProps}
+      onClick={clickLink}
     />
   );
 }

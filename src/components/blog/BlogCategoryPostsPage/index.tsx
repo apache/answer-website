@@ -21,7 +21,6 @@ interface IProps extends Props {
 }
 const Index = (props: IProps) => {
   const { category, categoriyList, items, listMetadata, } = props
-  // console.log('...props', props);
   return (
     <HtmlClassNameProvider
       className={clsx(

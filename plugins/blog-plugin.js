@@ -149,8 +149,6 @@ async function blogPluginExtended(...pluginArgs) {
 
       const { createData, addRoute } = actions;
 
-      // console.log('blogPosts', blogPosts[0]);
-
       const removeDraftPosts = allBlogPosts.filter((post) => !post.metadata.frontMatter?.draft);
 
       // Fecommend posts list
@@ -264,7 +262,6 @@ async function blogPluginExtended(...pluginArgs) {
           permalink: generateCategoryPath(category.label),
         };
 
-        // console.log('categoryProp', categoryProp);
         const categoryPropPath = await createData(
           `${utils.docuHash(categoryProp.label)}.json`,
           JSON.stringify(categoryProp, null, 2),

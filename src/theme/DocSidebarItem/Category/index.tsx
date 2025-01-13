@@ -80,7 +80,6 @@ function CollapseButton({
   categoryLabel: string;
   onClick: ComponentProps<'button'>['onClick'];
 }) {
-  // console.log('categoryLabel', categoryLabel);
   return (
     <button
       aria-label={
@@ -156,8 +155,6 @@ export default function DocSidebarItemCategory({
       setCollapsed(true);
     }
   }, [collapsible, expandedItem, index, setCollapsed, autoCollapseCategories]);
-
-  console.log('collapsed', item);
 
   return (
     <li

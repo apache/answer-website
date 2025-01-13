@@ -33,7 +33,6 @@ interface HomeProps {
 }
 
 export function Home({ featuredPosts, categoyList, metadata, blogList }: HomeProps): JSX.Element {
-  // console.log('metadata', metadata);
   return (
     <HtmlClassNameProvider
       className={clsx(

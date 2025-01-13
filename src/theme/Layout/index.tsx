@@ -23,6 +23,7 @@ import LayoutProvider from '@theme/Layout/Provider';
 import ErrorPageContent from '@theme/ErrorPageContent';
 import type {Props} from '@theme/Layout';
 import mixpanel from 'mixpanel-browser';
+import BrowserLanguage from './BrowserLanguage';
 
 import styles from './styles.module.css';
 
@@ -45,7 +46,6 @@ export default function Layout(props: Props): JSX.Element {
   }, [])
 
   useEffect(() => {
-    // console.log('Layout.tsx: location.pathname: ', location);
     mixpanel.track_pageview();
   }, [location]);
 
@@ -58,6 +58,7 @@ export default function Layout(props: Props): JSX.Element {
       <AnnouncementBar />
 
       <Navbar />
+      <BrowserLanguage />
 
       <div
         id={SkipToContentFallbackId}
