@@ -29,7 +29,7 @@ $ gpg  --keyid-format SHORT --list-keys
 $ gpg --keyserver keyserver.ubuntu.com --send-key xxx
 
 # 将 GPG 密钥附加到 svn 仓库中的 KEYS 文件
-$ svn co https://dist.apache.org/repos/dist/release/incubator/answer/
+$ svn co https://dist.apache.org/repos/dist/release/answer/
 $ (gpg --list-sigs xxx@apache.org && gpg --export --armor xxx@apache.org) >> KEYS
 $ svn ci -m "add gpg key" 
 ```
@@ -60,24 +60,24 @@ $ for i in *.tar.gz; do echo $i; sha512sum  $i > $i.sha512 ; done
 ```
 
 ### 上传到 svn 仓库
-> **注意** 创建 GPG 密钥的仓库地址和上传发布物料的仓库地址不同。GPG 密钥上传到 `https://dist.apache.org/repos/dist/release/incubator/answer/` 仓库,而发布物料上传到 `https://dist.apache.org/repos/dist/dev/incubator/answer/` 仓库。
+> **注意** 创建 GPG 密钥的仓库地址和上传发布物料的仓库地址不同。GPG 密钥上传到 `https://dist.apache.org/repos/dist/release/answer/` 仓库,而发布物料上传到 `https://dist.apache.org/repos/dist/dev/answer/` 仓库。
 
 1. 在 svn 仓库中为发布物料创建一个目录。
    ```shell
-   $ svn co https://dist.apache.org/repos/dist/dev/incubator/answer/
+   $ svn co https://dist.apache.org/repos/dist/dev/answer/
    ```
 2. 将发布物料上传到 svn 仓库。
    ```shell
    $ cp /path/to/release/artifacts/* ./{release-version}/
    $ svn add ./{release-version}/*
    ```
-3. release-version 格式: 1.3.1-incubating
+3. release-version 格式: 1.3.1
    ```shell
    $ svn commit -m "add Apache Answer release artifacts for {release-version}"
    ```
-发布物料应上传到 `https://dist.apache.org/repos/dist/dev/incubator/answer/{release-version}` 目录。
+发布物料应上传到 `https://dist.apache.org/repos/dist/dev/answer/{release-version}` 目录。
 
-**重要** 完成后,请访问链接 `https://dist.apache.org/repos/dist/dev/incubator/answer/{release-version}` 检查文件上传是否正确。
+**重要** 完成后,请访问链接 `https://dist.apache.org/repos/dist/dev/answer/{release-version}` 检查文件上传是否正确。
 
 ![correct result](/img/community/release.jpeg)
 
@@ -95,7 +95,7 @@ $ for i in *.tar.gz; do echo $i; sha512sum  $i > $i.sha512 ; done
 ### 如何验证签名
 ```shell
 # 下载 KEYS
-$ curl https://dist.apache.org/repos/dist/release/incubator/answer/KEYS > KEYS
+$ curl https://dist.apache.org/repos/dist/release/answer/KEYS > KEYS
 
 # 导入 KEYS 并信任密钥,请将电子邮件地址替换为您想要信任的地址。
 $ gpg --import KEYS
@@ -122,12 +122,11 @@ $ for i in *.tar.gz; do echo $i; sha512sum --check  $i.sha512; done
 
 ## 开始投票
 
-1. 向 dev@answer.apache.org 发送投票邮件。孵化器需要先在他们的开发邮件列表上进行投票,该投票需要至少 **3 个来自 Apache Answer PPMC 成员的 +1**。
-2. 等待**至少 72 小时**或直到达到必要的投票数。
-3. 在开发邮件列表上宣布投票结果。
-4. 如果开发投票通过,发送邮件到 general@incubator.apache.org 请求在通用邮件列表上进行投票。孵化器投票需要至少 **3 个来自孵化器 PMC 成员的 +1**   (有约束力的投票)。
-5. 等待**至少 72 小时**或直到达到必要的投票数。
-6. 在通用邮件列表上宣布投票结果。
+> Apache Answer 已经孵化毕业，只需要进行社区投票
+
+1. Apache Answer 社区投票后，请发送一封投票邮件至 `dev@answer.apache.org`。PMC在投票前需要根据文档检查版本的正确性。
+2. 经过**至少 72 小时**并统计到 3 个 +1 PMC member票后，即可进入下一阶段。 
+3. 宣布投票结果，发起投票结果邮件到 `dev@answer.apache.org`。
 
 ### 投票电子邮件模板
 
@@ -140,33 +139,31 @@ $ for i in *.tar.gz; do echo $i; sha512sum --check  $i.sha512; done
 ![vote thread link](/img/community/vote-tread-link.jpeg)
 
 ```text
-[VOTE] Release Apache Answer (Incubating) {release-version}
+[VOTE] Release Apache Answer {release-version}
 
-Hello,
+Hello Apache Answer Community,
 
-    This is a call for vote to release Apache Answer (Incubating) version {release-version}.
-
-    The vote thread:
-        https://lists.apache.org/thread/{id}
-
-    Vote Result:
-        https://lists.apache.org/thread/{id}
+    This is a call for vote to release Apache Answer version {release-version}.
 
     The release candidates:
-        https://dist.apache.org/repos/dist/dev/incubator/answer/{release-version}/
-    
+    https://dist.apache.org/repos/dist/dev/answer/{release-version}
+
     Release notes:
-        https://github.com/apache/answer/releases/tag/{release-version}
+    https://github.com/apache/answer/releases/tag/{release-version}
 
     Git tag for the release:
-        https://github.com/apache/answer/releases/tag/{release-version}
-    
+    https://github.com/apache/answer/releases/tag/{release-version}
+
     Git commit id for the release:
-        https://github.com/apache/answer/commit/{id}
+    https://github.com/apache/answer/commit/{commit-hash}
 
     Keys to verify the Release Candidate:
-        https://downloads.apache.org/incubator/answer/KEYS
-        
+    https://downloads.apache.org/answer/KEYS
+
+    Keys to verify the Release Candidate:
+    The artifacts signed with PGP key [{key-id}], corresponding to [{email}], that can be found in keys file:
+    https://dist.apache.org/repos/dist/release/answer/KEYS
+
     The vote will be open for at least 72 hours or until the necessary number of votes are reached.
 
     Please vote accordingly:
@@ -180,12 +177,12 @@ Hello,
     [ ] Download links are valid.
     [ ] Checksums and PGP signatures are valid.
     [ ] Source code distributions have correct names matching the current release.
-    [ ] LICENSE and NOTICE files are correct for each Apache Answer repo.
+    [ ] LICENSE and NOTICE files are correct for each Answer repo.
     [ ] All files have license headers if necessary.
     [ ] No unlicensed compiled archives bundled in source archive.
 
     To compile from the source, please refer to:
-    
+
     https://github.com/apache/answer#building-from-source
 
 Thanks,
@@ -197,12 +194,12 @@ Thanks,
 ```text
 Hello everyone,
 
-The Apache Answer (Incubating) {release-version} has been released!
+The Apache Answer {release-version} has been released!
 
 Apache Answer is a Q&A platform software for teams at any scale.
 Whether it's a community forum, help center, or knowledge management platform, you can always count on Apache Answer.
 
-Download Links: https://downloads.apache.org/incubator/answer/
+Download Links: https://downloads.apache.org/answer/
 
 Release Notes: https://github.com/apache/answer/releases/tag/{release-version}
 
@@ -218,10 +215,10 @@ Thanks,
 
 ## 将发布物料迁移到 Apache SVN release
 
-在宣布投票结果之前，你需要将发布物料从 Apache SVN dev 迁移到 Apache SVN release。发布物料应上传到 `https://dist.apache.org/repos/dist/release/incubator/answer/{release-version}` 目录。
+在宣布投票结果之前，你需要将发布物料从 Apache SVN dev 迁移到 Apache SVN release。发布物料应上传到 `https://dist.apache.org/repos/dist/release/answer/{release-version}` 目录。
 
 ```shell
-$ svn mv https://dist.apache.org/repos/dist/dev/incubator/answer/{release-version} https://dist.apache.org/repos/dist/release/incubator/answer/{release-version} -m "transfer packages for answer {release-version}"
+$ svn mv https://dist.apache.org/repos/dist/dev/answer/{release-version} https://dist.apache.org/repos/dist/release/answer/{release-version} -m "transfer packages for answer {release-version}"
 ```
 
 ## 注意
