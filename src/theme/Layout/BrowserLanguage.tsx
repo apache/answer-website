@@ -1,4 +1,4 @@
-import React, {useEffect} from 'react';
+import { useEffect } from 'react';
 import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
 
 const LANGUAGE_PREFERENCE_KEY = '_lang_browser_';
@@ -6,52 +6,37 @@ const LANGUAGE_PREFERENCE_KEY = '_lang_browser_';
 export default function BrowserLanguageRedirect() {
   const {
     siteConfig: {
-      i18n: {defaultLocale, locales},
+      i18n: { defaultLocale },
     },
   } = useDocusaurusContext();
 
   useEffect(() => {
-    window.addEventListener('languagechange', () => {
-      localStorage.setItem(LANGUAGE_PREFERENCE_KEY, navigator.language);
-    })
-
     const currentPath = window.location.pathname;
     const storageLocale = localStorage.getItem('_lang_user_') || localStorage.getItem(LANGUAGE_PREFERENCE_KEY);
-    const storageLocaleIsDefault = storageLocale === defaultLocale;
 
-    if (storageLocale) {
-      if (storageLocaleIsDefault) {
-        if (currentPath === '/') return;
-        return;
-      } else {
-        if (currentPath.startsWith(`/${storageLocale}`)) {
-          return;
-        } else {
-          window.location.pathname = `/${storageLocale}${currentPath}`;
-          return;
-        }
+    const isZhCN = navigator.language.toLowerCase() === 'zh-cn';
+    const isStoredZhCN = storageLocale === 'zh-CN';
+
+    if ((isZhCN || isStoredZhCN) && !currentPath.startsWith('/zh-CN')) {
+      if (isZhCN) {
+        localStorage.setItem(LANGUAGE_PREFERENCE_KEY, 'zh-CN');
       }
-    } else {
-      const browserLanguage = navigator.language.toLowerCase();
-      const matchedLocale = locales.find(locale =>
-        browserLanguage === locale.toLowerCase() ||
-        browserLanguage.startsWith(locale.toLowerCase() + '-')
-      );
-      if (matchedLocale) {
-        localStorage.setItem(LANGUAGE_PREFERENCE_KEY, matchedLocale);
-        window.location.pathname = `/${matchedLocale}${currentPath}`;
-      } else {
-        window.location.pathname = currentPath;
+      if (isStoredZhCN || storageLocale === null) {
+        window.location.pathname = `/zh-CN${currentPath}`;
       }
     }
 
-    // remove the event listener
+    const handleLanguageChange = () => {
+      if (navigator.language.toLowerCase() === 'zh-cn') {
+        localStorage.setItem(LANGUAGE_PREFERENCE_KEY, 'zh-CN');
+      }
+    };
+    window.addEventListener('languagechange', handleLanguageChange);
+
     return () => {
-      window.removeEventListener('languagechange', () => {
-        localStorage.setItem(LANGUAGE_PREFERENCE_KEY, navigator.language);
-      })
-    }
-  }, []);
+      window.removeEventListener('languagechange', handleLanguageChange);
+    };
+  }, [defaultLocale]);
 
   return null;
 }
