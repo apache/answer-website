@@ -4,10 +4,63 @@
         <title>Apache Answer Blog</title>
         <link>https://answer.apache.org/blog</link>
         <description>Apache Answer Blog</description>
-        <lastBuildDate>Wed, 27 Nov 2024 00:00:00 GMT</lastBuildDate>
+        <lastBuildDate>Tue, 28 Jan 2025 00:00:00 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>en</language>
+        <item>
+            <title><![CDATA[Apache Answer Becomes an Apache Software Foundation Top-Level Project]]></title>
+            <link>https://answer.apache.org/blog/apache-answer-becomes-an-apache-software-foundation-top-level-project</link>
+            <guid>https://answer.apache.org/blog/apache-answer-becomes-an-apache-software-foundation-top-level-project</guid>
+            <pubDate>Tue, 28 Jan 2025 00:00:00 GMT</pubDate>
+            <description><![CDATA[Apache Answer has been promoted to a top-level project at the Apache Software Foundation. This article will introduce the project and its future plans.]]></description>
+            <content:encoded><![CDATA[<div class="mb-4"><img decoding="async" loading="lazy" src="https://answer.apache.org/assets/images/2025-01-28-cover@4x-4713b5920ac2bf92cf89867dae020583.png" class="rounded img_RAU7" width="1280px" height="720px"></div><p>Apache Answer has <!-- --><a href="https://news.apache.org/foundation/entry/the-apache-software-foundation-announces-new-top-level-projects" target="_blank" rel="noopener noreferrer">graduated from the Apache Incubator</a> to become a Top-Level Project (TLP).<!-- --></p>
+<!-- --><p>Apache Answer is a modern, open source Q&amp;A platform designed to help organizations build their knowledge base and community. The software enables teams and communities to collaboratively create, share, and discover knowledge in a structured and efficient way.</p>
+<!-- --><p>"Apache Answer's graduation as a Top-Level Project marks a significant milestone in our journey," said Ning Qi, Vice President of Apache Answer. "This achievement reflects the dedication of our community and the maturity of our platform in providing a Q&amp;A platform solution for knowledge management and community engagement."</p>
+<!-- --><p>Since its inception in October 2022, Apache Answer has gained significant traction in the open-source community, with contributions from over 80 developers who have collaboratively addressed hundreds of issues and pull requests. This active engagement demonstrates the project's vitality and commitment to continuous improvement, showcasing the power of collaborative open-source development.</p>
+<!-- --><h2 class="anchor anchorWithStickyNavbar_ArXL" id="advantages-of-apache-answer">Advantages of Apache Answer<!-- --><a href="https://answer.apache.org/blog/apache-answer-becomes-an-apache-software-foundation-top-level-project#advantages-of-apache-answer" class="hash-link" aria-label="Direct link to Advantages of Apache Answer" title="Direct link to Advantages of Apache Answer">​</a></h2>
+<!-- --><p>Apache Answer offers key features to enhance knowledge sharing and community engagement.</p>
+<!-- --><h3 class="anchor anchorWithStickyNavbar_ArXL" id="easy-and-intuitive-qa-community">Easy and Intuitive Q&amp;A Community<!-- --><a href="https://answer.apache.org/blog/apache-answer-becomes-an-apache-software-foundation-top-level-project#easy-and-intuitive-qa-community" class="hash-link" aria-label="Direct link to Easy and Intuitive Q&amp;A Community" title="Direct link to Easy and Intuitive Q&amp;A Community">​</a></h3>
+<!-- --><p>Apache Answer offers an intuitive setup for newcomers, enabling them to quickly set up a Q&amp;A platform with helpful documentation. Its design allows effortless question-asking and answering, fostering community engagement on both mobile and desktop devices.</p>
+<!-- --><h3 class="anchor anchorWithStickyNavbar_ArXL" id="efficient-content-management">Efficient Content Management<!-- --><a href="https://answer.apache.org/blog/apache-answer-becomes-an-apache-software-foundation-top-level-project#efficient-content-management" class="hash-link" aria-label="Direct link to Efficient Content Management" title="Direct link to Efficient Content Management">​</a></h3>
+<!-- --><p>Administrators can use tags to categorize questions, allowing community members to easily search and find relevant information. By following tags, users can always stay updated on their interested content and display them in the way they need.</p>
+<!-- --><h3 class="anchor anchorWithStickyNavbar_ArXL" id="add-wings-with-plugin">Add Wings with Plugin<!-- --><a href="https://answer.apache.org/blog/apache-answer-becomes-an-apache-software-foundation-top-level-project#add-wings-with-plugin" class="hash-link" aria-label="Direct link to Add Wings with Plugin" title="Direct link to Add Wings with Plugin">​</a></h3>
+<!-- --><p>Users can enhance Apache Answer by adding or extending features through plugins, allowing customization to fit specific workflows. This flexibility enables integration with third-party systems, improving adaptability and performance.</p>
+<!-- --><h3 class="anchor anchorWithStickyNavbar_ArXL" id="reputation-scores-and-incentives">Reputation Scores and Incentives<!-- --><a href="https://answer.apache.org/blog/apache-answer-becomes-an-apache-software-foundation-top-level-project#reputation-scores-and-incentives" class="hash-link" aria-label="Direct link to Reputation Scores and Incentives" title="Direct link to Reputation Scores and Incentives">​</a></h3>
+<!-- --><p>Apache Answer features a reputation system that rewards users for contributing quality content, accepting top answers, and receiving votes. This encourages content quality, fosters credibility, and promotes a sense of accomplishment within the community.</p>
+<!-- --><p>In the future, with continuous contributions from the open-source community, Apache Answer is expected to evolve, introducing new features and enhancements that will further expand its capabilities and meet diverse user needs.</p>
+<!-- --><h2 class="anchor anchorWithStickyNavbar_ArXL" id="answer-community">Answer Community<!-- --><a href="https://answer.apache.org/blog/apache-answer-becomes-an-apache-software-foundation-top-level-project#answer-community" class="hash-link" aria-label="Direct link to Answer Community" title="Direct link to Answer Community">​</a></h2>
+<!-- --><p>Over the past years, Answer has gradually built a dynamic community.</p>
+<!-- --><p>Since the first release, Answer has had a total of 29 releases, 13K+ GitHub Stars, and over 100K+ downloads (from dockerhub). We have worked in collaboration with 78 code contributors and 162 volunteers from around the world, receiving a total of 323 pull requests. Answer has also been translated into 15 different languages.</p>
+<!-- --><p>The PMC Members of the Answer project are listed as follows, and big thanks to their significant contributions:</p>
+<!-- --><ul>
+<!-- --><li>Christofer Dutz</li>
+<!-- --><li>Justin Mclean</li>
+<!-- --><li>Willem Ning Jiang</li>
+<!-- --><li>Zili Chen</li>
+<!-- --><li>Anne Zhu</li>
+<!-- --><li>Enxin Xie</li>
+<!-- --><li>Feng Dong</li>
+<!-- --><li>Fengjun Lv</li>
+<!-- --><li>Guangfu Yang</li>
+<!-- --><li>Luffy</li>
+<!-- --><li>Nadia Jiang</li>
+<!-- --><li>Ning Qi</li>
+<!-- --><li>Shuailing Li</li>
+<!-- --><li>Yubin Ren</li>
+<!-- --></ul>
+<!-- --><p>You can view all the contributors to Answer here: <!-- --><a href="https://answer.apache.org/community/team" target="_blank" rel="noopener noreferrer">https://answer.apache.org/community/team</a></p>
+<!-- --><h2 class="anchor anchorWithStickyNavbar_ArXL" id="join-the-answer-community">Join The Answer Community<!-- --><a href="https://answer.apache.org/blog/apache-answer-becomes-an-apache-software-foundation-top-level-project#join-the-answer-community" class="hash-link" aria-label="Direct link to Join The Answer Community" title="Direct link to Join The Answer Community">​</a></h2>
+<!-- --><p>Answer's power comes from the talented contributors in its community. While we celebrate this moment, we would also like to invite more contributors to be a part of our Apache journey. If you are interested in this project, please check it out and join us.</p>
+<!-- --><ul>
+<!-- --><li>Visit Answer's official website: <!-- --><a href="http://answer.apache.org/" target="_blank" rel="noopener noreferrer">http://answer.apache.org/</a></li>
+<!-- --><li>Explore and contribute to our GitHub: <!-- --><a href="https://github.com/apache/answer" target="_blank" rel="noopener noreferrer">https://github.com/apache/answer</a></li>
+<!-- --><li>Check our documentation: <!-- --><a href="https://answer.apache.org/docs" target="_blank" rel="noopener noreferrer">https://answer.apache.org/docs</a></li>
+<!-- --><li>Join our official community: <!-- --><a href="https://meta.answer.dev/" target="_blank" rel="noopener noreferrer">https://meta.answer.dev/</a></li>
+<!-- --><li>Meet us in Discord: <!-- --><a href="https://discord.gg/c537sFxu" target="_blank" rel="noopener noreferrer">https://discord.gg/c537sFxu</a></li>
+<!-- --></ul>
+<!-- --><p>Apache Answer software is released under the Apache License v2.0 and is overseen by a self-selected team of active contributors to the project. A Project Management Committee (PMC) guides the Project's day-to-day operations, including community development and product releases.</p>]]></content:encoded>
+        </item>
         <item>
             <title><![CDATA[Apache Answer 1.4.1: Bridge the Gap]]></title>
             <link>https://answer.apache.org/blog/apache-answer-1.4.1-release</link>
@@ -812,57 +865,6 @@ Interested in helping us with the release? Give it a go following the post below
 <!-- --><p>You can also combine the search rules together to hunt the exact content down.</p>
 <!-- --><h2 class="anchor anchorWithStickyNavbar_ArXL" id="we-love-to-hear-from-you">We Love to Hear from You<!-- --><a href="https://answer.apache.org/blog/how-to-search-like-a-pro-in-answer#we-love-to-hear-from-you" class="hash-link" aria-label="Direct link to We Love to Hear from You" title="Direct link to We Love to Hear from You">​</a></h2>
 <!-- --><p>It’s always nice to have feedback and advice. If you have feature requests, bug report, or show your Answer. You are welcome to reach out on <!-- --><a href="https://twitter.com/answerdev" target="_blank" rel="noopener noreferrer">X</a>, <!-- --><a href="https://discord.gg/a6PZZbfnFx" target="_blank" rel="noopener noreferrer">Discord</a>, <!-- --><a href="https://github.com/apache/answer" target="_blank" rel="noopener noreferrer">GitHub</a>, <!-- --><a href="https://meta.answer.dev/" target="_blank" rel="noopener noreferrer">Meta Answer</a>, or our <!-- --><a href="https://answer.apache.org/community/support" target="_blank" rel="noopener noreferrer">mailing list</a>.<!-- --></p>]]></content:encoded>
-        </item>
-        <item>
-            <title><![CDATA[Apache Answer Joined the First ALC Hangzhou Meetup]]></title>
-            <link>https://answer.apache.org/blog/apache-answer-joined-first-alc-hangzhou-meetup</link>
-            <guid>https://answer.apache.org/blog/apache-answer-joined-first-alc-hangzhou-meetup</guid>
-            <pubDate>Wed, 05 Jun 2024 00:00:00 GMT</pubDate>
-            <description><![CDATA[ALC Hangzhou offers a valuable platform for projects to learn, share, and exchange new ideas.]]></description>
-            <content:encoded><![CDATA[<div class="mb-4"><img decoding="async" loading="lazy" src="https://answer.apache.org/assets/images/2024-06-05-cover@4x-08ac825f26a9a5a3df1e1a941a193dc6.png" class="rounded img_RAU7" width="1280px" height="720px"></div><p>May 28th, Apache Local Community Hangzhou (ALC Hangzhou) held its first offline meetup successfully.  Apache Answer, as an incubating project within the Apache Software Foundation (ASF), was represented by most of its Project Management Committee (PPMC) members. Joyqi, PPMC member of Answer, introduced Answer with a presentation in the meetup. The presentation covered the project roadmap, community management, contributions, etc.</p>
-<!-- --><p>The meetup attracted a range of attendees from Apache ecosystem. PMC members and core committers from projects including Apache Dubbo, Apache RocketMQ, Apache Flink, Apache Paimon, Apache Fury, Apache Celeborn, and Apache HoraeDB shared and exchanged ideas on open-source field. Additionally, Ni Chao, professor of the School of Software Technology, Zhejiang University also participated in the event.</p>
-<!-- --><p>Nadia Jiang, PPMC member of Answer, delivered opening remarks at the meetup. She shared her memory of joining the first ALC Beijing offline meetup and later became an organizer for the first CommunityOverCode Asia (formerly ApacheCon Asia).</p>
-<!-- --><p>2024 is a milestone for Hangzhou open-source communities — the establishment of ALC Hangzhou, and the upcoming CommunityOverCode Asia 2024 conference, scheduled to take place in Hangzhou from July 26th to 28th. Both are poised to propel the advancement of open-source technologies, foster community growth, and facilitate collaboration among tech professionals.</p>
-<!-- --><p>The establishment of the Apache Local Community Hangzhou (ALC Hangzhou) and the upcoming CommunityOverCode Asia 2024 conference, scheduled for July 26-28 in Hangzhou, mark significant developments for the city's open-source communities.</p>
-<!-- --><p><img decoding="async" loading="lazy" alt="Nadia was giving an opening remarks" src="https://answer.apache.org/assets/images/Nadia%20Open%20Remarks-43800cd84cd50bc496f95dfd0a6498e0.jpeg" width="1280" height="853" class="img_RAU7"></p>
-<!-- --><p>Following the opening remarks, Apache Answer PPMC member Joyqi presented Answer to the attendees and encouraged contributors to join Answer community for building a powerful ecosystem.</p>
-<!-- --><p>Community is the driving force for Answer. Today, Answer’s community gathers 59 core contributors, 122 translation contributors, 12 website contributors, and 12 plugin contributors. They follow a monthly release cycle and push the boundary of Answer every day.</p>
-<!-- --><p><img decoding="async" loading="lazy" alt="Joyqi introduced Apache Answer to more participants" src="https://answer.apache.org/assets/images/Joyqi-230c15bac13d74b91f7071e0ca88b8e0.jpeg" width="1280" height="853" class="img_RAU7"></p>
-<!-- --><p>The meetup concluded with an open discussion session, allowing participants to engage in exchanging ideas. Members of Answer project asked other established projects and communities, seeking guidance on addressing project challenges, successful graduation notes, and attracting contributors.</p>
-<!-- --><p>A project showcase area was set up at the event, where developers could learn about other projects in the ALC Hangzhou meetup quickly. Attendees were invited to leave stickers on the showcase boards to express their appreciation for the projects they found most interesting.</p>
-<!-- --><p><img decoding="async" loading="lazy" alt="Answer PPMC member leaves sticker on an Apache project" src="https://answer.apache.org/assets/images/Fen-be222c5dc54ebdec295445bff4cc658e.jpeg" width="1280" height="853" class="img_RAU7"></p>
-<!-- --><p>The meetup of ALC Hangzhou was a valuable opportunity for connection and learning. LinkinStars, an Apache Answer PPMC member, expressed excitement the upcoming launch of the open-source collaboration platform presented by Chao Ni, professor of Zhejiang University's School of Software Technology. LinkinStars viewed the platform as a potential bridge between universities and open-source communities. He also looked forward to more communities’ involvement.</p>
-<!-- --><p><img decoding="async" loading="lazy" alt="Open Discussion" src="https://answer.apache.org/assets/images/Open%20Discussion-ff326fa19f73b2aafec8cab4ffa1bd21.jpeg" width="1280" height="853" class="img_RAU7"></p>
-<!-- --><p>ALC Hangzhou is more than a platform for technical discussion. As Jun Liu, the initiator of ALC Hangzhou, said, “The meetup goes beyond open-source technology and potential collaborations. It offers a space for casual topics, like sharing personal experience or stories.”</p>
-<!-- --><p>We encourage more open-source enthusiasts to join ALC Hangzhou. Answer will keep supporting and participating in future ALC Hangzhou events.</p>
-<!-- --><h2 class="anchor anchorWithStickyNavbar_ArXL" id="about-apache-local-community-alc-1">About Apache Local Community (ALC) <!-- --><sup><a href="https://answer.apache.org/blog/apache-answer-joined-first-alc-hangzhou-meetup#ref1">[1]</a></sup><a href="https://answer.apache.org/blog/apache-answer-joined-first-alc-hangzhou-meetup#about-apache-local-community-alc-1" class="hash-link" aria-label="Direct link to about-apache-local-community-alc-1" title="Direct link to about-apache-local-community-alc-1">​</a></h2>
-<!-- --><p>ALC comprises local groups of Apache (Open Source) enthusiasts, called an 'ALC Chapter'. There will be a single ALC chapter per town/city.</p>
-<!-- --><p>ALC is similar to <!-- --><a href="https://developers.google.com/programs/community/gdg/" target="_blank" rel="noopener noreferrer">Google Developer Group</a>, <!-- --><a href="https://developers.facebook.com/developercircles/" target="_blank" rel="noopener noreferrer">Facebook Developer Circles</a>, <!-- --><a href="https://reps.mozilla.org/about/" target="_blank" rel="noopener noreferrer">Mozilla Reps</a>.<!-- --></p>
-<!-- --><h2 class="anchor anchorWithStickyNavbar_ArXL" id="about-alc-hangzhou">About ALC Hangzhou<!-- --><a href="https://answer.apache.org/blog/apache-answer-joined-first-alc-hangzhou-meetup#about-alc-hangzhou" class="hash-link" aria-label="Direct link to About ALC Hangzhou" title="Direct link to About ALC Hangzhou">​</a></h2>
-<!-- --><p>ALC Hangzhou is dedicated to helping open-source enthusiasts thrive in Apache Community through various ways, such as (but not limited to):</p>
-<!-- --><ul>
-<!-- --><li>Bring together developers and users with online and offline workshops or meetups.</li>
-<!-- --><li>Share open-source knowledge and experience.</li>
-<!-- --><li>Connect different ASF projects and seek potential collaboration opportunities.</li>
-<!-- --><li>Introduce ASF, The Apache Way, and various Apache projects.</li>
-<!-- --></ul>
-<!-- --><h2 class="anchor anchorWithStickyNavbar_ArXL" id="joining-alc-hangzhou">Joining ALC Hangzhou<!-- --><a href="https://answer.apache.org/blog/apache-answer-joined-first-alc-hangzhou-meetup#joining-alc-hangzhou" class="hash-link" aria-label="Direct link to Joining ALC Hangzhou" title="Direct link to Joining ALC Hangzhou">​</a></h2>
-<!-- --><p>ALC Hangzhou is open to every open-source enthusiast who align with the Apache Way and love open collaboration. Here are the ways to get involve:</p>
-<!-- --><ol>
-<!-- --><li>
-<!-- --><p>Join ALC Hangzhou Events<!-- --><br>
-<!-- -->Stay updated on upcoming events by following ALC Hangzhou's WeChat public account <!-- --><sup><a href="https://answer.apache.org/blog/apache-answer-joined-first-alc-hangzhou-meetup#ref2">[2]</a></sup> and official website <!-- --><sup><a href="https://answer.apache.org/blog/apache-answer-joined-first-alc-hangzhou-meetup#ref3">[3]</a></sup>. Participate in both online and offline gatherings organized by ALC Hangzhou.<!-- --></p>
-<!-- --></li>
-<!-- --><li>
-<!-- --><p>Become an ALC Hangzhou Member<!-- --><br>
-<!-- -->As a non-profit organization, ALC Hangzhou needs volunteers to assist with event coordination and organization. The principles for becoming an ALC Hangzhou volunteer are similar to those for Committer and PMC members in other Apache Software Foundation projects. The selection is based on individual contributions to the community and involves a voting process <!-- --><sup><a href="https://answer.apache.org/blog/apache-answer-joined-first-alc-hangzhou-meetup#ref4">[4]</a></sup>.<!-- --></p>
-<!-- --></li>
-<!-- --></ol>
-<!-- --><p>Reference</p>
-<!-- --><p id="ref1">[1] <!-- --><a href="https://cwiki.apache.org/confluence/display/COMDEV/Apache+Local+Community+-+ALC" target="_blank" rel="noopener noreferrer">https://cwiki.apache.org/confluence/display/COMDEV/Apache+Local+Community+-+ALC</a> <!-- --></p>
-<!-- --><p id="ref2">[2] WeChat Public Account：alc_hangzhou </p>
-<!-- --><p id="ref3">[3] <!-- --><a href="https://cwiki.apache.org/confluence/display/COMDEV/ALC+Hangzhou" target="_blank" rel="noopener noreferrer">https://cwiki.apache.org/confluence/display/COMDEV/ALC+Hangzhou</a></p>
-<!-- --><p id="ref4">[4] <!-- --><a href="https://cwiki.apache.org/confluence/display/COMDEV/Guidelines+to+manage+an+ALC+Chapter" target="_blank" rel="noopener noreferrer">https://cwiki.apache.org/confluence/display/COMDEV/Guidelines+to+manage+an+ALC+Chapter</a></p>]]></content:encoded>
         </item>
     </channel>
 </rss>
