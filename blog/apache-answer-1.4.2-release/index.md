@@ -1,10 +1,10 @@
 ---
-date: 2025-01-01
+date: 2025-02-10
 title: "Apache Answer 1.4.2: Enhance Your Q&A with Attachment Uploads"
 authors: [LinkinStar]
 category: Release
 featured: true
-image: 2025-01-01-cover@4x.png
+image: 2025-02-10-cover@4x.png
 description: "Making it simple to share relevant documents and improve the quality of your Q&A."
 
 ---
