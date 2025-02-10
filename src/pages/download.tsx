@@ -6,7 +6,7 @@ import Layout from '@theme/Layout'
 import HeaderSlogan from '../components/HeaderSlogan'
 
 export default function Plugins(): JSX.Element {
-  const item = '1.4.1'
+  const item = '1.4.2'
   return (
     <Layout
       title={translate({ message: 'Download' })}
@@ -28,20 +28,20 @@ export default function Plugins(): JSX.Element {
           <tbody>
             <tr>
               <td>{item}</td>
-              <td>2024-11-22</td>
+              <td>2025-02-06</td>
               <td>
                 <ul className="list-unstyled mb-0">
                   <li>
                     <a
-                      href={`https://www.apache.org/dyn/closer.lua/incubator/answer/${item}-incubating/apache-answer-${item}-incubating-src.tar.gz?action=download`}
+                      href={`https://www.apache.org/dyn/closer.lua/answer/${item}/apache-answer-${item}-src.tar.gz?action=download`}
                       target="_blank"
                       rel="noopener noreferrer"
                     >
-                      apache-answer-{item}-incubating-src.tar.gz
+                      apache-answer-{item}-src.tar.gz
                     </a>{' '}
                     (
                     <a
-                      href={`https://downloads.apache.org/incubator/answer/${item}-incubating/apache-answer-${item}-incubating-src.tar.gz.asc`}
+                      href={`https://downloads.apache.org/answer/${item}/apache-answer-${item}-src.tar.gz.asc`}
                       target="_blank"
                       rel="noopener noreferrer"
                     >
@@ -49,7 +49,7 @@ export default function Plugins(): JSX.Element {
                     </a>
                     ,{' '}
                     <a
-                      href={`https://downloads.apache.org/incubator/answer/${item}-incubating/apache-answer-${item}-incubating-src.tar.gz.sha512`}
+                      href={`https://downloads.apache.org/answer/${item}/apache-answer-${item}-src.tar.gz.sha512`}
                       target="_blank"
                       rel="noopener noreferrer"
                     >
@@ -59,15 +59,15 @@ export default function Plugins(): JSX.Element {
                   </li>
                   <li>
                     <a
-                      href={`https://www.apache.org/dyn/closer.lua/incubator/answer/${item}-incubating/apache-answer-${item}-incubating-bin-darwin-arm64.tar.gz?action=download`}
+                      href={`https://www.apache.org/dyn/closer.lua/answer/${item}/apache-answer-${item}-bin-darwin-arm64.tar.gz?action=download`}
                       target="_blank"
                       rel="noopener noreferrer"
                     >
-                      apache-answer-{item}-incubating-bin-darwin-arm64.tar.gz
+                      apache-answer-{item}-bin-darwin-arm64.tar.gz
                     </a>{' '}
                     (
                     <a
-                      href={`https://downloads.apache.org/incubator/answer/${item}-incubating/apache-answer-${item}-incubating-bin-darwin-arm64.tar.gz.asc`}
+                      href={`https://downloads.apache.org/answer/${item}/apache-answer-${item}-bin-darwin-arm64.tar.gz.asc`}
                       target="_blank"
                       rel="noopener noreferrer"
                     >
@@ -75,7 +75,7 @@ export default function Plugins(): JSX.Element {
                     </a>
                     ,{' '}
                     <a
-                      href={`https://downloads.apache.org/incubator/answer/${item}-incubating/apache-answer-${item}-incubating-bin-darwin-arm64.tar.gz.sha512`}
+                      href={`https://downloads.apache.org/answer/${item}/apache-answer-${item}-bin-darwin-arm64.tar.gz.sha512`}
                       target="_blank"
                       rel="noopener noreferrer"
                     >
@@ -85,15 +85,15 @@ export default function Plugins(): JSX.Element {
                   </li>
                   <li>
                     <a
-                      href={`https://www.apache.org/dyn/closer.lua/incubator/answer/${item}-incubating/apache-answer-${item}-incubating-bin-linux-amd64.tar.gz?action=download`}
+                      href={`https://www.apache.org/dyn/closer.lua/answer/${item}/apache-answer-${item}-bin-linux-amd64.tar.gz?action=download`}
                       target="_blank"
                       rel="noopener noreferrer"
                     >
-                      apache-answer-{item}-incubating-bin-linux-amd64.tar.gz
+                      apache-answer-{item}-bin-linux-amd64.tar.gz
                     </a>{' '}
                     (
                     <a
-                      href={`https://downloads.apache.org/incubator/answer/${item}-incubating/apache-answer-${item}-incubating-bin-linux-amd64.tar.gz.asc`}
+                      href={`https://downloads.apache.org/answer/${item}/apache-answer-${item}-bin-linux-amd64.tar.gz.asc`}
                       target="_blank"
                       rel="noopener noreferrer"
                     >
@@ -101,7 +101,7 @@ export default function Plugins(): JSX.Element {
                     </a>
                     ,{' '}
                     <a
-                      href={`https://downloads.apache.org/incubator/answer/${item}-incubating/apache-answer-${item}-incubating-bin-linux-amd64.tar.gz.sha512`}
+                      href={`https://downloads.apache.org/answer/${item}/apache-answer-${item}-bin-linux-amd64.tar.gz.sha512`}
                       target="_blank"
                       rel="noopener noreferrer"
                     >
@@ -111,15 +111,15 @@ export default function Plugins(): JSX.Element {
                   </li>
                   <li>
                     <a
-                      href={`https://www.apache.org/dyn/closer.lua/incubator/answer/${item}-incubating/apache-answer-${item}-incubating-bin-linux-arm64.tar.gz?action=download`}
+                      href={`https://www.apache.org/dyn/closer.lua/answer/${item}/apache-answer-${item}-bin-linux-arm64.tar.gz?action=download`}
                       target="_blank"
                       rel="noopener noreferrer"
                     >
-                      apache-answer-{item}-incubating-bin-linux-arm64.tar.gz
+                      apache-answer-{item}-bin-linux-arm64.tar.gz
                     </a>{' '}
                     (
                     <a
-                      href={`https://downloads.apache.org/incubator/answer/${item}-incubating/apache-answer-${item}-incubating-bin-linux-arm64.tar.gz.asc`}
+                      href={`https://downloads.apache.org/answer/${item}/apache-answer-${item}-bin-linux-arm64.tar.gz.asc`}
                       target="_blank"
                       rel="noopener noreferrer"
                     >
@@ -127,7 +127,7 @@ export default function Plugins(): JSX.Element {
                     </a>
                     ,{' '}
                     <a
-                      href={`https://downloads.apache.org/incubator/answer/${item}-incubating/apache-answer-${item}-incubating-bin-linux-arm64.tar.gz.sha512`}
+                      href={`https://downloads.apache.org/answer/${item}/apache-answer-${item}-bin-linux-arm64.tar.gz.sha512`}
                       target="_blank"
                       rel="noopener noreferrer"
                     >
@@ -137,15 +137,15 @@ export default function Plugins(): JSX.Element {
                   </li>
                   <li>
                     <a
-                      href={`https://www.apache.org/dyn/closer.lua/incubator/answer/${item}-incubating/apache-answer-${item}-incubating-bin-windows-amd64.tar.gz?action=download`}
+                      href={`https://www.apache.org/dyn/closer.lua/answer/${item}/apache-answer-${item}-bin-windows-amd64.tar.gz?action=download`}
                       target="_blank"
                       rel="noopener noreferrer"
                     >
-                      apache-answer-{item}-incubating-bin-windows-amd64.tar.gz
+                      apache-answer-{item}-bin-windows-amd64.tar.gz
                     </a>{' '}
                     (
                     <a
-                      href={`https://downloads.apache.org/incubator/answer/${item}-incubating/apache-answer-${item}-incubating-bin-windows-amd64.tar.gz.asc`}
+                      href={`https://downloads.apache.org/answer/${item}/apache-answer-${item}-bin-windows-amd64.tar.gz.asc`}
                       target="_blank"
                       rel="noopener noreferrer"
                     >
@@ -153,7 +153,7 @@ export default function Plugins(): JSX.Element {
                     </a>
                     ,{' '}
                     <a
-                      href={`https://downloads.apache.org/incubator/answer/${item}/apache-answer-${item}-bin-windows-amd64.tar.gz.sha512`}
+                      href={`https://downloads.apache.org/answer/${item}/apache-answer-${item}-bin-windows-amd64.tar.gz.sha512`}
                       target="_blank"
                       rel="noopener noreferrer"
                     >
@@ -185,7 +185,7 @@ export default function Plugins(): JSX.Element {
             <li>
               Please download the{' '}
               <a
-                href="https://downloads.apache.org/incubator/answer/KEYS"
+                href="https://downloads.apache.org/answer/KEYS"
                 target="_blank"
                 rel="noopener noreferrer"
               >
@@ -202,7 +202,7 @@ export default function Plugins(): JSX.Element {
             <a
               target="_blank"
               rel="noopener noreferrer"
-              href="https://archive.apache.org/dist/incubator/answer/"
+              href="https://archive.apache.org/dist/answer/"
             >
               archive
             </a>
