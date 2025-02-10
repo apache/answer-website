@@ -4,10 +4,44 @@
         <title>Apache Answer Blog</title>
         <link>https://answer.apache.org/blog</link>
         <description>Apache Answer Blog</description>
-        <lastBuildDate>Tue, 28 Jan 2025 00:00:00 GMT</lastBuildDate>
+        <lastBuildDate>Mon, 10 Feb 2025 00:00:00 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>en</language>
+        <item>
+            <title><![CDATA[Apache Answer 1.4.2: Enhance Your Q&A with Attachment Uploads]]></title>
+            <link>https://answer.apache.org/blog/apache-answer-1.4.2-release</link>
+            <guid>https://answer.apache.org/blog/apache-answer-1.4.2-release</guid>
+            <pubDate>Mon, 10 Feb 2025 00:00:00 GMT</pubDate>
+            <description><![CDATA[Making it simple to share relevant documents and improve the quality of your Q&A.]]></description>
+            <content:encoded><![CDATA[<div class="mb-4"><img decoding="async" loading="lazy" src="https://answer.apache.org/assets/images/2025-02-10-cover@4x-594a2b981c1480cde0d5079df2e435e9.png" class="rounded img_RAU7" width="1280px" height="720px"></div><h2 class="anchor anchorWithStickyNavbar_ArXL" id="-new-features">🎉 New Features<!-- --><a href="https://answer.apache.org/blog/apache-answer-1.4.2-release#-new-features" class="hash-link" aria-label="Direct link to 🎉 New Features" title="Direct link to 🎉 New Features">​</a></h2>
+<!-- --><h3 class="anchor anchorWithStickyNavbar_ArXL" id="attachment-upload">Attachment Upload<!-- --><a href="https://answer.apache.org/blog/apache-answer-1.4.2-release#attachment-upload" class="hash-link" aria-label="Direct link to Attachment Upload" title="Direct link to Attachment Upload">​</a></h3>
+<!-- --><p>We’re excited to introduce the long-awaited attachment-upload feature! Now you can easily share relevant files with your questions.</p>
+<!-- --><p><img decoding="async" loading="lazy" alt="attachment-upload.png" src="https://answer.apache.org/assets/images/attachment-upload-2fac29f9349c5b9b430cc91f1dd9e924.png" width="1436" height="1082" class="img_RAU7"></p>
+<!-- --><p>You can config the <!-- --><code>Authorized attachment extensions</code> in the Admin Panel to specify the file types you want to allow.<!-- --></p>
+<!-- --><h3 class="anchor anchorWithStickyNavbar_ArXL" id="key-metrics-dashboard">Key Metrics Dashboard<!-- --><a href="https://answer.apache.org/blog/apache-answer-1.4.2-release#key-metrics-dashboard" class="hash-link" aria-label="Direct link to Key Metrics Dashboard" title="Direct link to Key Metrics Dashboard">​</a></h3>
+<!-- --><p><img decoding="async" loading="lazy" alt="rate-resolved-unanswered-metrics.png" src="https://answer.apache.org/assets/images/rate-resolved-unanswered-metrics-43e3baf153f9f0aca2342a6a0035b14a.png" width="541" height="192" class="img_RAU7"></p>
+<!-- --><p>Get insights at a glance! Our new dashboard now includes key metrics(Resolved/Unanswered), helping you track your response rate.</p>
+<!-- --><h3 class="anchor anchorWithStickyNavbar_ArXL" id="add-frequent-tab">Add "Frequent" tab<!-- --><a href="https://answer.apache.org/blog/apache-answer-1.4.2-release#add-frequent-tab" class="hash-link" aria-label="Direct link to Add &quot;Frequent&quot; tab" title="Direct link to Add &quot;Frequent&quot; tab">​</a></h3>
+<!-- --><p><img decoding="async" loading="lazy" alt="frequent-tab.png" src="https://answer.apache.org/assets/images/frequent-tab-3155238534bc0c02c52ca80aa4e911c1.png" width="387" height="127" class="img_RAU7"></p>
+<!-- --><p>Finding the most linked questions just got easier! With the new "Frequent" tab, you can filter and view the questions that are most often connected.</p>
+<!-- --><h2 class="anchor anchorWithStickyNavbar_ArXL" id="-improvements">🔧 Improvements<!-- --><a href="https://answer.apache.org/blog/apache-answer-1.4.2-release#-improvements" class="hash-link" aria-label="Direct link to 🔧 Improvements" title="Direct link to 🔧 Improvements">​</a></h2>
+<!-- --><ul>
+<!-- --><li><strong>Enhanced Readability:</strong> Long code snippets can be challenging to read, but we’ve made improvements to ensure they’re more digestible.<!-- --></li>
+<!-- --><li><strong>Reminder Email Update:</strong> We’ve added a "Do not reply directly" message to our reminder emails to avoid confusion. Thanks, @sosyz, for the suggestion!<!-- --></li>
+<!-- --><li><strong>SEO Enhancements:</strong> We’ve optimized the user homepage for better search engine visibility.<!-- --></li>
+<!-- --></ul>
+<!-- --><h2 class="anchor anchorWithStickyNavbar_ArXL" id="-bug-fixes">🐞 Bug Fixes<!-- --><a href="https://answer.apache.org/blog/apache-answer-1.4.2-release#-bug-fixes" class="hash-link" aria-label="Direct link to 🐞 Bug Fixes" title="Direct link to 🐞 Bug Fixes">​</a></h2>
+<!-- --><ul>
+<!-- --><li><strong>Markdown Parsing Fix:</strong> We resolved an issue where ordered list numbers were not incrementing correctly during markdown parsing.<!-- --></li>
+<!-- --><li><strong>Tag Display Exception:</strong> The change list/unlist action now works smoothly without causing tag display exceptions.<!-- --></li>
+<!-- --><li><strong>Timezone Display Issue:</strong> The timezone display on the Dashboard page has been corrected, ensuring it shows properly when set to UTC.<!-- --></li>
+<!-- --><li><strong>Content Duplication Fix:</strong> We’ve resolved the duplication of content on the results page.<!-- --></li>
+<!-- --><li><strong>User Addition Fix:</strong> The unexpected username length restriction in the Admin Panel has been lifted, allowing for smoother user additions.<!-- --></li>
+<!-- --></ul>
+<!-- --><h2 class="anchor anchorWithStickyNavbar_ArXL" id="️-special-thanks">❤️ Special Thanks<!-- --><a href="https://answer.apache.org/blog/apache-answer-1.4.2-release#%EF%B8%8F-special-thanks" class="hash-link" aria-label="Direct link to ❤️ Special Thanks" title="Direct link to ❤️ Special Thanks">​</a></h2>
+<!-- --><p>We hope you enjoy the new features and improvements in Apache Answer 1.4.2! As always, we appreciate your feedback and contributions. Happy connecting!</p>]]></content:encoded>
+        </item>
         <item>
             <title><![CDATA[Apache Answer Becomes an Apache Software Foundation Top-Level Project]]></title>
             <link>https://answer.apache.org/blog/apache-answer-becomes-an-apache-software-foundation-top-level-project</link>
@@ -832,39 +866,6 @@ Interested in helping us with the release? Give it a go following the post below
 <!-- --><p>This July, Apache Answer will have 2 sessions in Community over Code Asia 2024. Our PPMC members LinkinStar and Anne will share our first Apache release and ways to engage your users.</p>
 <!-- --><h2 class="anchor anchorWithStickyNavbar_ArXL" id="-were-all-here-foryou">🤲 We're All Here for&nbsp;You<!-- --><a href="https://answer.apache.org/blog/answer-recap-june#-were-all-here-foryou" class="hash-link" aria-label="Direct link to 🤲 We're All Here for&nbsp;You" title="Direct link to 🤲 We're All Here for&nbsp;You">​</a></h2>
 <!-- --><p>Calling Answer enthusiasts here. Show your Answer or tell us your advice to us via <!-- --><a href="https://medium.com/r/?url=https%3A%2F%2Ftwitter.com%2FAnswerDev" target="_blank" rel="noopener noreferrer">social media</a>, the <!-- --><a href="https://medium.com/r/?url=https%3A%2F%2Fmeta.answer.dev%2F" target="_blank" rel="noopener noreferrer">forum</a>, or drop us an <!-- --><a href="https://medium.com/r/?url=http%3A%2F%2Fdev%40answer.apache.org%2F" target="_blank" rel="noopener noreferrer">email</a>.<!-- --></p>]]></content:encoded>
-        </item>
-        <item>
-            <title><![CDATA[How to Search Like a Pro in Answer]]></title>
-            <link>https://answer.apache.org/blog/how-to-search-like-a-pro-in-answer</link>
-            <guid>https://answer.apache.org/blog/how-to-search-like-a-pro-in-answer</guid>
-            <pubDate>Thu, 20 Jun 2024 00:00:00 GMT</pubDate>
-            <description><![CDATA[Learn and make the best use from the search basics to the advanced tips in Apache Answer.]]></description>
-            <content:encoded><![CDATA[<div class="mb-4"><img decoding="async" loading="lazy" src="https://answer.apache.org/assets/images/2024-06-20-cover@4x-6b1768cf422fc979417fa98963ccba00.png" class="rounded img_RAU7" width="1280px" height="720px"></div><p>Discussions are always going in Apache Answer. How can you find the information you need in all these conversations? Try to search! Answer provides ways for you to search the information you need, and let’s equip you with all the search tips.</p>
-<!-- --><h2 class="anchor anchorWithStickyNavbar_ArXL" id="search-bar">Search Bar<!-- --><a href="https://answer.apache.org/blog/how-to-search-like-a-pro-in-answer#search-bar" class="hash-link" aria-label="Direct link to Search Bar" title="Direct link to Search Bar">​</a></h2>
-<!-- --><p>The search bar locates at the top of every page. Whether you’re browsing on the homepage, or taking a closer look at a post, you can always type and search for the content you require.</p>
-<!-- --><p><img decoding="async" loading="lazy" alt="Search Bar in Answer Locates on the Top of Every Page" src="https://answer.apache.org/assets/images/Search%20Bar-0b2cfd9a34cd0f5116752baf66025911.png" width="1200" height="470" class="img_RAU7"></p>
-<!-- --><h2 class="anchor anchorWithStickyNavbar_ArXL" id="start-from-a-keyword">Start from a Keyword<!-- --><a href="https://answer.apache.org/blog/how-to-search-like-a-pro-in-answer#start-from-a-keyword" class="hash-link" aria-label="Direct link to Start from a Keyword" title="Direct link to Start from a Keyword">​</a></h2>
-<!-- --><p>Just like a search engine, let’s start searching in Answer with a single keyword. Then, you can refine your search by making it to a phrase or sentence. In Answer, we <!-- --><a href="https://answer.apache.org/blog/what-is-new-in-apache-answer-1.3.0/#fine-tunings-youll-love" target="_blank" rel="noopener noreferrer">highlight the key terms</a> so that you can identify it with just a glance.<!-- --></p>
-<!-- --><p><img decoding="async" loading="lazy" alt="Search with Keyword in Answer" src="https://answer.apache.org/assets/images/search%20with%20keyword-c7cc3a48243f8e798b88770c30baa9d3.png" width="1200" height="719" class="img_RAU7"></p>
-<!-- --><p>You can also sort the results with <!-- --><strong>Active, Newest, Relevance, and Score</strong> to better hunt down the content you need.<!-- --></p>
-<!-- --><p><img decoding="async" loading="lazy" alt="Sort Search Results" src="https://answer.apache.org/assets/images/sort%20search%20results-9e937179c1f704baaa3f7e5d2a58553c.png" width="1200" height="723" class="img_RAU7"></p>
-<!-- --><h2 class="anchor anchorWithStickyNavbar_ArXL" id="search-with-tag">Search with Tag<!-- --><a href="https://answer.apache.org/blog/how-to-search-like-a-pro-in-answer#search-with-tag" class="hash-link" aria-label="Direct link to Search with Tag" title="Direct link to Search with Tag">​</a></h2>
-<!-- --><p>Remember the <!-- --><a href="https://answer.apache.org/blog/how-to-build-a-help-center-with-your-users-and-answer#03-organize-categories-with-tags" target="_blank" rel="noopener noreferrer">magical tag</a> that play a big role in organizing the community? They’re powerful for tracking the content. If you’re looking for content in the same category, searching with a relevant tag is a productive way to start with.<!-- --></p>
-<!-- --><p>Simply type the tag name inside square brackets and hit search, e.g., [Release].</p>
-<!-- --><p><img decoding="async" loading="lazy" alt="Search with Tag in Answer" src="https://answer.apache.org/assets/images/search%20with%20tags-ba8b620206a970b6d62bbbd5bf2da2aa.png" width="1200" height="525" class="img_RAU7"></p>
-<!-- --><h2 class="anchor anchorWithStickyNavbar_ArXL" id="advanced-search-tips">Advanced Search Tips<!-- --><a href="https://answer.apache.org/blog/how-to-search-like-a-pro-in-answer#advanced-search-tips" class="hash-link" aria-label="Direct link to Advanced Search Tips" title="Direct link to Advanced Search Tips">​</a></h2>
-<!-- --><p>Besides keyword and tags, Answer provides multiple ways to search to meet your needs.</p>
-<!-- --><ul>
-<!-- --><li>Search by author with: <!-- --><strong>user<!-- -->:username<!-- --></strong></li>
-<!-- --><li>Find unanswered questions with: <!-- --><strong>answers:0</strong></li>
-<!-- --><li>Look for a post with a score with: <!-- --><strong>score: score number</strong></li>
-<!-- --><li>Find a question/answer with: <!-- --><strong>is<!-- -->:question<!-- --></strong> or <!-- --><strong>is<!-- -->:answer<!-- --></strong></li>
-<!-- --></ul>
-<!-- --><p>Don’t panic if you forget the rules. The advanced search tips are displayed on the right side whenever you’re searching.</p>
-<!-- --><p><img decoding="async" loading="lazy" alt="Advanced Search Tips at the Right Side of the Searching Page" src="https://answer.apache.org/assets/images/Advanced%20Search%20Tips-99f69dbe74a77c0f58a093972f1785f4.png" width="1200" height="518" class="img_RAU7"></p>
-<!-- --><p>You can also combine the search rules together to hunt the exact content down.</p>
-<!-- --><h2 class="anchor anchorWithStickyNavbar_ArXL" id="we-love-to-hear-from-you">We Love to Hear from You<!-- --><a href="https://answer.apache.org/blog/how-to-search-like-a-pro-in-answer#we-love-to-hear-from-you" class="hash-link" aria-label="Direct link to We Love to Hear from You" title="Direct link to We Love to Hear from You">​</a></h2>
-<!-- --><p>It’s always nice to have feedback and advice. If you have feature requests, bug report, or show your Answer. You are welcome to reach out on <!-- --><a href="https://twitter.com/answerdev" target="_blank" rel="noopener noreferrer">X</a>, <!-- --><a href="https://discord.gg/a6PZZbfnFx" target="_blank" rel="noopener noreferrer">Discord</a>, <!-- --><a href="https://github.com/apache/answer" target="_blank" rel="noopener noreferrer">GitHub</a>, <!-- --><a href="https://meta.answer.dev/" target="_blank" rel="noopener noreferrer">Meta Answer</a>, or our <!-- --><a href="https://answer.apache.org/community/support" target="_blank" rel="noopener noreferrer">mailing list</a>.<!-- --></p>]]></content:encoded>
         </item>
     </channel>
 </rss>
