@@ -42,9 +42,9 @@ If there’s no need to modify Answer's source code, you can build directly from
 ### Build Docker Images From Local Code
 Please keep local code up-to-date. The steps are as below:
 
-1. **Add Pluins**：Edit `/script/plugin_list` (root directory) and add plugin repository URLs (one per line).
-2. **Build Docker Image**：Run command: `docker build -t <image_name[:tag]> .` .
-3. **Launch and Verify**：Wait for build to finish, then run `docker run -d -p 9080:80 -v answer-data:/data --name <container_name> <image_name>`, then verify plugins in Answer 。
+1. **Add Pluins**: Edit `/script/plugin_list` (root directory) and add plugin repository URLs (one per line).
+2. **Build Docker Image**: Run command: `docker build -t <image_name[:tag]> .` .
+3. **Launch and Verify**: Wait for build to finish, then run `docker run -d -p 9080:80 -v answer-data:/data --name <container_name> <image_name>`, then verify plugins in Answer.
 
 ### 1.Add Required Plugins
 ```
@@ -75,7 +75,7 @@ Admin Panel
 Activate the Plugin
 ![active a plugin](active-plugin.webp)
 
-Verify Plugin(editor-formula) Functionality：
+Verify Plugin(editor-formula) Functionality:
 ![confirm formula plugin result](formula-res.webp)
 
 
@@ -103,7 +103,7 @@ To build the base binary, run `make build`. If the build is successful, the answ
 
 If you encounter errors related to Go dependency installation, you can try running `go mod download` locally to see if the installation is successful. If it still fails, consider configuring a domestic mirror: https://goproxy.cn/ or enabling a network proxy.
 
-Success：
+Success: 
 ![build binary success](make-ui-03.webp)
 
 ### 2.Build a Binary File with the Required Plugins Using the Base Binary File
@@ -195,7 +195,7 @@ Access [http://localhost:80/install/](http://localhost:80/install/) and follow t
 Run the command  `./new_answer upgrade -C ./answer-data/` 
 
 3. Start the Local Website   
-    Run `./new_answer run -C ./answer-data/`， access `http://localhost/`. Log in and go `http://localhost/admin` to activate and verify the plugin.
+    Run `./new_answer run -C ./answer-data/`, access `http://localhost/`. Log in and go `http://localhost/admin` to activate and verify the plugin.
 
 Here’s an example of editor-formula plugin.
 

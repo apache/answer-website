@@ -39,10 +39,10 @@ AI Embedding helps Answer understand the context of the questions, providing com
 
 The Slack integration allows team members to search information in Answer without leaving their current workflow. Users can perform the corresponding operations by entering similar commands as below:
 
-- `/answer ask`：Add a new question
-- `/answer search`：Search
-- `/answer connect|disconnect`：Bind or unbind an account
-- `/answer notify`：Set up message notifications to receive system messages through Slack
+- `/answer ask`: Add a new question
+- `/answer search`: Search
+- `/answer connect|disconnect`: Bind or unbind an account
+- `/answer notify`: Set up message notifications to receive system messages through Slack
 
 ### Webhook Notification
 

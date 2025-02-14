@@ -50,7 +50,7 @@ Apache Answer 项目中有一些仓库，你可以在不同的仓库提 issue。
 | `bug` | 意外问题或非预期行为 |
 | `documentation` | 需要对文档进行改进或补充 |
 | `duplicate` | 相似的问题、合并请求或讨论 |
-| `feature` | 新的功能建议 |
+| `new-feature` | 新的功能建议 |
 | `enhancement` | 改进和优化 |
 | `good first issue` | 新手友好 |
 | `help wanted` | 维护者需要某个问题或 PR 的帮助 |

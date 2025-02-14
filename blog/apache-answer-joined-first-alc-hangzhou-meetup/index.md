@@ -65,6 +65,6 @@ ALC Hangzhou is open to every open-source enthusiast who align with the Apache W
 Reference        
 
 <p id="ref1">[1] https://cwiki.apache.org/confluence/display/COMDEV/Apache+Local+Community+-+ALC </p> 
-<p id="ref2">[2] WeChat Public Account：alc_hangzhou </p>
+<p id="ref2">[2] WeChat Public Account: alc_hangzhou </p>
 <p id="ref3">[3] https://cwiki.apache.org/confluence/display/COMDEV/ALC+Hangzhou</p>
 <p id="ref4">[4] https://cwiki.apache.org/confluence/display/COMDEV/Guidelines+to+manage+an+ALC+Chapter</p>

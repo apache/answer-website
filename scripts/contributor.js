@@ -6,10 +6,10 @@ var TeamJson = require('../static/data/team.json');
 
 var outputFile = path.resolve(__dirname, '../static/data/team.json');
 
-// ignore PPMC and committers members
+// ignore PMC and committers members
 var ignoreList = [];
 TeamJson.forEach(function(u) {
-  if (u.type === 'ppmc' || u.type === 'committer') {
+  if (u.type === 'pmc' || u.type === 'committer') {
     u.users.forEach(function(user) {
       ignoreList.push(user.name);
     });
@@ -58,7 +58,7 @@ function fetchContributors() {
     // save data to team.json
     fs.writeFile(outputFile, JSON.stringify(jsonData, null, 2), function(err) {
       if (err) {
-        console.error('write file err：', err);
+        console.error('write file err:', err);
       }
     });
   });

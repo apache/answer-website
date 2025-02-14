@@ -18,8 +18,8 @@ The configuration must be set at build time and cannot be changed without a rebu
 
 ### Steps
 
-1. Modify the configuration file `/configs/config.yaml`。
-2. Run the command to build the project `make ui` `make build`。
+1. Modify the configuration file `/configs/config.yaml`.
+2. Run the command to build the project `make ui` `make build`.
 3. Run the command `INSTALL_PORT=80 . /answer init -C . /answer-data/` Initialize the project, note that you need to add your base_url (http://localhost:80/{base_url}/install/) to the access path here to see if the configuration is successful.
 4. Packaging into docker or releasing the above binary directly, see [here](/docs/plugins#build)
 
