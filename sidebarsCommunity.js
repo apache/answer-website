@@ -3,6 +3,7 @@ module.exports = {
     'support',
     'team',
     'security',
+    'security-model',
     {
       type: 'category',
       label: 'Contributing',

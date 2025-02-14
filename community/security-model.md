@@ -2,7 +2,7 @@
 slug: /security-model
 ---
 
-# Apache Answer Security Model
+# Security Model
 
 This document outlines the security model of Apache Answer. It aims to help users understand the security model and make informed decisions about deploying and managing Apache Answer securely.
 
@@ -12,7 +12,7 @@ This document outlines the security model of Apache Answer. It aims to help user
 
 So, if a security issue comes up in the administrator page, this is usually not considered a problem. Because the administrator has the authority to do so. Unless a normal user can overstep his authority to operate outside of his capabilities.
 
-## Captcha
+## Captcha Security
 
 CAPTCHA is an essential security measure to prevent automated attacks and abuse. Apache Answer will not be responsible for security issues arising from disabled CAPTCHA protection. For example, if the user disables the CAPTCHA, it may allow an attacker to crack the user's password by brute force.
 
