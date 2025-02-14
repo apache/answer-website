@@ -140,6 +140,10 @@ const config = {
                 to: 'community/security',
               },
               {
+                label: 'SecurityModel',
+                to: 'community/security-model',
+              },
+              {
                 label: 'Contributing',
                 to: 'community/contributing',
               },
