@@ -6,33 +6,16 @@ import Layout from '@theme/Layout';
 
 import HeaderSlogan from '../components/HeaderSlogan';
 
+import pluginList from '../../static/data/plugin.json';
+
 
 export default function Plugins(): JSX.Element {
-  const [list, setList] = useState([]);
   const { i18n } = useDocusaurusContext();
+  const currentLang = i18n.currentLocale;
+  const lang = currentLang === 'en' ? 'en_US' : 'zh_CN';
+  const list = pluginList[lang];
 
-  useEffect(() => {
-    getPluginList();
-  }, [])
 
-  const getPluginList = async () => {
-    try {
-      const res = await fetch(
-        'https://raw.githubusercontent.com/apache/answer-plugins/main/plugins_desc.json'
-      );
-      const data = await res.json();
-
-      if (Array.isArray(data)) {
-        setList(data);
-      } else {
-        const currentLang = i18n.currentLocale;
-        const lang = currentLang === 'en' ? 'en_US' : currentLang.replace('-', '_');
-        setList(data[lang]);
-      }
-    } catch (err) {
-      console.error('featch plugins list error', err);
-    }
-  }
   return (
     <Layout
       title={translate({ message: 'Plugins' })}
