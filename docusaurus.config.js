@@ -82,6 +82,11 @@ const config = {
     ({
       metadata: [
         {name: 'keywords', content: 'Free, Open-source, Q&A Platform, Knowledge Sharing Platform, Community Forum, Knowledge Base, Developer Hub, Support Center'},
+        {
+          name: 'http-equiv',
+          content: 'Content-Security-Policy',
+          value: "default-src 'self' data: blob: 'unsafe-inline' https://www.apachecon.com/ https://www.communityovercode.org/ https://analytics.apache.org/ https://api-js.mixpanel.com/track/; connect-src https://api-js.mixpanel.com/track/;"
+        }
       ],
       colorMode: {
         defaultMode: 'light',
