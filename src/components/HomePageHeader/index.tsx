@@ -40,7 +40,7 @@ const HomeHead: FC = () => {
 
 
   useEffect(() => {
-    fetch('/github-stars/apache/answer')
+    fetch('https://img.shields.io/github/stars/apache/answer')
       .then((response) => response.text())
       .then((data) => {
         const num = data.match(/<text .*>(.*?)<\/text>/)[1];
