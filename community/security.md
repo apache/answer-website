@@ -4,7 +4,7 @@ slug: /security
 
 # Security
 
-The Apache Software Foundation takes a rigorous stance on eliminating security issues in its software projects. If you find a security bug, with that in mind, please do not file public issues. Before reporting a security issue, check the [security model](/community/security-model). You can follow the instructions in the [security policy](https://github.com/apache/answer/security/policy) to report it privately. We will fix it as soon as possible.
+The Apache Software Foundation takes a rigorous stance on eliminating security issues in its software projects. If you find a security bug, with that in mind, please do not file public issues. Before reporting a security issue, check the [security model](/community/security-model). To report a new vulnerability you have discovered, please follow the [ASF security vulnerability reporting process](https://apache.org/security/#reporting-a-vulnerability). The Answer community follows the [ASF security vulnerability handling process](https://apache.org/security/#vulnerability-handling), and will fix it as soon as possible.
 
 # Security fixes
 
