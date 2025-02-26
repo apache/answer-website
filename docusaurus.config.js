@@ -9,7 +9,7 @@ const asfLinks = [
   {to: 'https://www.apache.org/events/current-event.html', label: 'Events'},
   {to: 'https://www.apache.org/foundation/sponsorship.html', label: 'Sponsorship'},
   {to: 'https://privacy.apache.org/policies/privacy-policy-public.html', label: 'Privacy'},
-  {to: 'https://www.apache.org/security/', label: 'Security'},
+  {to: 'community/security', label: 'Security'},
   {to: 'https://www.apache.org/foundation/thanks.html', label: 'Thanks'},
 ];
 const redirectPaths = require('./redirects.js');

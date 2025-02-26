@@ -4,7 +4,7 @@ slug: /security
 
 # Security
 
-The Apache Software Foundation takes a rigorous stance on eliminating security issues in its software projects. If you find a security bug, with that in mind, please do not file public issues. You can follow the instructions in the [security policy](https://github.com/apache/answer/security/policy) to report it privately. We will fix it as soon as possible.
+The Apache Software Foundation takes a rigorous stance on eliminating security issues in its software projects. If you find a security bug, with that in mind, please do not file public issues. Before reporting a security issue, check the [security model](/community/security-model). You can follow the instructions in the [security policy](https://github.com/apache/answer/security/policy) to report it privately. We will fix it as soon as possible.
 
 # Security fixes
 

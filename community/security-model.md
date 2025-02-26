@@ -6,6 +6,8 @@ slug: /security-model
 
 This document outlines the security model of Apache Answer. It aims to help users understand the security model and make informed decisions about deploying and managing Apache Answer securely.
 
+If you think you have found behavior in Apache Answer that does not follow this security model, please [report it](/community/security) to us privately.
+
 ## Admin Permission Security
 
 **Admin users have full system permissions**, which includes access to potentially vulnerable operations. While we assume administrators won't attack their own websites, it's crucial to exercise caution when assigning admin privileges.
