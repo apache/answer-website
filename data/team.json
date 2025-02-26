@@ -122,7 +122,7 @@
   {
     "title": "Contributor",
     "type": "contributor",
-    "count": 78,
+    "count": 79,
     "users": [
       {
         "name": "alrs",
@@ -438,6 +438,11 @@
         "name": "PurseChicken",
         "github": "https://github.com/PurseChicken",
         "avatar": "https://avatars.githubusercontent.com/u/29956166?v=4"
+      },
+      {
+        "name": "raboof",
+        "github": "https://github.com/raboof",
+        "avatar": "https://avatars.githubusercontent.com/u/131856?v=4"
       },
       {
         "name": "ready4god2513",
