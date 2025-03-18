@@ -5,6 +5,7 @@ var path = require('path');
 var TeamJson = require('../static/data/team.json');
 
 var outputFile = path.resolve(__dirname, '../static/data/team.json');
+var teamAvatarDir = path.resolve(__dirname, '../static/img/team');
 
 // ignore PMC and committers members
 var ignoreList = [];
@@ -94,4 +95,64 @@ function fetchPagedContributors(url, index, page, currentResults) {
     });
 }
 
-fetchContributors();
+saveAvatars('pmc');
+saveAvatars('committer');
+
+// 根据 MIME 类型获取文件扩展名
+function getExtensionFromMimeType(mimeType) {
+  var mimeToExtension = {
+    'image/jpeg': 'jpg',
+    'image/png': 'png',
+    'image/gif': 'gif',
+    'image/webp': 'webp',
+    'image/svg+xml': 'svg',
+  };
+
+  return mimeToExtension[mimeType] || 'jpg';
+}
+
+// save avatars
+async function saveAvatars(type) {
+  const dataType = TeamJson.find((item) => item.type ===  type);
+  const users = dataType.users;
+  for (const user of users) {
+    try {
+      const avatarUrl = user.avatar;
+
+      const response = await fetch(avatarUrl);
+      if (!response.ok) {
+        throw new Error(`Failed to fetch ${avatarUrl}: ${response.statusText}`);
+      }
+      const contentType = response.headers.get('content-type');
+      // According to Content-Type to get extension
+      const extension = getExtensionFromMimeType(contentType);
+
+      const avatarName = `${user.name}.${extension}`;
+      const savePath = path.join(teamAvatarDir, avatarName);
+      const arrayBuffer = await response.arrayBuffer();
+      const buffer = Buffer.from(arrayBuffer);
+      fs.writeFileSync(savePath, buffer);
+      // 更新 avatar2 字段为相对路径
+      user.avatar_local = `/img/team/${avatarName}`;
+
+      console.log(`Saved avatar for ${user.name} to ${savePath}`);
+    } catch (error) {
+      console.error(`Failed to save avatar for ${user.name}:`, error.message);
+    }
+  }
+  TeamJson = TeamJson.map((item) => {
+    if (item.type === type) {
+      return {
+        ...item,
+        users,
+      };
+    }
+    return item;
+  });
+  fs.writeFileSync(outputFile, JSON.stringify(TeamJson, null, 2));
+}
+
+saveAvatars('pmc');
+saveAvatars('committer');
+
+// fetchContributors();
