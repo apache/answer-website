@@ -7,85 +7,99 @@
         "name": "chrisdutz",
         "avatar": "https://avatars.githubusercontent.com/u/651105",
         "github": "https://github.com/chrisdutz",
-        "role": "Mentor"
+        "role": "Mentor",
+        "avatar_local": "/img/team/chrisdutz.jpg"
       },
       {
         "name": "fenbox",
         "avatar": "https://avatars.githubusercontent.com/u/360618",
         "github": "https://github.com/fenbox",
-        "role": "Developer"
+        "role": "Developer",
+        "avatar_local": "/img/team/fenbox.png"
       },
       {
         "name": "jiangbonadia",
         "avatar": "https://avatars.githubusercontent.com/u/1227386",
         "github": "https://github.com/jiangbonadia",
-        "role": "DevRel"
+        "role": "DevRel",
+        "avatar_local": "/img/team/jiangbonadia.jpg"
       },
       {
         "name": "joyqi",
         "avatar": "https://avatars.githubusercontent.com/u/59437",
         "github": "https://github.com/joyqi",
-        "role": "Developer"
+        "role": "Developer",
+        "avatar_local": "/img/team/joyqi.png"
       },
       {
         "name": "justinmclean",
         "avatar": "https://avatars.githubusercontent.com/u/144504",
         "github": "https://github.com/justinmclean",
-        "role": "Mentor"
+        "role": "Mentor",
+        "avatar_local": "/img/team/justinmclean.jpg"
       },
       {
         "name": "kumfo",
         "avatar": "https://avatars.githubusercontent.com/u/7692591",
         "github": "https://github.com/kumfo",
-        "role": "Developer"
+        "role": "Developer",
+        "avatar_local": "/img/team/kumfo.jpg"
       },
       {
         "name": "LinkinStars",
         "avatar": "https://avatars.githubusercontent.com/u/19712692",
         "github": "https://github.com/LinkinStars",
-        "role": "Developer"
+        "role": "Developer",
+        "avatar_local": "/img/team/LinkinStars.jpg"
       },
       {
         "name": "mingcheng",
         "avatar": "https://avatars.githubusercontent.com/u/21816",
         "github": "https://github.com/mingcheng",
-        "role": "Developer"
+        "role": "Developer",
+        "avatar_local": "/img/team/mingcheng.png"
       },
       {
         "name": "PrimmaAnna",
         "avatar": "https://avatars.githubusercontent.com/u/131739771",
         "github": "https://github.com/PrimmaAnna",
-        "role": "DevRel"
+        "role": "DevRel",
+        "avatar_local": "/img/team/PrimmaAnna.png"
       },
       {
         "name": "robinv8",
         "avatar": "https://avatars.githubusercontent.com/u/12277531",
         "github": "https://github.com/robinv8",
-        "role": "Developer"
+        "role": "Developer",
+        "avatar_local": "/img/team/robinv8.jpg"
       },
       {
         "name": "shuashuai",
         "avatar": "https://avatars.githubusercontent.com/u/30591202",
         "github": "https://github.com/shuashuai",
-        "role": "Developer"
+        "role": "Developer",
+        "avatar_local": "/img/team/shuashuai.jpg"
       },
       {
         "name": "sy-records",
         "github": "https://github.com/sy-records",
         "avatar": "https://avatars.githubusercontent.com/u/33931153?v=4",
-        "role": "Developer"
+        "role": "Developer",
+        "avatar_local": "/img/team/sy-records.jpg"
       },
       {
         "name": "tisonkun",
         "avatar": "https://avatars.githubusercontent.com/u/18818196",
         "github": "https://github.com/tisonkun",
-        "role": "Mentor"
+        "role": "Mentor",
+        "avatar_local": "/img/team/tisonkun.jpg"
       },
       {
         "name": "WillemJiang",
         "avatar": "https://avatars.githubusercontent.com/u/219644",
         "github": "https://github.com/WillemJiang",
-        "role": "Mentor"
+        "role": "Mentor",
+        "avatar_local": "/img/team/WillemJiang.jpg"
       }
     ]
   },
@@ -97,32 +111,36 @@
         "name": "aichy126",
         "avatar": "https://avatars.githubusercontent.com/u/16996097",
         "github": "https://github.com/aichy126",
-        "role": "Developer"
+        "role": "Developer",
+        "avatar_local": "/img/team/aichy126.jpg"
       },
       {
         "name": "haitaojarvis",
         "avatar": "https://avatars.githubusercontent.com/u/344142",
         "github": "https://github.com/haitaojarvis",
-        "role": "Developer"
+        "role": "Developer",
+        "avatar_local": "/img/team/haitaojarvis.jpg"
       },
       {
         "name": "hgaol",
         "avatar": "https://avatars.githubusercontent.com/u/11908658?v=4",
         "github": "https://github.com/hgaol",
-        "role": "Developer"
+        "role": "Developer",
+        "avatar_local": "/img/team/hgaol.jpg"
       },
       {
         "name": "zahash",
         "github": "https://github.com/zahash",
         "avatar": "https://avatars.githubusercontent.com/u/36153955?v=4",
-        "role": "Developer"
+        "role": "Developer",
+        "avatar_local": "/img/team/zahash.png"
       }
     ]
   },
   {
     "title": "Contributor",
     "type": "contributor",
-    "count": 79,
+    "count": 78,
     "users": [
       {
         "name": "alrs",
@@ -438,11 +456,6 @@
         "name": "PurseChicken",
         "github": "https://github.com/PurseChicken",
         "avatar": "https://avatars.githubusercontent.com/u/29956166?v=4"
-      },
-      {
-        "name": "raboof",
-        "github": "https://github.com/raboof",
-        "avatar": "https://avatars.githubusercontent.com/u/131856?v=4"
       },
       {
         "name": "ready4god2513",
