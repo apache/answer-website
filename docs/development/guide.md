@@ -16,6 +16,8 @@ This guide will help you get started with the development of the project.
     ```shell
     cd ./ui
     pnpm install
+    // This command will help you create the tools you need for good front-end code validation to ensure that the code style
+    pnpm setup-lint
     ```
 
 3. To start a development server, run `pnpm start`. now, your browser should already open automatically, and autoload `http://localhost:3000`. you can also manually visit it.
@@ -24,7 +26,7 @@ This guide will help you get started with the development of the project.
 ### Code conventions
 
 - **Most important: Look around.** Match the style you see used in the rest of the project. This includes formatting, naming files, naming things in code, naming things in documentation, etc.
-- We do have Prettier (a formatter) and ESLint (a syntax linter) to catch most stylistic problems. If you are working locally, you can run  `pnpm lint` and `pnpm prettier` to fix most code formatting.
+- We do have Prettier (a formatter) and ESLint (a syntax linter) to catch most stylistic problems. If you are working locally, you can run `pnpm setup-lint`, which will help you initialize your `husky` and `pre-commit` files, which will automatically help you check your commits during the commit phase. Or just run `pnpm lint` and `pnpm prettier` to fix most code formatting.
 - **No runtime errors** Before submitting the code, please ensure that there will be no errors when running locally. This will greatly reduce the workload of review.
 
 <details>
