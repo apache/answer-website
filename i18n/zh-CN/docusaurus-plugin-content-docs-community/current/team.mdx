@@ -18,7 +18,7 @@ PMC 负责项目的管理。这包括技术决策以及确保项目以社区友�
     UserData[0].users.map(u => {
       return (
         <div key={u.name} className="col-xl-3 col-lg-4 col-md-4 col-sm-6 col-12 d-flex mb-4">
-            <img src={u.avatar} width="48" height="48" className="rounded me-2 lh-normal" />
+            <img src={`/zh-CN${u.avatar_local}`} width="48" height="48" className="rounded me-2 lh-normal" />
             <div>
               <a href={u.github} target="_blank" className="d-block lh-base">{u.name}</a>
               <div className="fs-14 text-secondary">{u.role}</div>
@@ -38,7 +38,7 @@ PMC 负责项目的管理。这包括技术决策以及确保项目以社区友�
     UserData[1].users.map(u => {
       return (
         <div key={u.name} className="col-xl-3 col-lg-4 col-md-4 col-sm-6 col-12 d-flex mb-4">
-            <img src={u.avatar} width="48" height="48" className="rounded me-2 lh-normal" />
+            <img src={`/zh-CN${u.avatar_local}`} width="48" height="48" className="rounded me-2 lh-normal" />
             <div>
               <a href={u.github} target="_blank" className="d-block lh-base">{u.name}</a>
               <div className="fs-14 text-secondary">{u.role}</div>
