@@ -6,7 +6,7 @@ import Layout from '@theme/Layout'
 import HeaderSlogan from '../components/HeaderSlogan'
 
 export default function Plugins(): JSX.Element {
-  const item = '1.4.2'
+  const item = '1.4.5'
   return (
     <Layout
       title={translate({ message: 'Download' })}
@@ -28,7 +28,7 @@ export default function Plugins(): JSX.Element {
           <tbody>
             <tr>
               <td>{item}</td>
-              <td>2025-02-06</td>
+              <td>2025-03-24</td>
               <td>
                 <ul className="list-unstyled mb-0">
                   <li>
