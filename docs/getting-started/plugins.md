@@ -112,7 +112,7 @@ COPY --from=answer-builder /usr/bin/answer /usr/bin/answer
 
 RUN apk --no-cache add \
     build-base git bash nodejs npm go && \
-    npm install -g pnpm@8.9.2
+    npm install -g pnpm@10.7.0
 
 RUN answer build \
     --with github.com/apache/answer-plugins/connector-basic \
