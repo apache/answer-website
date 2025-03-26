@@ -149,10 +149,10 @@ Hello Apache Answer Community,
     https://dist.apache.org/repos/dist/dev/answer/{release-version}
 
     Release notes:
-    https://github.com/apache/answer/releases/tag/{release-version}
+    https://github.com/apache/answer/releases/tag/v{release-version}
 
     Git tag for the release:
-    https://github.com/apache/answer/releases/tag/{release-version}
+    https://github.com/apache/answer/releases/tag/v{release-version}
 
     Git commit id for the release:
     https://github.com/apache/answer/commit/{commit-hash}
@@ -192,6 +192,8 @@ Thanks,
 ### 宣布投票结果的电子邮件模板
 
 ```text
+[ANNOUNCE] Apache Answer {release-version} available
+
 Hello everyone,
 
 The Apache Answer {release-version} has been released!
@@ -199,9 +201,9 @@ The Apache Answer {release-version} has been released!
 Apache Answer is a Q&A platform software for teams at any scale.
 Whether it's a community forum, help center, or knowledge management platform, you can always count on Apache Answer.
 
-Download Links: https://downloads.apache.org/answer/
+Download Links: https://answer.apache.org/download/
 
-Release Notes: https://github.com/apache/answer/releases/tag/{release-version}
+Release Notes: https://github.com/apache/answer/releases/tag/v{release-version}
 
 Website: https://answer.apache.org/
 
