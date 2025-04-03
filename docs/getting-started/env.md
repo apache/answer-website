@@ -24,6 +24,7 @@ slug: /env
 - `ADMIN_NAME`:  admin name
 - `ADMIN_PASSWORD`: admin password
 - `ADMIN_EMAIL`: admin email
+- `EXTERNAL_CONTENT_DISPLAY`: content includes images, videos, and media embedded from external websites. support [`always_display` `ask_before_display`]
 
 ### For overriding the config file
 
