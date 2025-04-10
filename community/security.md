@@ -8,6 +8,14 @@ The Apache Software Foundation takes a rigorous stance on eliminating security i
 
 # Security fixes
 
+## v1.4.2
+
+### CVE-2025-29868
+
+If a user uses an externally referenced image, when a user accesses this image, the provider of the image may obtain private information about the ip address of that accessing user.
+
+https://www.cve.org/CVERecord?id=CVE-2025-29868
+
 ## v1.4.0
 
 ### CVE-2024-45719
