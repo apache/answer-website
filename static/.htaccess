@@ -15,23 +15,11 @@
 # specific language governing permissions and limitations
 # under the License.
 
-# NOTE: All configurations could be found here: https://cwiki.apache.org/confluence/display/INFRA/Git+-+.asf.yaml+features
-github:
-  description: "Apache Answer official website."
-  homepage: https://answer.apache.org
-  enabled_merge_buttons:
-    squash: true
-    rebase: true
-    merge: false
-  protected_branches:
-    main: {}
-    dist-pages: {}
+RewriteEngine On
 
-publish:
-  whoami: dist-pages
+RewriteCond %{REQUEST_URI} ^/zh-CN/
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^.*$ /zh-CN/404.html [L]
 
-notifications:
-  commits:      commits@answer.apache.org
-  issues:       commits@answer.apache.org
-  pullrequests: commits@answer.apache.org
-  discussions:  commits@answer.apache.org
+ErrorDocument 404 /404.html
