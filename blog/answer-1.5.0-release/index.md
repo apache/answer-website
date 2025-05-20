@@ -1,6 +1,6 @@
 ---
 date: 2025-04-30
-title: "Answer 1.5.0: New Sidebar Layout & Tag Merge Feature"
+title: "Apache Answer 1.5.0: New Sidebar Layout & Tag Merge"
 authors: [shuai]
 category: Release
 featured: true
