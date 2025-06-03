@@ -6,7 +6,7 @@ slug: /command-line
 
 :::tip
 
-Apache Answer binary support some command-line options
+Apache Answer binary supports some command-line options
 
 :::
 
@@ -15,23 +15,26 @@ Apache Answer binary support some command-line options
 `answer command [command or global options] [arguments...]`
 
 ```shell
+Answer is a minimalist open source Q&A community.
 To run answer, use:
         - 'answer init' to initialize the required environment.
-        - 'answer run' to launch the application.
-        - 'answer upgrade' to upgrade the application
+        - 'answer run' to launch application.
 
 Usage:
   answer [command]
 
 Available Commands:
-  build       used to build answer with plugins
-  check       checking the required environment
-  dump        back up data
+  build       Build Answer with plugins
+  check       Check the required environment
+  completion  Generate the autocompletion script for the specified shell
+  config      Set some config to default value
+  dump        Back up data
   help        Help about any command
-  init        init answer application
-  plugin      prints all plugins packed in the binary
-  run         Run the application
-  upgrade     upgrade Apache Answer version
+  i18n        Overwrite i18n files
+  init        Initialize Answer
+  plugin      Print all plugins packed in the binary
+  run         Run Answer
+  upgrade     Upgrade Answer
 
 Flags:
   -C, --data-path string   data path, eg: -C ./data/ (default "/data/")
@@ -95,6 +98,7 @@ All global options can be placed at the command level.
   - `answer dump -p /tmp/`
 
 ### build
+
 > build a new Apache Answer with plugins.
 
 - Options
@@ -103,12 +107,14 @@ All global options can be placed at the command level.
   - `answer build --with plugin1 --with plugin2`
 
 ### plugin
+
 > prints all plugins packed in the binary.
 
 - Examples
   - `answer plugin`
 
 ### config
+
 > restore some config value to default.
 
 - Options

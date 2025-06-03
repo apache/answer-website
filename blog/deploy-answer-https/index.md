@@ -2,7 +2,7 @@
 date: 2024-01-26
 title: "How to Access Answer Using HTTPS"
 authors: [LinkinStar]
-category: Tech
+category: Tutorials
 featured: true
 image: 2024-01-26-cover@4x.png
 description: "Got your Answer server up and running? Now, let's take it to the next level with HTTPS with the tutorials."
