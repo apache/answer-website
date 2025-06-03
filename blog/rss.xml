@@ -4,10 +4,66 @@
         <title>Apache Answer Blog</title>
         <link>https://answer.apache.org/blog</link>
         <description>Apache Answer Blog</description>
-        <lastBuildDate>Wed, 30 Apr 2025 00:00:00 GMT</lastBuildDate>
+        <lastBuildDate>Tue, 03 Jun 2025 00:00:00 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>en</language>
+        <item>
+            <title><![CDATA[Apache Answer 1.5.1: Now Available with Improvements and Fixes]]></title>
+            <link>https://answer.apache.org/blog/answer-1.5.1-release</link>
+            <guid>https://answer.apache.org/blog/answer-1.5.1-release</guid>
+            <pubDate>Tue, 03 Jun 2025 00:00:00 GMT</pubDate>
+            <description><![CDATA[Answer 1.5.1 Enhanced Navigation, Admin Menu Improvements & Key Bug Fixes]]></description>
+            <content:encoded><![CDATA[<div class="mb-4"><img decoding="async" loading="lazy" src="https://answer.apache.org/assets/images/2025-06-03-cover@4x-ff0841cf6939470e4464d7e4699c61ad.png" class="rounded img_RAU7" width="1280px" height="720px"></div><p>We're excited to announce the release of version <!-- --><strong>1.5.1</strong>! This update brings several improvements and bug fixes to enhance usability and stability. Below are the key changes in this release.<!-- --></p>
+<!-- --><hr>
+<!-- --><h2 class="anchor anchorWithStickyNavbar_loeA" id="-improvements">🔧 Improvements<!-- --><a href="https://answer.apache.org/blog/answer-1.5.1-release#-improvements" class="hash-link" aria-label="Direct link to 🔧 Improvements" title="Direct link to 🔧 Improvements">​</a></h2>
+<!-- --><ul>
+<!-- --><li>
+<!-- --><p><strong>Separate Background Color for Navigation</strong><br>
+<!-- -->The navigation bar now has a distinct background color for better visual separation and improved user experience. <!-- --><em>(Thanks @shuashuai &amp; @LinkinStars <!-- --><a href="https://github.com/apache/answer/pull/1346" target="_blank" rel="noopener noreferrer">#1346</a>)<!-- --></em></p>
+<!-- --></li>
+<!-- --><li>
+<!-- --><p><strong>Enhanced Admin Menu</strong><br>
+<!-- -->The admin menu has been refined for better organization and usability. <!-- --><em>(Thanks @shuashuai <!-- --><a href="https://github.com/apache/answer/pull/1345" target="_blank" rel="noopener noreferrer">#1345</a>)<!-- --></em></p>
+<!-- --></li>
+<!-- --><li>
+<!-- --><p><strong>Refined Command Usage Statements</strong><br>
+<!-- -->Command-line tool usage descriptions have been improved for clarity. <!-- --><em>(Thanks @Octobug <!-- --><a href="https://github.com/apache/answer/pull/1330" target="_blank" rel="noopener noreferrer">#1330</a>)<!-- --></em></p>
+<!-- --></li>
+<!-- --><li>
+<!-- --><p><strong>Comprehensive Tests for KV Storage Plugin</strong><br>
+<!-- -->Added thorough testing for the key-value storage plugin to ensure reliability. <!-- --><em>(Thanks @sosyz <!-- --><a href="https://github.com/apache/answer/pull/1344" target="_blank" rel="noopener noreferrer">#1344</a>)<!-- --></em></p>
+<!-- --></li>
+<!-- --></ul>
+<!-- --><hr>
+<!-- --><h2 class="anchor anchorWithStickyNavbar_loeA" id="-bug-fixes">🐞 Bug Fixes<!-- --><a href="https://answer.apache.org/blog/answer-1.5.1-release#-bug-fixes" class="hash-link" aria-label="Direct link to 🐞 Bug Fixes" title="Direct link to 🐞 Bug Fixes">​</a></h2>
+<!-- --><ul>
+<!-- --><li>
+<!-- --><p><strong>Google Login Users Losing Image Access</strong><br>
+<!-- -->Fixed an issue where users logging in via Google connector couldn't access images. <!-- --><em>(Thanks @Giorgio-Bonvicini-R4P <!-- --><a href="https://github.com/apache/answer/pull/1334" target="_blank" rel="noopener noreferrer">#1334</a>)<!-- --></em></p>
+<!-- --></li>
+<!-- --><li>
+<!-- --><p><strong>Username Minimum Length Inconsistency</strong><br>
+<!-- -->Resolved a mismatch where the admin panel still enforced a 4-character minimum despite the setting being reduced to 2. <!-- --><em>(Thanks @sy-records <!-- --><a href="https://github.com/apache/answer/pull/1341" target="_blank" rel="noopener noreferrer">#1341</a>)<!-- --></em></p>
+<!-- --></li>
+<!-- --><li>
+<!-- --><p><strong>Code Snippet Layout Breakage</strong><br>
+<!-- -->Fixed a bug where code snippets could disrupt the page layout. <!-- --><em>(Thanks @shuashuai <!-- --><a href="https://github.com/apache/answer/pull/1329" target="_blank" rel="noopener noreferrer">#1329</a>)<!-- --></em></p>
+<!-- --></li>
+<!-- --><li>
+<!-- --><p><strong>Image Placement When Copying Mixed Content</strong><br>
+<!-- -->Corrected an issue where pasted images would always appear at the end of copied text-and-image content. <!-- --><em>(Thanks @shuashuai)</em></p>
+<!-- --></li>
+<!-- --></ul>
+<!-- --><hr>
+<!-- --><h2 class="anchor anchorWithStickyNavbar_loeA" id="️-thanks-to-our-contributors">❤️ Thanks to Our Contributors<!-- --><a href="https://answer.apache.org/blog/answer-1.5.1-release#%EF%B8%8F-thanks-to-our-contributors" class="hash-link" aria-label="Direct link to ❤️ Thanks to Our Contributors" title="Direct link to ❤️ Thanks to Our Contributors">​</a></h2>
+<!-- --><p>A huge thank you to all the contributors who helped improve this release (sorted by GitHub ID):<!-- --><br>
+<!-- --><a href="https://github.com/Giorgio-Bonvicini-R4P" target="_blank" rel="noopener noreferrer">@Giorgio-Bonvicini-R4P</a>, <!-- --><a href="https://github.com/LinkinStars" target="_blank" rel="noopener noreferrer">@LinkinStars</a>, <!-- --><a href="https://github.com/Octobug" target="_blank" rel="noopener noreferrer">@Octobug</a>, <!-- --><a href="https://github.com/shuashuai" target="_blank" rel="noopener noreferrer">@shuashuai</a>, <!-- --><a href="https://github.com/sosyz" target="_blank" rel="noopener noreferrer">@sosyz</a>, <!-- --><a href="https://github.com/sy-records" target="_blank" rel="noopener noreferrer">@sy-records</a></p>
+<!-- --><p>Your contributions make this project better with every update! 🚀</p>
+<!-- --><hr>
+<!-- --><p><strong>Upgrade now</strong> to enjoy these improvements and fixes! If you encounter any issues, please report them on <!-- --><a href="https://github.com/apache/answer/issues" target="_blank" rel="noopener noreferrer">GitHub</a>.<!-- --></p>
+<!-- --><p>Happy browsing! 🎉</p>]]></content:encoded>
+        </item>
         <item>
             <title><![CDATA[Apache Answer 1.5.0: New Sidebar Layout & Tag Merge]]></title>
             <link>https://answer.apache.org/blog/answer-1.5.0-release</link>
@@ -791,37 +847,6 @@ Interested in helping us with the release? Give it a go following the post below
 <!-- --><p>Our journey starts with the booth, how can we miss it this year? We’ve prepared stickers, brand-new flyers, and of course, you can give it a try with Answer.Meta to unlock the latest features. Come and talk to our committers, we’re all ears for your feedback and questions.</p>
 <!-- --><h2 class="anchor anchorWithStickyNavbar_loeA" id="save-your-date-get-the-ticket">Save Your Date. Get the Ticket.<!-- --><a href="https://answer.apache.org/blog/apache-answer-coc-asia-2024#save-your-date-get-the-ticket" class="hash-link" aria-label="Direct link to Save Your Date. Get the Ticket." title="Direct link to Save Your Date. Get the Ticket.">​</a></h2>
 <!-- --><p>Ready for an Apache journey? <!-- --><a href="https://asia.communityovercode.org/#register" target="_blank" rel="noopener noreferrer">Register now</a> and get your ticket. See you in Hangzhou.<!-- --></p>]]></content:encoded>
-        </item>
-        <item>
-            <title><![CDATA[Apache Answer 1.3.5: Flexibility. Reaction. Extension.]]></title>
-            <link>https://answer.apache.org/blog/answer-1.3.5-release</link>
-            <guid>https://answer.apache.org/blog/answer-1.3.5-release</guid>
-            <pubDate>Wed, 03 Jul 2024 00:00:00 GMT</pubDate>
-            <description><![CDATA[Answer introduces parameterizable base paths, reactions, and embed plugin for a more thriving community.]]></description>
-            <content:encoded><![CDATA[<div class="mb-4"><img decoding="async" loading="lazy" src="https://answer.apache.org/assets/images/2024-07-03-cover@4x-34f38d6b4ffc25325ee4094ab9c448e9.png" class="rounded img_RAU7" width="1280px" height="720px"></div><p>What a nice way to start this July strong with the new version! This is perhaps our very first time to release a new version in the very beginning of a month.</p>
-<!-- --><p>In this update, both users and admins have more freedom to customize, express, and view in the online community with new features. Find out how and why.</p>
-<!-- --><h2 class="anchor anchorWithStickyNavbar_loeA" id="customize-urls-with-base-path-parametrization">Customize URLs with Base Path Parametrization<!-- --><a href="https://answer.apache.org/blog/answer-1.3.5-release#customize-urls-with-base-path-parametrization" class="hash-link" aria-label="Direct link to Customize URLs with Base Path Parametrization" title="Direct link to Customize URLs with Base Path Parametrization">​</a></h2>
-<!-- --><p>Time to personalize your Answer URL. You can now handle Answer website address by adding tags to URLs. It’s a great improvement for both the flexibility and ease of deployment for Answer.</p>
-<!-- --><h2 class="anchor anchorWithStickyNavbar_loeA" id="express-your-attitude-with-reactions">Express Your Attitude with Reactions<!-- --><a href="https://answer.apache.org/blog/answer-1.3.5-release#express-your-attitude-with-reactions" class="hash-link" aria-label="Direct link to Express Your Attitude with Reactions" title="Direct link to Express Your Attitude with Reactions">​</a></h2>
-<!-- --><p>When you come across a question that aligns perfectly with your confusion, or a brilliant answer that wipes away your doubts, simply show your appreciation with the latest reaction.</p>
-<!-- --><p><img decoding="async" loading="lazy" alt="Add Reaction in Apache Answer" src="https://answer.apache.org/assets/images/Add%20Reactions-7f4a180b3bb60c2b82da31e6e7b343ab.gif" width="1200" height="428" class="img_RAU7"></p>
-<!-- --><h2 class="anchor anchorWithStickyNavbar_loeA" id="better-content-showcase">Better Content Showcase<!-- --><a href="https://answer.apache.org/blog/answer-1.3.5-release#better-content-showcase" class="hash-link" aria-label="Direct link to Better Content Showcase" title="Direct link to Better Content Showcase">​</a></h2>
-<!-- --><p>We heard your <!-- --><a href="https://github.com/apache/answer-plugins/issues/84" target="_blank" rel="noopener noreferrer">call</a>, and here we are. Now, knowledge sharing is at the next level with a new embed plugin. It helps to refer to relevant article, tutorials, coding snippets, etc.<!-- --></p>
-<!-- --><p>After activate the <!-- --><a href="https://github.com/apache/answer-plugins/tree/main/embed-basic" target="_blank" rel="noopener noreferrer">embed plugin</a>, you can customize the title with a brief summary of the content, and then paste the URL of the content you are adding.<!-- --><br>
-<!-- --><img decoding="async" loading="lazy" alt="Use Embed Plugin" src="https://answer.apache.org/assets/images/Embed%20Plugin-0066890653f928f4e9d7f265a7c50806.gif" width="1200" height="818" class="img_RAU7"></p>
-<!-- --><p>It looks like this. Better than multiple cold links, right?<!-- --><br>
-<!-- --><img decoding="async" loading="lazy" alt="Embed Preview in Apache Answer" src="https://answer.apache.org/assets/images/Embed%20Look-ba88b59520ca7ca4ffb356217324442b.png" width="1596" height="652" class="img_RAU7"></p>
-<!-- --><p><em>Click <!-- --><a href="https://answer.apache.org/docs/plugins" target="_blank" rel="noopener noreferrer">here</a> for using plugin tutorial.<!-- --></em></p>
-<!-- --><h2 class="anchor anchorWithStickyNavbar_loeA" id="tweaks-and-fixes">Tweaks and Fixes<!-- --><a href="https://answer.apache.org/blog/answer-1.3.5-release#tweaks-and-fixes" class="hash-link" aria-label="Direct link to Tweaks and Fixes" title="Direct link to Tweaks and Fixes">​</a></h2>
-<!-- --><p>We’ve made changes to the Active list to ensure it shows current and engaging posts. Old questions will be moved out automatically that are either created 180 days ago, or not received a new answer in the past 90 days. Now, your Answer always shows the most recent topics and discussion when clicking Active.</p>
-<!-- --><p>We understand the need for an easy email address update. Users can now request their email address to be updated through a simple process involving contacting an admin.</p>
-<!-- --><p><img decoding="async" loading="lazy" alt="Edit Profile" src="https://answer.apache.org/assets/images/Edit%20Profile-1eb84776694151dc3a80bcd53e083649.png" width="838" height="850" class="img_RAU7"></p>
-<!-- --><p>Issue such as invalid link, incomplete display, and incorrect count are all fixed! If you spot a bug, don’t hesitate to report it <!-- --><a href="https://github.com/apache/answer/issues" target="_blank" rel="noopener noreferrer">here</a>.<!-- --></p>
-<!-- --><h2 class="anchor anchorWithStickyNavbar_loeA" id="heres-to-you-amazing-contributors">Here’s to You. Amazing Contributors!<!-- --><a href="https://answer.apache.org/blog/answer-1.3.5-release#heres-to-you-amazing-contributors" class="hash-link" aria-label="Direct link to Here’s to You. Amazing Contributors!" title="Direct link to Here’s to You. Amazing Contributors!">​</a></h2>
-<!-- --><p>We couldn’t have done it without the dedication and hard work from the community. This release is brought to you by eight fantastic contributors, including two new faces that we are thrilled to have them here.</p>
-<!-- --><p>Cheers to <!-- --><a href="https://github.com/kumfo" target="_blank" rel="noopener noreferrer">kumfo</a>, <!-- --><a href="https://github.com/hgaol" target="_blank" rel="noopener noreferrer">hgaol</a>, <!-- --><a href="https://github.com/robinv8" target="_blank" rel="noopener noreferrer">robinv8</a>, <!-- --><a href="https://github.com/LinkinStars" target="_blank" rel="noopener noreferrer">LinkinStars</a>, <!-- --><a href="https://github.com/shuashuai" target="_blank" rel="noopener noreferrer">shuaishuai</a>, <!-- --><a href="https://github.com/sy-records" target="_blank" rel="noopener noreferrer">sy-records</a>, <!-- --><a href="https://github.com/nayanthulkar28" target="_blank" rel="noopener noreferrer">nayanthulkar28</a>, and <!-- --><a href="https://github.com/byerer" target="_blank" rel="noopener noreferrer">byerer</a>.<!-- --></p>
-<!-- --><h2 class="anchor anchorWithStickyNavbar_loeA" id="got-a-time-for-feedback">Got a Time for Feedback<!-- --><a href="https://answer.apache.org/blog/answer-1.3.5-release#got-a-time-for-feedback" class="hash-link" aria-label="Direct link to Got a Time for Feedback" title="Direct link to Got a Time for Feedback">​</a></h2>
-<!-- --><p>We’re always open for ways to make Q&amp;A platform better. Do you have any ideas to share? Head over to our <!-- --><a href="https://sourceforge.net/projects/incubator-answer/" target="_blank" rel="noopener noreferrer">SourceForge</a> and rate us stars or leave a review. Thank you so much!<!-- --></p>]]></content:encoded>
         </item>
     </channel>
 </rss>
