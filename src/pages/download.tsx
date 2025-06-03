@@ -8,7 +8,7 @@ import HeaderSlogan from '../components/HeaderSlogan'
 
 export default function Plugins(): JSX.Element {
   const item =  latest.release.version;
-  const date= '2025-05-06'
+  const date= '2025-06-03'
   return (
     <Layout
       title={translate({ message: 'Download' })}
