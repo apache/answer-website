@@ -57,7 +57,7 @@
         "avatar": "https://avatars.githubusercontent.com/u/21816",
         "github": "https://github.com/mingcheng",
         "role": "Developer",
-        "avatar_local": "/img/team/mingcheng.png"
+        "avatar_local": "/img/team/mingcheng.jpg"
       },
       {
         "name": "PrimmaAnna",
@@ -537,8 +537,13 @@
   {
     "title": "Crowdin",
     "type": "contributor",
-    "count": 152,
+    "count": 157,
     "users": [
+      {
+        "name": "aburakt",
+        "github": "https://crowdin.com/profile/aburakt",
+        "avatar": "https://crowdin-static.cf-downloads.crowdin.com/avatar/17092030/medium/72a0b1950374df3ff3050d972fc77bfa.jpeg"
+      },
       {
         "name": "acidtmn",
         "github": "https://crowdin.com/profile/acidtmn",
@@ -568,6 +573,11 @@
         "name": "alexchangtw",
         "github": "https://crowdin.com/profile/alexchangtw",
         "avatar": "https://crowdin-static.cf-downloads.crowdin.com/avatar/15640821/medium/2d270473a4a47e5231cc38c6e7efe92f.jpeg"
+      },
+      {
+        "name": "alexmarzan",
+        "github": "https://crowdin.com/profile/alexmarzan",
+        "avatar": "https://crowdin-static.cf-downloads.crowdin.com/avatar/15745041/medium/e619e4bd482e1b872b518692fb6133b0.jpeg"
       },
       {
         "name": "alff0x1f",
@@ -850,6 +860,11 @@
         "avatar": "https://crowdin-static.cf-downloads.crowdin.com/avatar/16036668/medium/cac8025ab34dea5050d2186dfc4f8379.jpeg"
       },
       {
+        "name": "Jimmyyoung",
+        "github": "https://crowdin.com/profile/Jimmyyoung",
+        "avatar": "https://crowdin-static.cf-downloads.crowdin.com/avatar/12528207/medium/fb016fc8e276062b53028486c179c2ba_default.png"
+      },
+      {
         "name": "joyqi",
         "github": "https://crowdin.com/profile/joyqi",
         "avatar": "https://crowdin-static.cf-downloads.crowdin.com/avatar/15576599/medium/2f5854d8059f0c944bae5bb4e3314284_default.png"
@@ -938,6 +953,11 @@
         "name": "magjogui",
         "github": "https://crowdin.com/profile/magjogui",
         "avatar": "https://crowdin-static.cf-downloads.crowdin.com/avatar/12516930/medium/ee8315f9a226e0f24ce34d729bedd02d_default.png"
+      },
+      {
+        "name": "mailover",
+        "github": "https://crowdin.com/profile/mailover",
+        "avatar": "https://crowdin-static.cf-downloads.crowdin.com/avatar/17051596/medium/d69bbaf0d83142e40a915e1b2f233f5e.png"
       },
       {
         "name": "makerspathe",
@@ -1133,6 +1153,11 @@
         "name": "safadinha1239",
         "github": "https://crowdin.com/profile/safadinha1239",
         "avatar": "https://crowdin-static.cf-downloads.crowdin.com/avatar/15663659/medium/4dbb60389146d1933b73da37dacd1309.png"
+      },
+      {
+        "name": "SamyLabs",
+        "github": "https://crowdin.com/profile/SamyLabs",
+        "avatar": "https://crowdin-static.cf-downloads.crowdin.com/avatar/14573682/medium/f13444a3a677f6ea6de424b396b20654.png"
       },
       {
         "name": "scarletwrites",
