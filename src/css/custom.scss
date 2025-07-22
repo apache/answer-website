@@ -58,12 +58,12 @@ $primary: #0033ff;
   opacity: 0.75;
 }
 
-.navbar__link.bi-translate {
+.bi-translate {
   svg {
     display: none;
   }
 }
-.navbar__link.bi::before {
+.bi-translate::before {
   font-size: 24px;
   margin-right: 0.25rem;;
 }
