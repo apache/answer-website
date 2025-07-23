@@ -2,11 +2,61 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://answer.apache.org/zh-CN/blog</id>
     <title>Apache Answer Blog</title>
-    <updated>2025-06-03T00:00:00.000Z</updated>
+    <updated>2025-07-23T00:00:00.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://answer.apache.org/zh-CN/blog"/>
     <subtitle>Apache Answer Blog</subtitle>
     <icon>https://answer.apache.org/zh-CN/img/favicon.ico</icon>
+    <entry>
+        <title type="html"><![CDATA[Apache Answer 1.6.0: Custom Suspensions, Smoother UI & Critical Fixes]]></title>
+        <id>https://answer.apache.org/zh-CN/blog/answer-1.6.0-release</id>
+        <link href="https://answer.apache.org/zh-CN/blog/answer-1.6.0-release"/>
+        <updated>2025-07-23T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Answer 1.6.0 Introduces a new feature allowing administrators to customize the pause duration & Key Bug Fixes]]></summary>
+        <content type="html"><![CDATA[<div class="mb-4"><img decoding="async" loading="lazy" src="https://answer.apache.org/zh-CN/assets/images/2025-07-23-cover@4x-b6021aee796b1a28612f4ffc33fdbd11.png" class="rounded img_RAU7" width="1280px" height="720px"></div><p>We're thrilled to announce our latest release, packed with new features, meaningful enhancements, and critical bug fixes! Here’s what’s new:</p>
+<!-- --><hr>
+<!-- --><h2 class="anchor anchorWithStickyNavbar_loeA" id="-new-features">✨ New Features<!-- --><a href="https://answer.apache.org/zh-CN/blog/answer-1.6.0-release#-new-features" class="hash-link" aria-label="✨ New Features的直接链接" title="✨ New Features的直接链接">​</a></h2>
+<!-- --><ul>
+<!-- --><li><strong>Customizable Suspension Durations</strong><br>
+<!-- -->Admins can now define custom suspension periods for users, offering greater flexibility in moderation.<!-- --><br>
+<!-- --><em>(Thanks @shuashuai, @LinkinStars | #1361)</em></li>
+<!-- --></ul>
+<!-- --><hr>
+<!-- --><h2 class="anchor anchorWithStickyNavbar_loeA" id="️-improvements">⚙️ Improvements<!-- --><a href="https://answer.apache.org/zh-CN/blog/answer-1.6.0-release#%EF%B8%8F-improvements" class="hash-link" aria-label="⚙️ Improvements的直接链接" title="⚙️ Improvements的直接链接">​</a></h2>
+<!-- --><ul>
+<!-- --><li><strong>Refined Search Results</strong><br>
+<!-- -->Reduced ambiguity in search outputs for clearer navigation.<!-- --><br>
+<!-- --><em>(Thanks @sy-records | #1351)</em></li>
+<!-- --><li><strong>Streamlined Admin Interface</strong><br>
+<!-- -->Relocated "Settings → Users" section to the "Interface" tab for better organization.<!-- --><br>
+<!-- --><em>(Thanks @shuashuai, @LinkinStars | #1360)</em></li>
+<!-- --><li><strong>Enhanced Content Styling</strong><br>
+<!-- -->Improved visual design of <!-- --><code>&lt;hr&gt;</code> tags within main content areas.<!-- --><br>
+<!-- --><em>(Thanks @shuashuai | #1364)</em></li>
+<!-- --></ul>
+<!-- --><hr>
+<!-- --><h2 class="anchor anchorWithStickyNavbar_loeA" id="-bug-fixes">🐞 Bug Fixes<!-- --><a href="https://answer.apache.org/zh-CN/blog/answer-1.6.0-release#-bug-fixes" class="hash-link" aria-label="🐞 Bug Fixes的直接链接" title="🐞 Bug Fixes的直接链接">​</a></h2>
+<!-- --><ul>
+<!-- --><li><strong>System Stability Fix</strong><br>
+<!-- -->Resolved an issue causing unexpected software halts during abnormal events.<!-- --><br>
+<!-- --><em>(Thanks @LinkinStars | #1356)</em></li>
+<!-- --><li><strong>UI Consistency Update</strong><br>
+<!-- -->Fixed dark-themed dropdown menus in the navbar to align with UI standards.<!-- --><br>
+<!-- --><em>(Thanks @shuashuai | #1355)</em></li>
+<!-- --></ul>
+<!-- --><hr>
+<!-- --><h2 class="anchor anchorWithStickyNavbar_loeA" id="️-thanks-to-our-contributors">❤️ Thanks to Our Contributors<!-- --><a href="https://answer.apache.org/zh-CN/blog/answer-1.6.0-release#%EF%B8%8F-thanks-to-our-contributors" class="hash-link" aria-label="❤️ Thanks to Our Contributors的直接链接" title="❤️ Thanks to Our Contributors的直接链接">​</a></h2>
+<!-- --><p>A huge thank you to all the contributors who helped improve this release (sorted by GitHub ID):<!-- --><br>
+<!-- --><a href="https://github.com/LinkinStars" target="_blank" rel="noopener noreferrer">@LinkinStars</a>, <!-- --><a href="https://github.com/shuashuai" target="_blank" rel="noopener noreferrer">@shuashuai</a>, <!-- --><a href="https://github.com/sy-records" target="_blank" rel="noopener noreferrer">@sy-records</a></p>
+<!-- --><p>Your contributions make this project better with every update! 🚀</p>
+<!-- --><hr>
+<!-- --><p>These updates reflect our commitment to a smoother, more intuitive experience. Thank you to our contributors and users for your ongoing support! 🚀</p>
+<!-- --><p><em>Stay tuned for more enhancements!</em></p>]]></content>
+        <author>
+            <name>Kumfo</name>
+            <uri>https://github.com/kumfo</uri>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Apache Answer 1.5.1: Now Available with Improvements and Fixes]]></title>
         <id>https://answer.apache.org/zh-CN/blog/answer-1.5.1-release</id>
@@ -918,45 +968,6 @@ Interested in helping us with the release? Give it a go following the post below
 <!-- --><p><a href="https://answer.apache.org/community/how-to-release" target="_blank" rel="noopener noreferrer">https://answer.apache.org/community/how-to-release</a></p>
 <!-- --><h2 class="anchor anchorWithStickyNavbar_loeA" id="-share-your-ideas">🤲 Share Your Ideas<!-- --><a href="https://answer.apache.org/zh-CN/blog/answer-recap-july#-share-your-ideas" class="hash-link" aria-label="🤲 Share Your Ideas的直接链接" title="🤲 Share Your Ideas的直接链接">​</a></h2>
 <!-- --><p>We love ideas, especially from you. Tell us how you like the project, and</p>]]></content>
-        <author>
-            <name>Anne Zhu</name>
-            <uri>https://github.com/PrimmaAnna</uri>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Apache Answer 邀你共赴 CommunityOverCode Asia 2024]]></title>
-        <id>https://answer.apache.org/zh-CN/blog/apache-answer-coc-asia-2024</id>
-        <link href="https://answer.apache.org/zh-CN/blog/apache-answer-coc-asia-2024"/>
-        <updated>2024-07-11T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Apache Answer 将亮相主论坛和两个分会场，杭州见。]]></summary>
-        <content type="html"><![CDATA[<div class="mb-4"><img decoding="async" loading="lazy" src="https://answer.apache.org/zh-CN/assets/images/2024-07-11-cover@4x-e821c9cb468575f1936d15c9cb528ec3.png" class="rounded img_RAU7" width="1280px" height="720px"></div><p>CommunityOverCode Asia 2024 将于 7 月 26 日至 28 日在杭州举行。</p>
-<!-- --><p>此次会议共设有 1 个主论坛和 15 个分论坛，来自不同领域的 150 余位专家导师将和大家分享 Apache 项目的新突破和 Apache 孵化器中的新创新，以及开源开发和以 “The Apache Way” 领导社区驱动的项目，共同探讨 Apache 的运作生态、Apache 软件的商业模式、开源的法律问题以及其他许多主题的内容。</p>
-<!-- --><p>今年，Apache Answer 将在两个分会场和主论坛和大家见面，分享关于我们进入孵化器后的收获，你还将了解到如何用 Answer 打造一个活跃的社区，以及非开发人员如何参与到开源贡献中。 此外，我们也欢迎你来到我们的展台和项目的 Committer 交流互动，了解更多 Answer 相关的内容。</p>
-<!-- --><h2 class="anchor anchorWithStickyNavbar_loeA" id="主题分享">主题分享<!-- --><a href="https://answer.apache.org/zh-CN/blog/apache-answer-coc-asia-2024#%E4%B8%BB%E9%A2%98%E5%88%86%E4%BA%AB" class="hash-link" aria-label="主题分享的直接链接" title="主题分享的直接链接">​</a></h2>
-<!-- --><p>去年，Apache Answer 通过投票，成功进入孵化器。在过去的一段时间里，我们收获了来自 Apache 社区不同方面的支持，包括但不限于文档、代码提交、和线下分享。
-Apache Answer 一直秉持开放沟通和协作精神，希望通过今年的 CommunityOverCode Asia 大会，能够将我们的经历和思考回馈给社区。</p>
-<!-- --><h3 class="anchor anchorWithStickyNavbar_loeA" id="incubator-专题">Incubator 专题<!-- --><a href="https://answer.apache.org/zh-CN/blog/apache-answer-coc-asia-2024#incubator-%E4%B8%93%E9%A2%98" class="hash-link" aria-label="Incubator 专题的直接链接" title="Incubator 专题的直接链接">​</a></h3>
-<!-- --><p>如果你希望了解一个开源项目是如何从零开始，一步步成长为全球开发者共同参与的杰作，亦或是想知道当一个项目被 Apache 软件基金会所接纳所需要经历哪些挑战和准备，你可以前往 Incubator 专题！LinkinStar 将与你分享 Apache Answer 的成长之路，带你了解 Answer 从开源到进入孵化器，再到首次发布 Apache 版本所面临的挑战和收获的成长。</p>
-<!-- --><h4 class="anchor anchorWithStickyNavbar_loeA" id="apache-answer-的首个-apache-版本发布之路">Apache Answer 的首个 Apache 版本发布之路<!-- --><a href="https://answer.apache.org/zh-CN/blog/apache-answer-coc-asia-2024#apache-answer-%E7%9A%84%E9%A6%96%E4%B8%AA-apache-%E7%89%88%E6%9C%AC%E5%8F%91%E5%B8%83%E4%B9%8B%E8%B7%AF" class="hash-link" aria-label="Apache Answer 的首个 Apache 版本发布之路的直接链接" title="Apache Answer 的首个 Apache 版本发布之路的直接链接">​</a></h4>
-<!-- --><p>讲者：LinkinStar｜Go 语言后端开发工程师，Apache Answer PPMC 成员</p>
-<!-- --><p>你将了解到 Answer 从开源到进入孵化器，再到首次发布 Apache 版本的过程。通过我的演讲，你可以了解开源是如何重塑我的认知，我们为 Answer 进入 Apache 软件基金会孵化器所做的准备，以及我们如何解决在发布首个 Apache 版本过程中所遇到的困难。</p>
-<!-- --><hr>
-<!-- --><h3 class="anchor anchorWithStickyNavbar_loeA" id="community-专题">Community 专题<!-- --><a href="https://answer.apache.org/zh-CN/blog/apache-answer-coc-asia-2024#community-%E4%B8%93%E9%A2%98" class="hash-link" aria-label="Community 专题的直接链接" title="Community 专题的直接链接">​</a></h3>
-<!-- --><p>社区每天都在产生大量的知识和信息，如何有效地组织、分享并利用这些知识？如何调动更多用户积极地参与？欢迎你前往 Community 专题！Anne 将与你分享 Answer 有趣且有效的运营方式，以及如何让 Answer 成为你构建活跃社区的利器。</p>
-<!-- --><h4 class="anchor anchorWithStickyNavbar_loeA" id="通过-apache-answer-提升你和社区的互动">通过 Apache Answer 提升你和社区的互动<!-- --><a href="https://answer.apache.org/zh-CN/blog/apache-answer-coc-asia-2024#%E9%80%9A%E8%BF%87-apache-answer-%E6%8F%90%E5%8D%87%E4%BD%A0%E5%92%8C%E7%A4%BE%E5%8C%BA%E7%9A%84%E4%BA%92%E5%8A%A8" class="hash-link" aria-label="通过 Apache Answer 提升你和社区的互动的直接链接" title="通过 Apache Answer 提升你和社区的互动的直接链接">​</a></h4>
-<!-- --><p>讲者：Anne Zhu ｜ 市场营销，Apache Answer PPMC 成员</p>
-<!-- --><p>Apache Answer 是一款开源的问答平台软件。我将向你展示 Answer 的功能，我们如何设立激励制度，并如何以有趣的方式调动用户的积极性。除此之外，我们还将分享该项目诞生的灵感，以及你可以如何利用 Apache Answer 构建一个活跃的线上社区。</p>
-<!-- --><hr>
-<!-- --><h3 class="anchor anchorWithStickyNavbar_loeA" id="keynote-专题">Keynote 专题<!-- --><a href="https://answer.apache.org/zh-CN/blog/apache-answer-coc-asia-2024#keynote-%E4%B8%93%E9%A2%98" class="hash-link" aria-label="Keynote 专题的直接链接" title="Keynote 专题的直接链接">​</a></h3>
-<!-- --><p>在硬核技术含量拉满的 Keynote 专题中，你或许想知道非技术人如何进行社区贡献，如何收获个人成长，并了解社区建设的实践案例，那么，请不要错过 Nadia 和 Anne 的演讲！</p>
-<!-- --><h3 class="anchor anchorWithStickyNavbar_loeA" id="非技术人在开源社区的成长">非技术人在开源社区的成长<!-- --><a href="https://answer.apache.org/zh-CN/blog/apache-answer-coc-asia-2024#%E9%9D%9E%E6%8A%80%E6%9C%AF%E4%BA%BA%E5%9C%A8%E5%BC%80%E6%BA%90%E7%A4%BE%E5%8C%BA%E7%9A%84%E6%88%90%E9%95%BF" class="hash-link" aria-label="非技术人在开源社区的成长的直接链接" title="非技术人在开源社区的成长的直接链接">​</a></h3>
-<!-- --><p>讲者：Nadia Jiang 和 Anne Zhu ｜ Apache Answer PPMC 成员</p>
-<!-- --><p>在这个演讲中，Nadia 和 Anne 将从非技术开发的视角，介绍在开源社区中有哪些非代码贡献的机会。我们将探讨文档编写、社区管理、市场营销等各种对社区产生重要影响的角色和活动。此外，我们还将分享非技术人在开源世界中的职业发展路径，展示这些角色的职业道路和成长潜力。</p>
-<!-- --><hr>
-<!-- --><h2 class="anchor anchorWithStickyNavbar_loeA" id="开源集市等你来">开源集市等你来<!-- --><a href="https://answer.apache.org/zh-CN/blog/apache-answer-coc-asia-2024#%E5%BC%80%E6%BA%90%E9%9B%86%E5%B8%82%E7%AD%89%E4%BD%A0%E6%9D%A5" class="hash-link" aria-label="开源集市等你来的直接链接" title="开源集市等你来的直接链接">​</a></h2>
-<!-- --><p>无论你刚听说 Answer，还是资深的使用者，我们都非常欢迎你来到我们的展位和我们交流互动。我们的 Committer 会在展位解答你的疑问，倾听你的使用反馈。</p>
-<!-- --><h2 class="anchor anchorWithStickyNavbar_loeA" id="即刻报名">即刻报名<!-- --><a href="https://answer.apache.org/zh-CN/blog/apache-answer-coc-asia-2024#%E5%8D%B3%E5%88%BB%E6%8A%A5%E5%90%8D" class="hash-link" aria-label="即刻报名的直接链接" title="即刻报名的直接链接">​</a></h2>
-<!-- --><p>感兴趣的各位开发者，可以点击<!-- --><a href="https://www.bagevent.com/event/8766402" target="_blank" rel="noopener noreferrer">此处</a>注册参会。<!-- --></p>]]></content>
         <author>
             <name>Anne Zhu</name>
             <uri>https://github.com/PrimmaAnna</uri>

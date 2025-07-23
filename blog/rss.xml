@@ -4,10 +4,56 @@
         <title>Apache Answer Blog</title>
         <link>https://answer.apache.org/blog</link>
         <description>Apache Answer Blog</description>
-        <lastBuildDate>Tue, 03 Jun 2025 00:00:00 GMT</lastBuildDate>
+        <lastBuildDate>Wed, 23 Jul 2025 00:00:00 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>en</language>
+        <item>
+            <title><![CDATA[Apache Answer 1.6.0: Custom Suspensions, Smoother UI & Critical Fixes]]></title>
+            <link>https://answer.apache.org/blog/answer-1.6.0-release</link>
+            <guid>https://answer.apache.org/blog/answer-1.6.0-release</guid>
+            <pubDate>Wed, 23 Jul 2025 00:00:00 GMT</pubDate>
+            <description><![CDATA[Answer 1.6.0 Introduces a new feature allowing administrators to customize the pause duration & Key Bug Fixes]]></description>
+            <content:encoded><![CDATA[<div class="mb-4"><img decoding="async" loading="lazy" src="https://answer.apache.org/assets/images/2025-07-23-cover@4x-b6021aee796b1a28612f4ffc33fdbd11.png" class="rounded img_RAU7" width="1280px" height="720px"></div><p>We're thrilled to announce our latest release, packed with new features, meaningful enhancements, and critical bug fixes! Here’s what’s new:</p>
+<!-- --><hr>
+<!-- --><h2 class="anchor anchorWithStickyNavbar_loeA" id="-new-features">✨ New Features<!-- --><a href="https://answer.apache.org/blog/answer-1.6.0-release#-new-features" class="hash-link" aria-label="Direct link to ✨ New Features" title="Direct link to ✨ New Features">​</a></h2>
+<!-- --><ul>
+<!-- --><li><strong>Customizable Suspension Durations</strong><br>
+<!-- -->Admins can now define custom suspension periods for users, offering greater flexibility in moderation.<!-- --><br>
+<!-- --><em>(Thanks @shuashuai, @LinkinStars | #1361)</em></li>
+<!-- --></ul>
+<!-- --><hr>
+<!-- --><h2 class="anchor anchorWithStickyNavbar_loeA" id="️-improvements">⚙️ Improvements<!-- --><a href="https://answer.apache.org/blog/answer-1.6.0-release#%EF%B8%8F-improvements" class="hash-link" aria-label="Direct link to ⚙️ Improvements" title="Direct link to ⚙️ Improvements">​</a></h2>
+<!-- --><ul>
+<!-- --><li><strong>Refined Search Results</strong><br>
+<!-- -->Reduced ambiguity in search outputs for clearer navigation.<!-- --><br>
+<!-- --><em>(Thanks @sy-records | #1351)</em></li>
+<!-- --><li><strong>Streamlined Admin Interface</strong><br>
+<!-- -->Relocated "Settings → Users" section to the "Interface" tab for better organization.<!-- --><br>
+<!-- --><em>(Thanks @shuashuai, @LinkinStars | #1360)</em></li>
+<!-- --><li><strong>Enhanced Content Styling</strong><br>
+<!-- -->Improved visual design of <!-- --><code>&lt;hr&gt;</code> tags within main content areas.<!-- --><br>
+<!-- --><em>(Thanks @shuashuai | #1364)</em></li>
+<!-- --></ul>
+<!-- --><hr>
+<!-- --><h2 class="anchor anchorWithStickyNavbar_loeA" id="-bug-fixes">🐞 Bug Fixes<!-- --><a href="https://answer.apache.org/blog/answer-1.6.0-release#-bug-fixes" class="hash-link" aria-label="Direct link to 🐞 Bug Fixes" title="Direct link to 🐞 Bug Fixes">​</a></h2>
+<!-- --><ul>
+<!-- --><li><strong>System Stability Fix</strong><br>
+<!-- -->Resolved an issue causing unexpected software halts during abnormal events.<!-- --><br>
+<!-- --><em>(Thanks @LinkinStars | #1356)</em></li>
+<!-- --><li><strong>UI Consistency Update</strong><br>
+<!-- -->Fixed dark-themed dropdown menus in the navbar to align with UI standards.<!-- --><br>
+<!-- --><em>(Thanks @shuashuai | #1355)</em></li>
+<!-- --></ul>
+<!-- --><hr>
+<!-- --><h2 class="anchor anchorWithStickyNavbar_loeA" id="️-thanks-to-our-contributors">❤️ Thanks to Our Contributors<!-- --><a href="https://answer.apache.org/blog/answer-1.6.0-release#%EF%B8%8F-thanks-to-our-contributors" class="hash-link" aria-label="Direct link to ❤️ Thanks to Our Contributors" title="Direct link to ❤️ Thanks to Our Contributors">​</a></h2>
+<!-- --><p>A huge thank you to all the contributors who helped improve this release (sorted by GitHub ID):<!-- --><br>
+<!-- --><a href="https://github.com/LinkinStars" target="_blank" rel="noopener noreferrer">@LinkinStars</a>, <!-- --><a href="https://github.com/shuashuai" target="_blank" rel="noopener noreferrer">@shuashuai</a>, <!-- --><a href="https://github.com/sy-records" target="_blank" rel="noopener noreferrer">@sy-records</a></p>
+<!-- --><p>Your contributions make this project better with every update! 🚀</p>
+<!-- --><hr>
+<!-- --><p>These updates reflect our commitment to a smoother, more intuitive experience. Thank you to our contributors and users for your ongoing support! 🚀</p>
+<!-- --><p><em>Stay tuned for more enhancements!</em></p>]]></content:encoded>
+        </item>
         <item>
             <title><![CDATA[Apache Answer 1.5.1: Now Available with Improvements and Fixes]]></title>
             <link>https://answer.apache.org/blog/answer-1.5.1-release</link>
@@ -807,46 +853,6 @@ Interested in helping us with the release? Give it a go following the post below
 <!-- --><p><a href="https://answer.apache.org/community/how-to-release" target="_blank" rel="noopener noreferrer">https://answer.apache.org/community/how-to-release</a></p>
 <!-- --><h2 class="anchor anchorWithStickyNavbar_loeA" id="-share-your-ideas">🤲 Share Your Ideas<!-- --><a href="https://answer.apache.org/blog/answer-recap-july#-share-your-ideas" class="hash-link" aria-label="Direct link to 🤲 Share Your Ideas" title="Direct link to 🤲 Share Your Ideas">​</a></h2>
 <!-- --><p>We love ideas, especially from you. Tell us how you like the project.</p>]]></content:encoded>
-        </item>
-        <item>
-            <title><![CDATA[Join Apache Answer at CommunityOverCode Asia 2024]]></title>
-            <link>https://answer.apache.org/blog/apache-answer-coc-asia-2024</link>
-            <guid>https://answer.apache.org/blog/apache-answer-coc-asia-2024</guid>
-            <pubDate>Thu, 11 Jul 2024 00:00:00 GMT</pubDate>
-            <description><![CDATA[Join Apache Answer's speeches in Incubator track, Community track, Keynote. Talk to us at our booth in CoC Asia 2024.]]></description>
-            <content:encoded><![CDATA[<div class="mb-4"><img decoding="async" loading="lazy" src="https://answer.apache.org/assets/images/2024-07-11-cover@4x-e821c9cb468575f1936d15c9cb528ec3.png" class="rounded img_RAU7" width="1280px" height="720px"></div><p>CommunityOver ode Asia 2024 will take place in Hangzhou, China, July 26-28, 2024.</p>
-<!-- --><p>This year, the event features one main forum,15 sub-forums with over 150 experts and mentors. Attendees can learn about Apache's latest breakthrough, upcoming innovations, and insights from community-driven projects guided by the Apache way, while exploring Apache's ecosystem, business models, legal issues, and more. The full breakout session schedule can be viewed <!-- --><a href="https://asia.communityovercode.org/schedule.html" target="_blank" rel="noopener noreferrer">here</a>.<!-- --></p>
-<!-- --><p>As an incubating project, Apache Answer is always open to communication and collaboration. We started our CommunityOverCode Asia journey from a booth last year, and this year we’re back with not just the booth, but <!-- --><strong>two sessions, and one keynote</strong>.<!-- --></p>
-<!-- --><h2 class="anchor anchorWithStickyNavbar_loeA" id="see-you-in-our-sessions">See You in Our Sessions<!-- --><a href="https://answer.apache.org/blog/apache-answer-coc-asia-2024#see-you-in-our-sessions" class="hash-link" aria-label="Direct link to See You in Our Sessions" title="Direct link to See You in Our Sessions">​</a></h2>
-<!-- --><p>Last year, Apache Answer passed the vote and entered the incubator. We’ve been receiving help from the community, including but not limited to documentations, PRs, and meetup. Time for us to give it back to the open-source world.</p>
-<!-- --><p>Follow PPMC member LinkinStar, backend engineer, to look back at our first Apache release, how we settled down, and how the community nail the challenges. Dive with Anne Zhu, marketing specialist, for a closer look at Apache Answer with practical how-tos to engage your community members. Don’t forget to join Nadia and Anne for their keynote on non-code contributions within the open-source ecosystem.&nbsp;</p>
-<!-- --><h3 class="anchor anchorWithStickyNavbar_loeA" id="incubator-track">Incubator Track<!-- --><a href="https://answer.apache.org/blog/apache-answer-coc-asia-2024#incubator-track" class="hash-link" aria-label="Direct link to Incubator Track" title="Direct link to Incubator Track">​</a></h3>
-<!-- --><p>This track provides insights on the incubator journey, Apache’s governance, and operations. Participants will learn about advancing from incubation to a Top-Level Project (TLP) and strategies for building a diverse, compliant open-source community.</p>
-<!-- --><h4 class="anchor anchorWithStickyNavbar_loeA" id="the-journey-from-incubation-to-first-release-unveiling-the-apache-answer-release-way">The Journey from Incubation to First Release: Unveiling the Apache Answer Release Way<!-- --><a href="https://answer.apache.org/blog/apache-answer-coc-asia-2024#the-journey-from-incubation-to-first-release-unveiling-the-apache-answer-release-way" class="hash-link" aria-label="Direct link to The Journey from Incubation to First Release: Unveiling the Apache Answer Release Way" title="Direct link to The Journey from Incubation to First Release: Unveiling the Apache Answer Release Way">​</a></h4>
-<!-- --><p>Speaker: LinkinStar<!-- --><br>
-<!-- -->Apache Answer PPMC Member, architect of SegmentFault, and Golang backend expert.<!-- --></p>
-<!-- --><p>Join me as I share Answer's journey—from the transformative insights gained by participating in open source, through the story-rich donation process to Apache, to the challenging yet rewarding path to our first release. Discover how open source reshaped my understanding, the collaborative efforts behind Answer's integration into the Apache Software Foundation, and the persistence needed to navigate the complexities of launching our initial version. This session is a concise exploration of lessons learned and the unyielding spirit of the open-source community.</p>
-<!-- --><p><em>Click <!-- --><a href="https://asia.communityovercode.org/schedule.html" target="_blank" rel="noopener noreferrer">here</a> for more on the schedule.<!-- --></em></p>
-<!-- --><hr>
-<!-- --><h2 class="anchor anchorWithStickyNavbar_loeA" id="community-track">Community Track<!-- --><a href="https://answer.apache.org/blog/apache-answer-coc-asia-2024#community-track" class="hash-link" aria-label="Direct link to Community Track" title="Direct link to Community Track">​</a></h2>
-<!-- --><p>Why does ASF believe in "Community over Code"? There is more to open-source than just code contribution. In this track, let’s explore topics like governance models, growing project communities, diversity and inclusion, community health metrics, management tools, project roadmaps, case studies, and sustaining open-source communities.</p>
-<!-- --><h3 class="anchor anchorWithStickyNavbar_loeA" id="enhance-your-community-engagement-with-apache-answer">Enhance Your Community Engagement with Apache Answer<!-- --><a href="https://answer.apache.org/blog/apache-answer-coc-asia-2024#enhance-your-community-engagement-with-apache-answer" class="hash-link" aria-label="Direct link to Enhance Your Community Engagement with Apache Answer" title="Direct link to Enhance Your Community Engagement with Apache Answer">​</a></h3>
-<!-- --><p>Speaker: Anne Zhu<!-- --><br>
-<!-- -->Apache Answer PPMC member, and marketing specialist.<!-- --></p>
-<!-- --><p>Apache Answer is an open-source Q&amp;A platform software. It is designed to enhance your community engagement with features you'll need and love. In this session, we will start with the paths of how we help users find better answers, how we cherish and reward the good deeds, and engage the users in fun ways. We would also love to share your ideas on how we have the idea of this project, and how you can use Apache Answer for building your next online community.</p>
-<!-- --><p><em>Click <!-- --><a href="https://asia.communityovercode.org/schedule.html" target="_blank" rel="noopener noreferrer">here</a> for more on the schedule.<!-- --></em></p>
-<!-- --><hr>
-<!-- --><h2 class="anchor anchorWithStickyNavbar_loeA" id="keynote">Keynote<!-- --><a href="https://answer.apache.org/blog/apache-answer-coc-asia-2024#keynote" class="hash-link" aria-label="Direct link to Keynote" title="Direct link to Keynote">​</a></h2>
-<!-- --><p>Keynote is the place where you can see the latest breakthrough of open source, gain views of from different aspects of open source, and ways you can get involve.</p>
-<!-- --><h3 class="anchor anchorWithStickyNavbar_loeA" id="beyond-the-code-growing-in-the-apache-community">Beyond the Code: Growing in the Apache Community<!-- --><a href="https://answer.apache.org/blog/apache-answer-coc-asia-2024#beyond-the-code-growing-in-the-apache-community" class="hash-link" aria-label="Direct link to Beyond the Code: Growing in the Apache Community" title="Direct link to Beyond the Code: Growing in the Apache Community">​</a></h3>
-<!-- --><p>Speaker: Nadia Jiang and Anne Zhu<!-- --><br>
-<!-- -->PPMC member of Apache Answer<!-- --></p>
-<!-- --><p>Nadia and Anne will share their experiences as non-developers thriving in open source. We will explore various roles and activities that significantly impact the community, such as documentation, community management, marketing, and more. Furthermore, we will share insights on career development for non-technical individuals in the open-source world, highlighting the unique career paths and growth potential available.</p>
-<!-- --><hr>
-<!-- --><h2 class="anchor anchorWithStickyNavbar_loeA" id="drop-by-at-our-booth">Drop By at Our Booth<!-- --><a href="https://answer.apache.org/blog/apache-answer-coc-asia-2024#drop-by-at-our-booth" class="hash-link" aria-label="Direct link to Drop By at Our Booth" title="Direct link to Drop By at Our Booth">​</a></h2>
-<!-- --><p>Our journey starts with the booth, how can we miss it this year? We’ve prepared stickers, brand-new flyers, and of course, you can give it a try with Answer.Meta to unlock the latest features. Come and talk to our committers, we’re all ears for your feedback and questions.</p>
-<!-- --><h2 class="anchor anchorWithStickyNavbar_loeA" id="save-your-date-get-the-ticket">Save Your Date. Get the Ticket.<!-- --><a href="https://answer.apache.org/blog/apache-answer-coc-asia-2024#save-your-date-get-the-ticket" class="hash-link" aria-label="Direct link to Save Your Date. Get the Ticket." title="Direct link to Save Your Date. Get the Ticket.">​</a></h2>
-<!-- --><p>Ready for an Apache journey? <!-- --><a href="https://asia.communityovercode.org/#register" target="_blank" rel="noopener noreferrer">Register now</a> and get your ticket. See you in Hangzhou.<!-- --></p>]]></content:encoded>
         </item>
     </channel>
 </rss>
