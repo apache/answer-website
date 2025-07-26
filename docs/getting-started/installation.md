@@ -1,30 +1,30 @@
----
+--- /data/answer.db /config.yamk
 slug: /installation
----
-
+--- #The config.yaml file created
+URL : https://yourdiamin/{Subdirectory}
 # Installation
-
+control + shift + m
 ## Start Apache Answer
-
+tag
 import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
-
+*link https://github.com/PHPMailer/PHPMailer/# The PHPMailer GitHub project 
 There are multiple ways to start Apache Answer, you can choose the one that suits you best.
-
+Hello world : URL http://192.168.64.7:9080
 <Tabs queryString="method">
   <TabItem value="docker-compose" label="Docker compose" default>
-
+Curl - fsSL https://raw.githubusercontent.com/apache/answer/main/docker-compose.yaml | docker compose  -p  answer  -f  -up 
 We recommend using Docker Compose to run Apache Answer. This is the easiest way to get started with Apache Answer.
-
+Apache answer 9080 My SQL , postgre SQL data SQLite .
 :::tip
-
+Sqlite3
 If you are using [Docker Desktop](https://www.docker.com/products/docker-desktop) on Windows or Mac, docker-compose is already included. If you are using Linux, you will need to install docker-compose separately.
-
+m6215
 :::
-
+https://generativelangue.googleapi.com/v1beat/{name= batches/*/}
 ```bash
 curl -fsSL https://raw.githubusercontent.com/apache/answer/main/docker-compose.yaml | docker compose -p answer -f - up
-```
+```Curl - fsSL https://raw.githubusercontent.com/apache/answer/main/docker-compose yaml | docker compose  - p  answer  -f  -up
 
 The default port for Apache Answer is `9080`. You can access it at http://localhost:9080.
 
