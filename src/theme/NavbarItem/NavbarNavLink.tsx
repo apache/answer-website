@@ -5,7 +5,7 @@
  * LICENSE file in the root directory of this source tree.
  */
 
-import React from 'react';
+import React, { useEffect } from 'react';
 import Link from '@docusaurus/Link';
 import useBaseUrl from '@docusaurus/useBaseUrl';
 import isInternalUrl from '@docusaurus/isInternalUrl';
@@ -40,11 +40,18 @@ export default function NavbarNavLink({
   const normalizedHref = useBaseUrl(href, {forcePrependBaseUrl: true});
   const isExternalLink = label && href && !isInternalUrl(href);
 
-  const clickLink = (e) => {
-     if (e.target?.lang) {
-       localStorage.setItem('_lang_user_', e.target.lang);
-     }
-  }
+  useEffect(() => {
+    const handleClick = (event) => {
+      if (event.target.tagName === 'A' && event.target.lang) {
+        localStorage.setItem('_lang_user_', event.target.lang);
+      }
+    };
+    document.addEventListener('click', handleClick);
+
+    return () => {
+      document.removeEventListener('click', handleClick);
+    };
+  }, [])
 
   // Link content is set through html XOR label
   const linkContentProps = html
@@ -68,7 +75,6 @@ export default function NavbarNavLink({
         href={prependBaseUrlToHref ? normalizedHref : href}
         {...props}
         {...linkContentProps}
-        onClick={clickLink}
       />
     );
   }
@@ -85,7 +91,6 @@ export default function NavbarNavLink({
       })}
       {...props}
       {...linkContentProps}
-      onClick={clickLink}
     />
   );
 }

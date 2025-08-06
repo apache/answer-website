@@ -2,7 +2,7 @@
 date: 2023-07-22
 title: The Packaging Process for Answer Plugins
 authors: [LinkinStar]
-category: Tech
+category: Tutorials
 featured: true
 image: 2023-07-22-cover@4x.png
 description: "Let's discuss the design and implementation of the plugin system for Answer, and know why we design this way."

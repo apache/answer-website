@@ -30,5 +30,10 @@ module.exports = {
       href: 'https://github.com/apache/answer/projects',
       label: 'Roadmap',
     },
+    {
+      type: 'link',
+      href: 'https://www.apache.org/logos/#answer',
+      label: 'Logos',
+    },
   ],
 };

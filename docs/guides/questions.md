@@ -8,6 +8,10 @@ slug: /questions
 
 ![Question state diagram](/img/docs/questions-question-status.drawio.svg)
 
-## Apache Answer status
+## Question visibility
 
-![Apache Answer state diagram](/img/docs/questions-answer-status.drawio.svg)
+![Question visibility diagram](/img/docs/questions-question-visibility.drawio.svg)
+
+## Answer status
+
+![Answer state diagram](/img/docs/questions-answer-status.drawio.svg)

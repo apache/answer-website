@@ -2,11 +2,13 @@ import React, { JSX } from 'react'
 import { Container } from 'react-bootstrap'
 import { translate } from '@docusaurus/Translate'
 import Layout from '@theme/Layout'
+import latest from '@site/static/data/latest.json'
 
 import HeaderSlogan from '../components/HeaderSlogan'
 
 export default function Plugins(): JSX.Element {
-  const item = '1.4.5'
+  const item = latest.release.version;
+  const date = latest.release.date;
   return (
     <Layout
       title={translate({ message: 'Download' })}
@@ -28,7 +30,7 @@ export default function Plugins(): JSX.Element {
           <tbody>
             <tr>
               <td>{item}</td>
-              <td>2025-03-24</td>
+              <td>{date}</td>
               <td>
                 <ul className="list-unstyled mb-0">
                   <li>

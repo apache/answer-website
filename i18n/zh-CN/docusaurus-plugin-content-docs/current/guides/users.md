@@ -57,9 +57,9 @@ A user wants to log in. The user's login permissions are related to the status.
 - Login status is remembered for 14 days by default.
 - Click "Forgot password" to reset password if someone forgot their password.
 
-### Log in from thridy-party OAuth
+### Log in from third-party OAuth
 
-![Thirdy-party OAuth process](/img/docs/users-oauth.drawio.svg)
+![Third-party OAuth process](/img/docs/users-oauth.drawio.svg)
 
 ## Reset password
 

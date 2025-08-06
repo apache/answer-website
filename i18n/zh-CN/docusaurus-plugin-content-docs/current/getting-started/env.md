@@ -24,6 +24,13 @@ slug: /env
 - `ADMIN_NAME`: 管理员姓名
 - `ADMIN_PASSWORD`: 管理员密码
 - `ADMIN_EMAIL`: 管理员邮箱
+- `EXTERNAL_CONTENT_DISPLAY`: 内容包括图片、视频和从外部网站嵌入的媒体。 支持 [`always_display` `ask_before_display`] 
+
+### 用于覆盖配置文件
+
+- `SWAGGER_HOST` - swagger 显示的地址, 比如 `192.168.12.12` 或者 `answer.apache.org`
+- `SWAGGER_ADDRESS_PORT` - swagger 显示的端口, 比如 `:3000`
+- `SITE_ADDR` - 网站运行的地址, 比如 `0.0.0.0:3000`
 
 ## Log
 

@@ -17,12 +17,12 @@
 
 # NOTE: All configurations could be found here: https://cwiki.apache.org/confluence/display/INFRA/Git+-+.asf.yaml+features
 github:
-  description: "Answer official website."
-  homepage: https://answer.apache.org/
+  description: "Apache Answer official website."
+  homepage: https://answer.apache.org
   enabled_merge_buttons:
     squash: true
-    merge: true
-    rebase: false
+    rebase: true
+    merge: false
   protected_branches:
     main: {}
     dist-pages: {}
@@ -32,6 +32,6 @@ publish:
 
 notifications:
   commits:      commits@answer.apache.org
-  issues:       commits@answer.apache.org
-  pullrequests: commits@answer.apache.org
-  discussions:  commits@answer.apache.org
+  issues:       issues@answer.apache.org
+  pullrequests: issues@answer.apache.org
+  discussions:  issues@answer.apache.org
