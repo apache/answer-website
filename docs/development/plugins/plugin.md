@@ -34,6 +34,7 @@ Cache | Backend Plugin | Support for using different caching middleware.
 Search | Backend Plugin | Support for using search engines to speed up the search for question answers.
 User Center | Backend Plugin | Using the third-party user system to manage users.
 Notification | Backend Plugin | The Notification plugin helps us to send messages to third-party notification systems.
+Sidebar | Backend Plugin | Add custom content on the sidebar navigation
 Route | Standard UI Plugin | Provides support for custom routing.
 Editor | Standard UI Plugin | Supports extending the markdown editor's toolbar.
 Captcha | Standard UI Plugin | Provides support for captcha.
