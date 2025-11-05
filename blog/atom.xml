@@ -2,11 +2,140 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://answer.apache.org/blog</id>
     <title>Apache Answer Blog</title>
-    <updated>2025-07-23T00:00:00.000Z</updated>
+    <updated>2025-10-31T00:00:00.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://answer.apache.org/blog"/>
     <subtitle>Apache Answer Blog</subtitle>
     <icon>https://answer.apache.org/img/favicon.ico</icon>
+    <entry>
+        <title type="html"><![CDATA[Apache Answer 1.7.0: Quicklinks Plugin & Layout Improvements]]></title>
+        <id>https://answer.apache.org/blog/answer-1.7.0-release</id>
+        <link href="https://answer.apache.org/blog/answer-1.7.0-release"/>
+        <updated>2025-10-31T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Answer 1.7.0 introduces Quicklinks plugin, layout improvements, schemaForm enhancements, responsive optimizations, and important bug fixes.]]></summary>
+        <content type="html"><![CDATA[<div class="mb-4"><img decoding="async" loading="lazy" src="https://answer.apache.org/assets/images/2025-11-05-cover-aca90b4f0bbf365441fe43ebc63da10b.png" class="rounded img_RAU7" width="1280px" height="720px"></div><p>We're excited to announce the release of <!-- --><strong>Apache Answer v1.7.0</strong>! This version brings significant improvements to the plugin ecosystem, user interface, and overall user experience. Thank you to all contributors who made this release possible.<!-- --></p>
+<!-- --><div class="theme-admonition theme-admonition-caution admonition_inHR alert alert--warning"><div class="admonitionHeading_piGE"><span class="admonitionIcon_ROqA"><svg viewBox="0 0 16 16"><path fill-rule="evenodd" d="M8.893 1.5c-.183-.31-.52-.5-.887-.5s-.703.19-.886.5L.138 13.499a.98.98 0 0 0 0 1.001c.193.31.53.501.886.501h13.964c.367 0 .704-.19.877-.5a1.03 1.03 0 0 0 .01-1.002L8.893 1.5zm.133 11.497H6.987v-2.003h2.039v2.003zm0-3.004H6.987V5.987h2.039v4.006z"></path></svg></span>caution<!-- --></div><div class="admonitionContent_BA39"><p><strong>Important Notice</strong>: We have made a lot of layout changes in this version. If you have modified the page layout, there may be conflicts. Please remember to backup your old data before upgrading.<!-- --></p></div></div>
+<!-- --><h2 class="anchor anchorWithStickyNavbar_loeA" id="new-features">New Features<!-- --><a href="https://answer.apache.org/blog/answer-1.7.0-release#new-features" class="hash-link" aria-label="Direct link to New Features" title="Direct link to New Features">​</a></h2>
+<!-- --><h3 class="anchor anchorWithStickyNavbar_loeA" id="quicklinks-plugin">Quicklinks Plugin<!-- --><a href="https://answer.apache.org/blog/answer-1.7.0-release#quicklinks-plugin" class="hash-link" aria-label="Direct link to Quicklinks Plugin" title="Direct link to Quicklinks Plugin">​</a></h3>
+<!-- --><p>The Quicklinks plugin is now available and integrated by default, providing administrators with powerful navigation management capabilities. This plugin allows you to create custom quick links that help users navigate your community more efficiently.</p>
+<!-- --><ul>
+<!-- --><li><strong>New</strong>: Quicklinks Plugin (<!-- --><a href="https://github.com/apache/answer-plugins/issues/269" target="_blank" rel="noopener noreferrer">apache/answer-plugins#269</a>) by <!-- --><a href="https://github.com/shuashuai" target="_blank" rel="noopener noreferrer">@shuashuai</a></li>
+<!-- --><li><strong>New</strong>: Integrated Quicklinks plugin by default (<!-- --><a href="https://github.com/apache/answer/issues/1405" target="_blank" rel="noopener noreferrer">#1405</a>) by <!-- --><a href="https://github.com/LinkinStars" target="_blank" rel="noopener noreferrer">@LinkinStars</a></li>
+<!-- --></ul>
+<!-- --><h2 class="anchor anchorWithStickyNavbar_loeA" id="improvements">Improvements<!-- --><a href="https://answer.apache.org/blog/answer-1.7.0-release#improvements" class="hash-link" aria-label="Direct link to Improvements" title="Direct link to Improvements">​</a></h2>
+<!-- --><h3 class="anchor anchorWithStickyNavbar_loeA" id="form--schema-enhancements">Form &amp; Schema Enhancements<!-- --><a href="https://answer.apache.org/blog/answer-1.7.0-release#form--schema-enhancements" class="hash-link" aria-label="Direct link to Form &amp; Schema Enhancements" title="Direct link to Form &amp; Schema Enhancements">​</a></h3>
+<!-- --><ul>
+<!-- --><li><strong>schemaForm support tagSelector component</strong> (<!-- --><a href="https://github.com/apache/answer/pull/1380" target="_blank" rel="noopener noreferrer">#1380</a>) by <!-- --><a href="https://github.com/shuashuai" target="_blank" rel="noopener noreferrer">@shuashuai</a><br>
+<!-- -->Plugin developers can now use tagSelector components in schemaForm, making it easier to create forms with tag selection capabilities.<!-- --></li>
+<!-- --></ul>
+<!-- --><h3 class="anchor anchorWithStickyNavbar_loeA" id="layout--ui-improvements">Layout &amp; UI Improvements<!-- --><a href="https://answer.apache.org/blog/answer-1.7.0-release#layout--ui-improvements" class="hash-link" aria-label="Direct link to Layout &amp; UI Improvements" title="Direct link to Layout &amp; UI Improvements">​</a></h3>
+<!-- --><ul>
+<!-- --><li>
+<!-- --><p><strong>The question detail page no longer displays the pinned status</strong> (<!-- --><a href="https://github.com/apache/answer/pull/1393" target="_blank" rel="noopener noreferrer">#1393</a>) by <!-- --><a href="https://github.com/shuashuai" target="_blank" rel="noopener noreferrer">@shuashuai</a><br>
+<!-- -->Cleaner question detail page without redundant pinned status indicators.<!-- --></p>
+<!-- --></li>
+<!-- --><li>
+<!-- --><p><strong>Unified question URL path</strong> (<!-- --><a href="https://github.com/apache/answer/pull/1392" target="_blank" rel="noopener noreferrer">#1392</a>) by <!-- --><a href="https://github.com/shuashuai" target="_blank" rel="noopener noreferrer">@shuashuai</a><br>
+<!-- -->Consistent URL structure for questions improves SEO and user experience.<!-- --></p>
+<!-- --></li>
+<!-- --><li>
+<!-- --><p><strong>Related will display an empty area when there is no content</strong> (<!-- --><a href="https://github.com/apache/answer/pull/1394" target="_blank" rel="noopener noreferrer">#1394</a>) by <!-- --><a href="https://github.com/Dinesht04" target="_blank" rel="noopener noreferrer">@Dinesht04</a><br>
+<!-- -->Better visual feedback when related content is not available.<!-- --></p>
+<!-- --></li>
+<!-- --><li>
+<!-- --><p><strong>Optimize responsive layout</strong> (<!-- --><a href="https://github.com/apache/answer/pull/1406" target="_blank" rel="noopener noreferrer">#1406</a>) by <!-- --><a href="https://github.com/shuashuai" target="_blank" rel="noopener noreferrer">@shuashuai</a><br>
+<!-- -->Enhanced mobile and tablet experience with improved responsive design.<!-- --></p>
+<!-- --></li>
+<!-- --></ul>
+<!-- --><h3 class="anchor anchorWithStickyNavbar_loeA" id="user-experience-enhancements">User Experience Enhancements<!-- --><a href="https://answer.apache.org/blog/answer-1.7.0-release#user-experience-enhancements" class="hash-link" aria-label="Direct link to User Experience Enhancements" title="Direct link to User Experience Enhancements">​</a></h3>
+<!-- --><ul>
+<!-- --><li>
+<!-- --><p><strong>Make tags optional when creating new questions</strong> (<!-- --><a href="https://github.com/apache/answer/pull/1177" target="_blank" rel="noopener noreferrer">#1177</a>) by <!-- --><a href="https://github.com/Dinesht04" target="_blank" rel="noopener noreferrer">@Dinesht04</a><br>
+<!-- -->Users can now create questions without tags, providing more flexibility in question creation.<!-- --></p>
+<!-- --></li>
+<!-- --><li>
+<!-- --><p><strong>Make "Body" part of the question optional</strong> (<!-- --><a href="https://github.com/apache/answer/pull/842" target="_blank" rel="noopener noreferrer">#842</a>) by <!-- --><a href="https://github.com/Dinesht04" target="_blank" rel="noopener noreferrer">@Dinesht04</a><br>
+<!-- -->Questions can be created with just a title, allowing for simpler question formats.<!-- --></p>
+<!-- --></li>
+<!-- --></ul>
+<!-- --><h3 class="anchor anchorWithStickyNavbar_loeA" id="command-line-tool-enhancement">Command-Line Tool Enhancement<!-- --><a href="https://answer.apache.org/blog/answer-1.7.0-release#command-line-tool-enhancement" class="hash-link" aria-label="Direct link to Command-Line Tool Enhancement" title="Direct link to Command-Line Tool Enhancement">​</a></h3>
+<!-- --><ul>
+<!-- --><li><strong>Add resetPassword option to command-line tool</strong> (<!-- --><a href="https://github.com/apache/answer/pull/1400" target="_blank" rel="noopener noreferrer">#1400</a>, <!-- --><a href="https://github.com/apache/answer/pull/1308" target="_blank" rel="noopener noreferrer">#1308</a>) by <!-- --><a href="https://github.com/sosyz" target="_blank" rel="noopener noreferrer">@sosyz</a><br>
+<!-- -->Administrators can now reset user passwords directly from the command line, improving account management capabilities.<!-- --></li>
+<!-- --></ul>
+<!-- --><h2 class="anchor anchorWithStickyNavbar_loeA" id="bug-fixes">Bug Fixes<!-- --><a href="https://answer.apache.org/blog/answer-1.7.0-release#bug-fixes" class="hash-link" aria-label="Direct link to Bug Fixes" title="Direct link to Bug Fixes">​</a></h2>
+<!-- --><h3 class="anchor anchorWithStickyNavbar_loeA" id="image--media-fixes">Image &amp; Media Fixes<!-- --><a href="https://answer.apache.org/blog/answer-1.7.0-release#image--media-fixes" class="hash-link" aria-label="Direct link to Image &amp; Media Fixes" title="Direct link to Image &amp; Media Fixes">​</a></h3>
+<!-- --><ul>
+<!-- --><li><strong>Fixed: Images in answers not correctly resized</strong> (<!-- --><a href="https://github.com/apache/answer/pull/1404" target="_blank" rel="noopener noreferrer">#1404</a>) by <!-- --><a href="https://github.com/shuashuai" target="_blank" rel="noopener noreferrer">@shuashuai</a><br>
+<!-- -->Images in answers now properly resize according to container dimensions.<!-- --></li>
+<!-- --></ul>
+<!-- --><h3 class="anchor anchorWithStickyNavbar_loeA" id="notification-system-fixes">Notification System Fixes<!-- --><a href="https://answer.apache.org/blog/answer-1.7.0-release#notification-system-fixes" class="hash-link" aria-label="Direct link to Notification System Fixes" title="Direct link to Notification System Fixes">​</a></h3>
+<!-- --><ul>
+<!-- --><li>
+<!-- --><p><strong>Fixed: New Question Notification Message not get trigger_user</strong> (<!-- --><a href="https://github.com/apache/answer/pull/1384" target="_blank" rel="noopener noreferrer">#1384</a>, <!-- --><a href="https://github.com/apache/answer/pull/1385" target="_blank" rel="noopener noreferrer">#1385</a>) by <!-- --><a href="https://github.com/light-white" target="_blank" rel="noopener noreferrer">@light-white</a><br>
+<!-- -->Notification messages now correctly include the trigger user information.<!-- --></p>
+<!-- --></li>
+<!-- --><li>
+<!-- --><p><strong>Fixed: New Question Notification Message not get new tag</strong> (<!-- --><a href="https://github.com/apache/answer/pull/1382" target="_blank" rel="noopener noreferrer">#1382</a>, <!-- --><a href="https://github.com/apache/answer/pull/1383" target="_blank" rel="noopener noreferrer">#1383</a>) by <!-- --><a href="https://github.com/light-white" target="_blank" rel="noopener noreferrer">@light-white</a><br>
+<!-- -->Notifications now properly include new tag information when tags are added to questions.<!-- --></p>
+<!-- --></li>
+<!-- --></ul>
+<!-- --><h3 class="anchor anchorWithStickyNavbar_loeA" id="user--authentication-fixes">User &amp; Authentication Fixes<!-- --><a href="https://answer.apache.org/blog/answer-1.7.0-release#user--authentication-fixes" class="hash-link" aria-label="Direct link to User &amp; Authentication Fixes" title="Direct link to User &amp; Authentication Fixes">​</a></h3>
+<!-- --><ul>
+<!-- --><li><strong>Fixed: sync username character</strong> (<!-- --><a href="https://github.com/apache/answer/pull/1397" target="_blank" rel="noopener noreferrer">#1397</a>) by <!-- --><a href="https://github.com/sy-records" target="_blank" rel="noopener noreferrer">@sy-records</a><br>
+<!-- -->Username character synchronization issue resolved.<!-- --></li>
+<!-- --></ul>
+<!-- --><h3 class="anchor anchorWithStickyNavbar_loeA" id="theme--styling-fixes">Theme &amp; Styling Fixes<!-- --><a href="https://answer.apache.org/blog/answer-1.7.0-release#theme--styling-fixes" class="hash-link" aria-label="Direct link to Theme &amp; Styling Fixes" title="Direct link to Theme &amp; Styling Fixes">​</a></h3>
+<!-- --><ul>
+<!-- --><li><strong>Fixed: Dark Mode: Wrong background color for code block</strong> (<!-- --><a href="https://github.com/apache/answer/pull/1368" target="_blank" rel="noopener noreferrer">#1368</a>) by <!-- --><a href="https://github.com/Dinesht04" target="_blank" rel="noopener noreferrer">@Dinesht04</a><br>
+<!-- -->Code blocks now display correctly in dark mode with proper background colors.<!-- --></li>
+<!-- --></ul>
+<!-- --><h3 class="anchor anchorWithStickyNavbar_loeA" id="plugin-system-fixes">Plugin System Fixes<!-- --><a href="https://answer.apache.org/blog/answer-1.7.0-release#plugin-system-fixes" class="hash-link" aria-label="Direct link to Plugin System Fixes" title="Direct link to Plugin System Fixes">​</a></h3>
+<!-- --><ul>
+<!-- --><li><strong>Fixed: Plugin installation: build failed failed to copy ui files</strong> (<!-- --><a href="https://github.com/apache/answer/pull/1376" target="_blank" rel="noopener noreferrer">#1376</a>) by <!-- --><a href="https://github.com/hgaol" target="_blank" rel="noopener noreferrer">@hgaol</a><br>
+<!-- -->Plugin installation now correctly copies UI files during the build process.<!-- --></li>
+<!-- --></ul>
+<!-- --><h2 class="anchor anchorWithStickyNavbar_loeA" id="new-contributors">New Contributors<!-- --><a href="https://answer.apache.org/blog/answer-1.7.0-release#new-contributors" class="hash-link" aria-label="Direct link to New Contributors" title="Direct link to New Contributors">​</a></h2>
+<!-- --><p>We're thrilled to welcome new contributors to the Apache Answer community:</p>
+<!-- --><ul>
+<!-- --><li><a href="https://github.com/light-white" target="_blank" rel="noopener noreferrer">@light-white</a> made their first contribution in <!-- --><a href="https://github.com/apache/answer/pull/1382" target="_blank" rel="noopener noreferrer">#1382</a></li>
+<!-- --></ul>
+<!-- --><p>Thank you for joining our community and contributing to Apache Answer!</p>
+<!-- --><h2 class="anchor anchorWithStickyNavbar_loeA" id="contributor-acknowledgments">Contributor Acknowledgments<!-- --><a href="https://answer.apache.org/blog/answer-1.7.0-release#contributor-acknowledgments" class="hash-link" aria-label="Direct link to Contributor Acknowledgments" title="Direct link to Contributor Acknowledgments">​</a></h2>
+<!-- --><p>Thank you to all developers and community members who contributed to v1.7.0! Your code contributions, issue reports, documentation improvements, and testing efforts made this release possible.</p>
+<!-- --><p>Special thanks to our contributors (in alphabetical order):</p>
+<!-- --><ul>
+<!-- --><li><a href="https://github.com/Dinesht04" target="_blank" rel="noopener noreferrer">@Dinesht04</a></li>
+<!-- --><li><a href="https://github.com/hgaol" target="_blank" rel="noopener noreferrer">@hgaol</a></li>
+<!-- --><li><a href="https://github.com/light-white" target="_blank" rel="noopener noreferrer">@light-white</a></li>
+<!-- --><li><a href="https://github.com/LinkinStars" target="_blank" rel="noopener noreferrer">@LinkinStars</a></li>
+<!-- --><li><a href="https://github.com/shuashuai" target="_blank" rel="noopener noreferrer">@shuashuai</a></li>
+<!-- --><li><a href="https://github.com/sosyz" target="_blank" rel="noopener noreferrer">@sosyz</a></li>
+<!-- --><li><a href="https://github.com/sy-records" target="_blank" rel="noopener noreferrer">@sy-records</a></li>
+<!-- --></ul>
+<!-- --><p>And all community members who participated in discussions, testing, and feedback.</p>
+<!-- --><p>For the complete changelog, please visit the <!-- --><a href="https://github.com/apache/answer/compare/v1.6.0...v1.7.0" target="_blank" rel="noopener noreferrer">GitHub comparison page</a>.<!-- --></p>
+<!-- --><h2 class="anchor anchorWithStickyNavbar_loeA" id="join-us">Join Us<!-- --><a href="https://answer.apache.org/blog/answer-1.7.0-release#join-us" class="hash-link" aria-label="Direct link to Join Us" title="Direct link to Join Us">​</a></h2>
+<!-- --><p>Apache Answer is an open-source project, and we welcome all forms of contribution:</p>
+<!-- --><ul>
+<!-- --><li><strong>Code Contributions</strong>: Submit PRs on <!-- --><a href="https://github.com/apache/answer" target="_blank" rel="noopener noreferrer">GitHub</a></li>
+<!-- --><li><strong>Issue Reports</strong>: Report bugs or suggest features<!-- --></li>
+<!-- --><li><strong>Documentation Improvements</strong>: Help improve documentation and translations<!-- --></li>
+<!-- --><li><strong>Community Support</strong>: Help other users in forums and discussions<!-- --></li>
+<!-- --></ul>
+<!-- --><h3 class="anchor anchorWithStickyNavbar_loeA" id="contact">Contact<!-- --><a href="https://answer.apache.org/blog/answer-1.7.0-release#contact" class="hash-link" aria-label="Direct link to Contact" title="Direct link to Contact">​</a></h3>
+<!-- --><ul>
+<!-- --><li><strong>Mailing List</strong>: <!-- --><a href="mailto:dev@answer.apache.org" target="_blank" rel="noopener noreferrer">dev@answer.apache.org</a></li>
+<!-- --><li><strong>GitHub</strong>: <!-- --><a href="https://github.com/apache/answer" target="_blank" rel="noopener noreferrer">apache/answer</a></li>
+<!-- --><li><strong>Official Website</strong>: <!-- --><a href="https://answer.apache.org/" target="_blank" rel="noopener noreferrer">answer.apache.org</a></li>
+<!-- --><li><strong>Documentation</strong>: <!-- --><a href="https://answer.apache.org/docs/" target="_blank" rel="noopener noreferrer">answer.apache.org/docs</a></li>
+<!-- --></ul>
+<!-- --><p>Let's build a better Q&amp;A platform together!</p>]]></content>
+        <author>
+            <name>Robin</name>
+            <uri>https://github.com/robinv8</uri>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Apache Answer 1.6.0: Custom Suspensions, Smoother UI & Critical Fixes]]></title>
         <id>https://answer.apache.org/blog/answer-1.6.0-release</id>
@@ -910,48 +1039,6 @@ Customer support: Provide essential context for support tickets.</p>
 <!-- --><p>We hope these tips help your open-source project shine at the next big event. Remember, it's all about making meaningful connections and showcasing the value you bring to the developer community.</p>
 <!-- --><p>Participating in these events was unforgettable for our team, and we're excited to continue contributing to the open-source ecosystem.</p>
 <!-- --><p>Please don't hesitate to reach out to us through our <!-- --><a href="https://x.com/AnswerDev" target="_blank" rel="noopener noreferrer">social media</a> or our <!-- --><a href="https://meta.answer.dev/" target="_blank" rel="noopener noreferrer">community</a>.<!-- --></p>]]></content>
-        <author>
-            <name>Anne Zhu</name>
-            <uri>https://github.com/PrimmaAnna</uri>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Recap of July | Apache Answer]]></title>
-        <id>https://answer.apache.org/blog/answer-recap-july</id>
-        <link href="https://answer.apache.org/blog/answer-recap-july"/>
-        <updated>2024-08-01T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[July was a month all about community love.]]></summary>
-        <content type="html"><![CDATA[<div class="mb-4"><img decoding="async" loading="lazy" src="https://answer.apache.org/assets/images/2024-08-01-cover@4x-8001e6aec80612eed4db98919b6c1ae2.png" class="rounded img_RAU7" width="1280px" height="720px"></div><p>Another page turns, and it was a busy month with some petit milestones. We made a new release, unlock a new event, and headed to a big gathering with the community.
-Here's the recap:</p>
-<!-- --><h2 class="anchor anchorWithStickyNavbar_loeA" id="-whatsnew">🌟 What's&nbsp;New<!-- --><a href="https://answer.apache.org/blog/answer-recap-july#-whatsnew" class="hash-link" aria-label="Direct link to 🌟 What's&nbsp;New" title="Direct link to 🌟 What's&nbsp;New">​</a></h2>
-<!-- --><p>New version released on the beginning of a month. In this update, both users and admins have more freedom to customize, express, and view in the online community with new features. Have you tried the latest 1.3.5? If not, here's the <!-- --><a href="https://medium.com/r/?url=https%3A%2F%2Fanswer.apache.org%2Fdownload" target="_blank" rel="noopener noreferrer">portal</a>.<!-- --></p>
-<!-- -->
-<!-- --><a class="mb-3 d-block" href="https://answer.apache.org/blog/answer-1.3.5-release/"><div class="card"><div class="p-0 d-flex align-items-center w-100 card-body"><div class="p-3" style="flex:1;max-width:calc(100% - 170px)"><h5>Apache Answer 1.3.5: Flexibility. Reaction. Extension.</h5><div class="text-truncate-3 text-secondary">Answer introduces parameterizable base paths, reactions, and embed plugin for a more thriving community.</div></div><div style="width:170px;height:170px;background-image:url(/assets/images/2024-07-03-cover@2x-06353edfd617a0341d07e4cff3992da2.png);background-size:cover;background-position:50% 50%" class="d-block flex-shrink-0"></div></div></div></a>
-<!-- --><p>Our PPMC member <!-- --><a href="https://github.com/shuashuai" target="_blank" rel="noopener noreferrer">shuaishuai</a> released a blog on how to package Answer plugins with a step-to-step tutorial. Easy package plugin from today.<!-- --></p>
-<!-- --><a class="mb-3 d-block" href="https://answer.apache.org/blog/how-to-package-and-deploy-answer-plugins"><div class="card"><div class="p-0 d-flex align-items-center w-100 card-body"><div class="p-3" style="flex:1;max-width:calc(100% - 170px)"><h5>How to Package and Deploy Answer Plugins</h5><div class="text-truncate-3 text-secondary">Follow this step-by-step guide to package plugins for your Answer.</div></div><div style="width:170px;height:170px;background-image:url(/assets/images/2024-07-02-cover@2x-bfd997e018376fd30a7bc8bfb950e1c1.png);background-size:cover;background-position:50% 50%" class="d-block flex-shrink-0"></div></div></div></a>
-<!-- --><h2 class="anchor anchorWithStickyNavbar_loeA" id="-community">🫶 Community<!-- --><a href="https://answer.apache.org/blog/answer-recap-july#-community" class="hash-link" aria-label="Direct link to 🫶 Community" title="Direct link to 🫶 Community">​</a></h2>
-<!-- --><p>Let’s give applause to our two new committers sy-records and hgaol! Welcome on board, and you must have seen them in features, bugs fixing, and even docs. We’re so honored to have them joining the family.</p>
-<!-- --><p><img decoding="async" loading="lazy" alt="Alt text" src="https://answer.apache.org/assets/images/Committer%20Webpage-d8792b70e31b2b398d1a4a0632e7fb9e.webp" width="939" height="293" class="img_RAU7"></p>
-<!-- --><p>We made a debut at GitHub Open Source Spotlight at WeAreDevelopers World Congress in Berlin. It was lovely to meet other open-source friends, and guess what, we met some of our users!</p>
-<!-- --><p>Big thanks to GitHub for letting us make a big footstep and share our story to more developers.</p>
-<!-- -->
-<!-- -->
-<!-- --><div class="row"><div class="col-md-6 col-sm-12"><p><img decoding="async" loading="lazy" src="https://answer.apache.org/assets/images/OpenSource%20Spotlight%201-c2e9f9333e5b515960d2948d17bac45a.webp" width="1000" height="750" class="img_RAU7"></p></div><div class="col-md-6 col-sm-12"><p><img decoding="async" loading="lazy" src="https://answer.apache.org/assets/images/OpenSource%20Spotlight%202-9ed36d5e8e9566f1e4848479c12b2788.webp" width="1002" height="752" class="img_RAU7"></p></div></div>
-<!-- --><p>As an Apache incubating podling, how can we miss the community gathering? Yes, we also joined CommunityOverCode Asia 2024</p>
-<!-- --><p>It was a lovely 3-day event! We made our several firsts — Keynote and speeches at 2 tracks. We were lucky to be nourished by the community, and we wanted to give back by sharing our lessons and story during first Apache release and spread the ideas of various contributions.</p>
-<!-- --><div class="row"><div class="reset-p mb-4 col-md-6 col-sm-12"><p><img decoding="async" loading="lazy" alt="Alt text" src="https://answer.apache.org/assets/images/COC%201-68a01fb9d80a2ea28d281bb030a8c111.webp" width="1000" height="667" class="img_RAU7"></p></div><div class="reset-p mb-4 col-md-6 col-sm-12"><p><img decoding="async" loading="lazy" alt="Alt text" src="https://answer.apache.org/assets/images/COC%202-11a1bd5eaf90a5263e065ff9fbd51c84.webp" width="1002" height="668" class="img_RAU7"></p></div><div class="reset-p mb-4 col-md-6 col-sm-12"><p><img decoding="async" loading="lazy" alt="Alt text" src="https://answer.apache.org/assets/images/COC3-6a9adcf235848729332d970dc52876b9.webp" width="1002" height="667" class="img_RAU7"></p></div><div class="reset-p mb-4 col-md-6 col-sm-12"><p><img decoding="async" loading="lazy" alt="Alt text" src="https://answer.apache.org/assets/images/COC%204-1992bf03c01f35163bd6a6f7d08cb418.webp" width="1000" height="666" class="img_RAU7"></p></div></div>
-<!-- --><h2 class="anchor anchorWithStickyNavbar_loeA" id="-cheers-to-contributors">🙌 Cheers to Contributors<!-- --><a href="https://answer.apache.org/blog/answer-recap-july#-cheers-to-contributors" class="hash-link" aria-label="Direct link to 🙌 Cheers to Contributors" title="Direct link to 🙌 Cheers to Contributors">​</a></h2>
-<!-- --><p>Meet and give your applause to the secret heroes!</p>
-<!-- --><p>Features architect:&nbsp;<!-- --><a href="https://github.com/hgaol" target="_blank" rel="noopener noreferrer">hgaol</a>,&nbsp;<!-- --><a href="https://github.com/LinkinStars" target="_blank" rel="noopener noreferrer">LinkinStars</a>,&nbsp;<!-- --><a href="https://github.com/shuashuai" target="_blank" rel="noopener noreferrer">shuaishuai</a><br>
-<!-- -->Improvement maker:&nbsp;<!-- --><a href="https://github.com/sy-records" target="_blank" rel="noopener noreferrer">sy-records</a><br>
-<!-- -->Bug fixer:&nbsp;<!-- --><a href="https://github.com/byerer" target="_blank" rel="noopener noreferrer">byerer</a>,&nbsp;<!-- --><a href="https://github.com/sy-records" target="_blank" rel="noopener noreferrer">sy-records</a>,&nbsp;<!-- --><a href="https://github.com/robinv8" target="_blank" rel="noopener noreferrer">robinv8</a>,&nbsp;<!-- --><a href="https://github.com/nayanthulkar28" target="_blank" rel="noopener noreferrer">nayanthulkar28</a>,&nbsp;<!-- --><a href="https://github.com/hgaol" target="_blank" rel="noopener noreferrer">hgaol</a>, <!-- --><a href="https://github.com/nayanthulkar28" target="_blank" rel="noopener noreferrer">nayanthulkar28</a>, <!-- --><a href="https://github.com/hgaol" target="_blank" rel="noopener noreferrer">hgaol</a></p>
-<!-- --><p>Cheers for the time and effort.</p>
-<!-- --><h2 class="anchor anchorWithStickyNavbar_loeA" id="️-coming-up-next">✌️ Coming up Next<!-- --><a href="https://answer.apache.org/blog/answer-recap-july#%EF%B8%8F-coming-up-next" class="hash-link" aria-label="Direct link to ✌️ Coming up Next" title="Direct link to ✌️ Coming up Next">​</a></h2>
-<!-- --><p>New version 1.3.6 is on the way, waiting for the votes.
-Interested in helping us with the release? Give it a go following the post below.</p>
-<!-- --><p><a href="https://answer.apache.org/community/how-to-release" target="_blank" rel="noopener noreferrer">https://answer.apache.org/community/how-to-release</a></p>
-<!-- --><h2 class="anchor anchorWithStickyNavbar_loeA" id="-share-your-ideas">🤲 Share Your Ideas<!-- --><a href="https://answer.apache.org/blog/answer-recap-july#-share-your-ideas" class="hash-link" aria-label="Direct link to 🤲 Share Your Ideas" title="Direct link to 🤲 Share Your Ideas">​</a></h2>
-<!-- --><p>We love ideas, especially from you. Tell us how you like the project.</p>]]></content>
         <author>
             <name>Anne Zhu</name>
             <uri>https://github.com/PrimmaAnna</uri>

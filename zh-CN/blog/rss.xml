@@ -4,10 +4,135 @@
         <title>Apache Answer Blog</title>
         <link>https://answer.apache.org/zh-CN/blog</link>
         <description>Apache Answer Blog</description>
-        <lastBuildDate>Wed, 23 Jul 2025 00:00:00 GMT</lastBuildDate>
+        <lastBuildDate>Fri, 31 Oct 2025 00:00:00 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>zh-CN</language>
+        <item>
+            <title><![CDATA[Apache Answer 1.7.0: Quicklinks 插件与布局改进]]></title>
+            <link>https://answer.apache.org/zh-CN/blog/answer-1.7.0-release</link>
+            <guid>https://answer.apache.org/zh-CN/blog/answer-1.7.0-release</guid>
+            <pubDate>Fri, 31 Oct 2025 00:00:00 GMT</pubDate>
+            <description><![CDATA[Answer 1.7.0 引入了 Quicklinks 插件、布局改进、schemaForm 增强、响应式优化以及重要的错误修复。]]></description>
+            <content:encoded><![CDATA[<div class="mb-4"><img decoding="async" loading="lazy" src="https://answer.apache.org/zh-CN/assets/images/2025-11-05-cover-aca90b4f0bbf365441fe43ebc63da10b.png" class="rounded img_RAU7" width="1280px" height="720px"></div><p>我们很高兴宣布 <!-- --><strong>Apache Answer v1.7.0</strong> 正式发布！本版本为插件生态系统、用户界面和整体用户体验带来了显著改进。感谢所有使本次发布成为可能的贡献者。<!-- --></p>
+<!-- --><div class="theme-admonition theme-admonition-caution admonition_inHR alert alert--warning"><div class="admonitionHeading_piGE"><span class="admonitionIcon_ROqA"><svg viewBox="0 0 16 16"><path fill-rule="evenodd" d="M8.893 1.5c-.183-.31-.52-.5-.887-.5s-.703.19-.886.5L.138 13.499a.98.98 0 0 0 0 1.001c.193.31.53.501.886.501h13.964c.367 0 .704-.19.877-.5a1.03 1.03 0 0 0 .01-1.002L8.893 1.5zm.133 11.497H6.987v-2.003h2.039v2.003zm0-3.004H6.987V5.987h2.039v4.006z"></path></svg></span>警告<!-- --></div><div class="admonitionContent_BA39"><p><strong>重要提示</strong>：我们在本版本中进行了大量布局更改。如果您修改了页面布局，可能会产生冲突。请在升级前记得备份您的旧数据。<!-- --></p></div></div>
+<!-- --><h2 class="anchor anchorWithStickyNavbar_loeA" id="新功能">新功能<!-- --><a href="https://answer.apache.org/zh-CN/blog/answer-1.7.0-release#%E6%96%B0%E5%8A%9F%E8%83%BD" class="hash-link" aria-label="新功能的直接链接" title="新功能的直接链接">​</a></h2>
+<!-- --><h3 class="anchor anchorWithStickyNavbar_loeA" id="quicklinks-插件">Quicklinks 插件<!-- --><a href="https://answer.apache.org/zh-CN/blog/answer-1.7.0-release#quicklinks-%E6%8F%92%E4%BB%B6" class="hash-link" aria-label="Quicklinks 插件的直接链接" title="Quicklinks 插件的直接链接">​</a></h3>
+<!-- --><p>Quicklinks 插件现已可用并默认集成，为管理员提供了强大的导航管理能力。该插件允许您创建自定义快速链接，帮助用户更高效地浏览您的社区。</p>
+<!-- --><ul>
+<!-- --><li><strong>新功能</strong>：Quicklinks 插件 (<!-- --><a href="https://github.com/apache/answer-plugins/issues/269" target="_blank" rel="noopener noreferrer">apache/answer-plugins#269</a>) 由 <!-- --><a href="https://github.com/shuashuai" target="_blank" rel="noopener noreferrer">@shuashuai</a> 贡献<!-- --></li>
+<!-- --><li><strong>新功能</strong>：默认集成 Quicklinks 插件 (<!-- --><a href="https://github.com/apache/answer/issues/1405" target="_blank" rel="noopener noreferrer">#1405</a>) 由 <!-- --><a href="https://github.com/LinkinStars" target="_blank" rel="noopener noreferrer">@LinkinStars</a> 贡献<!-- --></li>
+<!-- --></ul>
+<!-- --><h2 class="anchor anchorWithStickyNavbar_loeA" id="改进">改进<!-- --><a href="https://answer.apache.org/zh-CN/blog/answer-1.7.0-release#%E6%94%B9%E8%BF%9B" class="hash-link" aria-label="改进的直接链接" title="改进的直接链接">​</a></h2>
+<!-- --><h3 class="anchor anchorWithStickyNavbar_loeA" id="表单与-schema-增强">表单与 Schema 增强<!-- --><a href="https://answer.apache.org/zh-CN/blog/answer-1.7.0-release#%E8%A1%A8%E5%8D%95%E4%B8%8E-schema-%E5%A2%9E%E5%BC%BA" class="hash-link" aria-label="表单与 Schema 增强的直接链接" title="表单与 Schema 增强的直接链接">​</a></h3>
+<!-- --><ul>
+<!-- --><li><strong>schemaForm 支持 tagSelector 组件</strong> (<!-- --><a href="https://github.com/apache/answer/pull/1380" target="_blank" rel="noopener noreferrer">#1380</a>) 由 <!-- --><a href="https://github.com/shuashuai" target="_blank" rel="noopener noreferrer">@shuashuai</a> 贡献<!-- --><br>
+<!-- -->插件开发者现在可以在 schemaForm 中使用 tagSelector 组件，使创建具有标签选择功能的表单变得更加容易。<!-- --></li>
+<!-- --></ul>
+<!-- --><h3 class="anchor anchorWithStickyNavbar_loeA" id="布局与-ui-改进">布局与 UI 改进<!-- --><a href="https://answer.apache.org/zh-CN/blog/answer-1.7.0-release#%E5%B8%83%E5%B1%80%E4%B8%8E-ui-%E6%94%B9%E8%BF%9B" class="hash-link" aria-label="布局与 UI 改进的直接链接" title="布局与 UI 改进的直接链接">​</a></h3>
+<!-- --><ul>
+<!-- --><li>
+<!-- --><p><strong>问题详情页不再显示置顶状态</strong> (<!-- --><a href="https://github.com/apache/answer/pull/1393" target="_blank" rel="noopener noreferrer">#1393</a>) 由 <!-- --><a href="https://github.com/shuashuai" target="_blank" rel="noopener noreferrer">@shuashuai</a> 贡献<!-- --><br>
+<!-- -->更简洁的问题详情页，移除了冗余的置顶状态指示器。<!-- --></p>
+<!-- --></li>
+<!-- --><li>
+<!-- --><p><strong>统一问题 URL 路径</strong> (<!-- --><a href="https://github.com/apache/answer/pull/1392" target="_blank" rel="noopener noreferrer">#1392</a>) 由 <!-- --><a href="https://github.com/shuashuai" target="_blank" rel="noopener noreferrer">@shuashuai</a> 贡献<!-- --><br>
+<!-- -->统一的问题 URL 结构改善了 SEO 和用户体验。<!-- --></p>
+<!-- --></li>
+<!-- --><li>
+<!-- --><p><strong>相关推荐在无内容时显示空白区域</strong> (<!-- --><a href="https://github.com/apache/answer/pull/1394" target="_blank" rel="noopener noreferrer">#1394</a>) 由 <!-- --><a href="https://github.com/Dinesht04" target="_blank" rel="noopener noreferrer">@Dinesht04</a> 贡献<!-- --><br>
+<!-- -->当没有相关内容时，提供更好的视觉反馈。<!-- --></p>
+<!-- --></li>
+<!-- --><li>
+<!-- --><p><strong>优化响应式布局</strong> (<!-- --><a href="https://github.com/apache/answer/pull/1406" target="_blank" rel="noopener noreferrer">#1406</a>) 由 <!-- --><a href="https://github.com/shuashuai" target="_blank" rel="noopener noreferrer">@shuashuai</a> 贡献<!-- --><br>
+<!-- -->通过改进的响应式设计，增强了移动设备和平板电脑的体验。<!-- --></p>
+<!-- --></li>
+<!-- --></ul>
+<!-- --><h3 class="anchor anchorWithStickyNavbar_loeA" id="用户体验增强">用户体验增强<!-- --><a href="https://answer.apache.org/zh-CN/blog/answer-1.7.0-release#%E7%94%A8%E6%88%B7%E4%BD%93%E9%AA%8C%E5%A2%9E%E5%BC%BA" class="hash-link" aria-label="用户体验增强的直接链接" title="用户体验增强的直接链接">​</a></h3>
+<!-- --><ul>
+<!-- --><li>
+<!-- --><p><strong>创建新问题时标签可选</strong> (<!-- --><a href="https://github.com/apache/answer/pull/1177" target="_blank" rel="noopener noreferrer">#1177</a>) 由 <!-- --><a href="https://github.com/Dinesht04" target="_blank" rel="noopener noreferrer">@Dinesht04</a> 贡献<!-- --><br>
+<!-- -->用户现在可以创建不带标签的问题，为问题创建提供更大的灵活性。<!-- --></p>
+<!-- --></li>
+<!-- --><li>
+<!-- --><p><strong>问题"正文"部分可选</strong> (<!-- --><a href="https://github.com/apache/answer/pull/842" target="_blank" rel="noopener noreferrer">#842</a>) 由 <!-- --><a href="https://github.com/Dinesht04" target="_blank" rel="noopener noreferrer">@Dinesht04</a> 贡献<!-- --><br>
+<!-- -->问题可以仅使用标题创建，允许更简单的问题格式。<!-- --></p>
+<!-- --></li>
+<!-- --></ul>
+<!-- --><h3 class="anchor anchorWithStickyNavbar_loeA" id="命令行工具增强">命令行工具增强<!-- --><a href="https://answer.apache.org/zh-CN/blog/answer-1.7.0-release#%E5%91%BD%E4%BB%A4%E8%A1%8C%E5%B7%A5%E5%85%B7%E5%A2%9E%E5%BC%BA" class="hash-link" aria-label="命令行工具增强的直接链接" title="命令行工具增强的直接链接">​</a></h3>
+<!-- --><ul>
+<!-- --><li><strong>命令行工具添加 resetPassword 选项</strong> (<!-- --><a href="https://github.com/apache/answer/pull/1400" target="_blank" rel="noopener noreferrer">#1400</a>, <!-- --><a href="https://github.com/apache/answer/pull/1308" target="_blank" rel="noopener noreferrer">#1308</a>) 由 <!-- --><a href="https://github.com/sosyz" target="_blank" rel="noopener noreferrer">@sosyz</a> 贡献<!-- --><br>
+<!-- -->管理员现在可以直接从命令行重置用户密码，提高了账户管理能力。<!-- --></li>
+<!-- --></ul>
+<!-- --><h2 class="anchor anchorWithStickyNavbar_loeA" id="错误修复">错误修复<!-- --><a href="https://answer.apache.org/zh-CN/blog/answer-1.7.0-release#%E9%94%99%E8%AF%AF%E4%BF%AE%E5%A4%8D" class="hash-link" aria-label="错误修复的直接链接" title="错误修复的直接链接">​</a></h2>
+<!-- --><h3 class="anchor anchorWithStickyNavbar_loeA" id="图片与媒体修复">图片与媒体修复<!-- --><a href="https://answer.apache.org/zh-CN/blog/answer-1.7.0-release#%E5%9B%BE%E7%89%87%E4%B8%8E%E5%AA%92%E4%BD%93%E4%BF%AE%E5%A4%8D" class="hash-link" aria-label="图片与媒体修复的直接链接" title="图片与媒体修复的直接链接">​</a></h3>
+<!-- --><ul>
+<!-- --><li><strong>修复：答案中的图片未正确调整大小</strong> (<!-- --><a href="https://github.com/apache/answer/pull/1404" target="_blank" rel="noopener noreferrer">#1404</a>) 由 <!-- --><a href="https://github.com/shuashuai" target="_blank" rel="noopener noreferrer">@shuashuai</a> 贡献<!-- --><br>
+<!-- -->答案中的图片现在可以根据容器尺寸正确调整大小。<!-- --></li>
+<!-- --></ul>
+<!-- --><h3 class="anchor anchorWithStickyNavbar_loeA" id="通知系统修复">通知系统修复<!-- --><a href="https://answer.apache.org/zh-CN/blog/answer-1.7.0-release#%E9%80%9A%E7%9F%A5%E7%B3%BB%E7%BB%9F%E4%BF%AE%E5%A4%8D" class="hash-link" aria-label="通知系统修复的直接链接" title="通知系统修复的直接链接">​</a></h3>
+<!-- --><ul>
+<!-- --><li>
+<!-- --><p><strong>修复：新问题通知消息未获取 trigger_user</strong> (<!-- --><a href="https://github.com/apache/answer/pull/1384" target="_blank" rel="noopener noreferrer">#1384</a>, <!-- --><a href="https://github.com/apache/answer/pull/1385" target="_blank" rel="noopener noreferrer">#1385</a>) 由 <!-- --><a href="https://github.com/light-white" target="_blank" rel="noopener noreferrer">@light-white</a> 贡献<!-- --><br>
+<!-- -->通知消息现在正确包含触发用户信息。<!-- --></p>
+<!-- --></li>
+<!-- --><li>
+<!-- --><p><strong>修复：新问题通知消息未获取新标签</strong> (<!-- --><a href="https://github.com/apache/answer/pull/1382" target="_blank" rel="noopener noreferrer">#1382</a>, <!-- --><a href="https://github.com/apache/answer/pull/1383" target="_blank" rel="noopener noreferrer">#1383</a>) 由 <!-- --><a href="https://github.com/light-white" target="_blank" rel="noopener noreferrer">@light-white</a> 贡献<!-- --><br>
+<!-- -->当问题添加标签时，通知现在正确包含新标签信息。<!-- --></p>
+<!-- --></li>
+<!-- --></ul>
+<!-- --><h3 class="anchor anchorWithStickyNavbar_loeA" id="用户与认证修复">用户与认证修复<!-- --><a href="https://answer.apache.org/zh-CN/blog/answer-1.7.0-release#%E7%94%A8%E6%88%B7%E4%B8%8E%E8%AE%A4%E8%AF%81%E4%BF%AE%E5%A4%8D" class="hash-link" aria-label="用户与认证修复的直接链接" title="用户与认证修复的直接链接">​</a></h3>
+<!-- --><ul>
+<!-- --><li><strong>修复：同步用户名字符</strong> (<!-- --><a href="https://github.com/apache/answer/pull/1397" target="_blank" rel="noopener noreferrer">#1397</a>) 由 <!-- --><a href="https://github.com/sy-records" target="_blank" rel="noopener noreferrer">@sy-records</a> 贡献<!-- --><br>
+<!-- -->已解决用户名字符同步问题。<!-- --></li>
+<!-- --></ul>
+<!-- --><h3 class="anchor anchorWithStickyNavbar_loeA" id="主题与样式修复">主题与样式修复<!-- --><a href="https://answer.apache.org/zh-CN/blog/answer-1.7.0-release#%E4%B8%BB%E9%A2%98%E4%B8%8E%E6%A0%B7%E5%BC%8F%E4%BF%AE%E5%A4%8D" class="hash-link" aria-label="主题与样式修复的直接链接" title="主题与样式修复的直接链接">​</a></h3>
+<!-- --><ul>
+<!-- --><li><strong>修复：深色模式中代码块背景颜色错误</strong> (<!-- --><a href="https://github.com/apache/answer/pull/1368" target="_blank" rel="noopener noreferrer">#1368</a>) 由 <!-- --><a href="https://github.com/Dinesht04" target="_blank" rel="noopener noreferrer">@Dinesht04</a> 贡献<!-- --><br>
+<!-- -->代码块现在在深色模式下正确显示，具有正确的背景颜色。<!-- --></li>
+<!-- --></ul>
+<!-- --><h3 class="anchor anchorWithStickyNavbar_loeA" id="插件系统修复">插件系统修复<!-- --><a href="https://answer.apache.org/zh-CN/blog/answer-1.7.0-release#%E6%8F%92%E4%BB%B6%E7%B3%BB%E7%BB%9F%E4%BF%AE%E5%A4%8D" class="hash-link" aria-label="插件系统修复的直接链接" title="插件系统修复的直接链接">​</a></h3>
+<!-- --><ul>
+<!-- --><li><strong>修复：插件安装时构建失败，无法复制 ui 文件</strong> (<!-- --><a href="https://github.com/apache/answer/pull/1376" target="_blank" rel="noopener noreferrer">#1376</a>) 由 <!-- --><a href="https://github.com/hgaol" target="_blank" rel="noopener noreferrer">@hgaol</a> 贡献<!-- --><br>
+<!-- -->插件安装现在在构建过程中正确复制 UI 文件。<!-- --></li>
+<!-- --></ul>
+<!-- --><h2 class="anchor anchorWithStickyNavbar_loeA" id="新贡献者">新贡献者<!-- --><a href="https://answer.apache.org/zh-CN/blog/answer-1.7.0-release#%E6%96%B0%E8%B4%A1%E7%8C%AE%E8%80%85" class="hash-link" aria-label="新贡献者的直接链接" title="新贡献者的直接链接">​</a></h2>
+<!-- --><p>我们很高兴欢迎新贡献者加入 Apache Answer 社区：</p>
+<!-- --><ul>
+<!-- --><li><a href="https://github.com/light-white" target="_blank" rel="noopener noreferrer">@light-white</a> 在 <!-- --><a href="https://github.com/apache/answer/pull/1382" target="_blank" rel="noopener noreferrer">#1382</a> 中做出了首次贡献<!-- --></li>
+<!-- --></ul>
+<!-- --><p>感谢您加入我们的社区并为 Apache Answer 做出贡献！</p>
+<!-- --><h2 class="anchor anchorWithStickyNavbar_loeA" id="贡献者致谢">贡献者致谢<!-- --><a href="https://answer.apache.org/zh-CN/blog/answer-1.7.0-release#%E8%B4%A1%E7%8C%AE%E8%80%85%E8%87%B4%E8%B0%A2" class="hash-link" aria-label="贡献者致谢的直接链接" title="贡献者致谢的直接链接">​</a></h2>
+<!-- --><p>感谢所有为 v1.7.0 做出贡献的开发者和社区成员！你们的代码贡献、问题报告、文档改进和测试工作使本次发布成为可能。</p>
+<!-- --><p>特别感谢我们的贡献者（按字母顺序）：</p>
+<!-- --><ul>
+<!-- --><li><a href="https://github.com/Dinesht04" target="_blank" rel="noopener noreferrer">@Dinesht04</a></li>
+<!-- --><li><a href="https://github.com/hgaol" target="_blank" rel="noopener noreferrer">@hgaol</a></li>
+<!-- --><li><a href="https://github.com/light-white" target="_blank" rel="noopener noreferrer">@light-white</a></li>
+<!-- --><li><a href="https://github.com/LinkinStars" target="_blank" rel="noopener noreferrer">@LinkinStars</a></li>
+<!-- --><li><a href="https://github.com/shuashuai" target="_blank" rel="noopener noreferrer">@shuashuai</a></li>
+<!-- --><li><a href="https://github.com/sosyz" target="_blank" rel="noopener noreferrer">@sosyz</a></li>
+<!-- --><li><a href="https://github.com/sy-records" target="_blank" rel="noopener noreferrer">@sy-records</a></li>
+<!-- --></ul>
+<!-- --><p>以及所有参与讨论、测试和反馈的社区成员。</p>
+<!-- --><p>完整的变更日志，请访问 <!-- --><a href="https://github.com/apache/answer/compare/v1.6.0...v1.7.0" target="_blank" rel="noopener noreferrer">GitHub 对比页面</a>。<!-- --></p>
+<!-- --><h2 class="anchor anchorWithStickyNavbar_loeA" id="加入我们">加入我们<!-- --><a href="https://answer.apache.org/zh-CN/blog/answer-1.7.0-release#%E5%8A%A0%E5%85%A5%E6%88%91%E4%BB%AC" class="hash-link" aria-label="加入我们的直接链接" title="加入我们的直接链接">​</a></h2>
+<!-- --><p>Apache Answer 是一个开源项目，我们欢迎各种形式的贡献：</p>
+<!-- --><ul>
+<!-- --><li><strong>代码贡献</strong>：在 <!-- --><a href="https://github.com/apache/answer" target="_blank" rel="noopener noreferrer">GitHub</a> 上提交 PR<!-- --></li>
+<!-- --><li><strong>问题报告</strong>：报告错误或提出功能建议<!-- --></li>
+<!-- --><li><strong>文档改进</strong>：帮助改进文档和翻译<!-- --></li>
+<!-- --><li><strong>社区支持</strong>：在论坛和讨论中帮助其他用户<!-- --></li>
+<!-- --></ul>
+<!-- --><h3 class="anchor anchorWithStickyNavbar_loeA" id="联系方式">联系方式<!-- --><a href="https://answer.apache.org/zh-CN/blog/answer-1.7.0-release#%E8%81%94%E7%B3%BB%E6%96%B9%E5%BC%8F" class="hash-link" aria-label="联系方式的直接链接" title="联系方式的直接链接">​</a></h3>
+<!-- --><ul>
+<!-- --><li><strong>邮件列表</strong>：<!-- --><a href="mailto:dev@answer.apache.org" target="_blank" rel="noopener noreferrer">dev@answer.apache.org</a></li>
+<!-- --><li><strong>GitHub</strong>：<!-- --><a href="https://github.com/apache/answer" target="_blank" rel="noopener noreferrer">apache/answer</a></li>
+<!-- --><li><strong>官方网站</strong>：<!-- --><a href="https://answer.apache.org/" target="_blank" rel="noopener noreferrer">answer.apache.org</a></li>
+<!-- --><li><strong>文档</strong>：<!-- --><a href="https://answer.apache.org/docs/" target="_blank" rel="noopener noreferrer">answer.apache.org/docs</a></li>
+<!-- --></ul>
+<!-- --><p>让我们一起构建更好的 Q&amp;A 平台！</p>]]></content:encoded>
+        </item>
         <item>
             <title><![CDATA[Apache Answer 1.6.0: Custom Suspensions, Smoother UI & Critical Fixes]]></title>
             <link>https://answer.apache.org/zh-CN/blog/answer-1.6.0-release</link>
@@ -831,44 +956,6 @@ Customer support: Provide essential context for support tickets.</p>
 <!-- --><p>We hope these tips help your open-source project shine at the next big event. Remember, it's all about making meaningful connections and showcasing the value you bring to the developer community.</p>
 <!-- --><p>Participating in these events was unforgettable for our team, and we're excited to continue contributing to the open-source ecosystem.</p>
 <!-- --><p>Please don't hesitate to reach out to us through our <!-- --><a href="https://x.com/AnswerDev" target="_blank" rel="noopener noreferrer">social media</a> or our <!-- --><a href="https://meta.answer.dev/" target="_blank" rel="noopener noreferrer">community</a>.<!-- --></p>]]></content:encoded>
-        </item>
-        <item>
-            <title><![CDATA[Recap of July | Apache Answer]]></title>
-            <link>https://answer.apache.org/zh-CN/blog/answer-recap-july</link>
-            <guid>https://answer.apache.org/zh-CN/blog/answer-recap-july</guid>
-            <pubDate>Thu, 01 Aug 2024 00:00:00 GMT</pubDate>
-            <description><![CDATA[July was a month all about community love.]]></description>
-            <content:encoded><![CDATA[<div class="mb-4"><img decoding="async" loading="lazy" src="https://answer.apache.org/zh-CN/assets/images/2024-08-01-cover@4x-8001e6aec80612eed4db98919b6c1ae2.png" class="rounded img_RAU7" width="1280px" height="720px"></div><p>Another page turns, and it was a busy month with some petit milestones. We made a new release, unlock a new event, and headed to a big gathering with the community.
-Here's the recap:</p>
-<!-- --><h2 class="anchor anchorWithStickyNavbar_loeA" id="-whatsnew">🌟 What's&nbsp;New<!-- --><a href="https://answer.apache.org/zh-CN/blog/answer-recap-july#-whatsnew" class="hash-link" aria-label="🌟 What's&nbsp;New的直接链接" title="🌟 What's&nbsp;New的直接链接">​</a></h2>
-<!-- --><p>New version released on the beginning of a month. In this update, both users and admins have more freedom to customize, express, and view in the online community with new features. Have you tried the latest 1.3.5? If not, here's the <!-- --><a href="https://medium.com/r/?url=https%3A%2F%2Fanswer.apache.org%2Fdownload" target="_blank" rel="noopener noreferrer">portal</a>.<!-- --></p>
-<!-- -->
-<!-- --><a class="mb-3 d-block" href="https://answer.apache.org/zh-CN/blog/answer-1.3.5-release/"><div class="card"><div class="p-0 d-flex align-items-center w-100 card-body"><div class="p-3" style="flex:1;max-width:calc(100% - 170px)"><h5>Apache Answer 1.3.5: Flexibility. Reaction. Extension.</h5><div class="text-truncate-3 text-secondary">Answer introduces parameterizable base paths, reactions, and embed plugin for a more thriving community.</div></div><div style="width:170px;height:170px;background-image:url(/zh-CN/assets/images/2024-07-03-cover@2x-06353edfd617a0341d07e4cff3992da2.png);background-size:cover;background-position:50% 50%" class="d-block flex-shrink-0"></div></div></div></a>
-<!-- --><p>Our PPMC member <!-- --><a href="https://github.com/shuashuai" target="_blank" rel="noopener noreferrer">shuaishuai</a> released a blog on how to package Answer plugins with a step-to-step tutorial. Easy package plugin from today.<!-- --></p>
-<!-- --><a class="mb-3 d-block" href="https://answer.apache.org/zh-CN/blog/how-to-package-and-deploy-answer-plugins"><div class="card"><div class="p-0 d-flex align-items-center w-100 card-body"><div class="p-3" style="flex:1;max-width:calc(100% - 170px)"><h5>How to Package and Deploy Answer Plugins</h5><div class="text-truncate-3 text-secondary">Follow this step-by-step guide to package plugins for your Answer.</div></div><div style="width:170px;height:170px;background-image:url(/zh-CN/assets/images/2024-07-02-cover@2x-bfd997e018376fd30a7bc8bfb950e1c1.png);background-size:cover;background-position:50% 50%" class="d-block flex-shrink-0"></div></div></div></a>
-<!-- --><h2 class="anchor anchorWithStickyNavbar_loeA" id="-community">🫶 Community<!-- --><a href="https://answer.apache.org/zh-CN/blog/answer-recap-july#-community" class="hash-link" aria-label="🫶 Community的直接链接" title="🫶 Community的直接链接">​</a></h2>
-<!-- --><p>Let’s give applause to our two new committers sy-records and hgaol! Welcome on board, and you must have seen them in features, bugs fixing, and even docs. We’re so honored to have them joining the family.</p>
-<!-- --><p><img decoding="async" loading="lazy" alt="Alt text" src="https://answer.apache.org/zh-CN/assets/images/Committer%20Webpage-d8792b70e31b2b398d1a4a0632e7fb9e.webp" width="939" height="293" class="img_RAU7"></p>
-<!-- --><p>We made a debut at GitHub Open Source Spotlight at WeAreDevelopers World Congress in Berlin. It was lovely to meet other open-source friends, and guess what, we met some of our users!</p>
-<!-- --><p>Big thanks to GitHub for letting us make a big footstep and share our story to more developers.</p>
-<!-- -->
-<!-- -->
-<!-- --><div class="row"><div class="col-md-6 col-sm-12"><p><img decoding="async" loading="lazy" src="https://answer.apache.org/zh-CN/assets/images/OpenSource%20Spotlight%201-c2e9f9333e5b515960d2948d17bac45a.webp" width="1000" height="750" class="img_RAU7"></p></div><div class="col-md-6 col-sm-12"><p><img decoding="async" loading="lazy" src="https://answer.apache.org/zh-CN/assets/images/OpenSource%20Spotlight%202-9ed36d5e8e9566f1e4848479c12b2788.webp" width="1002" height="752" class="img_RAU7"></p></div></div>
-<!-- --><p>As an Apache incubating podling, how can we miss the community gathering? Yes, we also joined CommunityOverCode Asia 2024</p>
-<!-- --><p>It was a lovely 3-day event! We made our several firsts — Keynote and speeches at 2 tracks. We were lucky to be nourished by the community, and we wanted to give back by sharing our lessons and story during first Apache release and spread the ideas of various contributions.</p>
-<!-- --><div class="row"><div class="reset-p mb-4 col-md-6 col-sm-12"><p><img decoding="async" loading="lazy" alt="Alt text" src="https://answer.apache.org/zh-CN/assets/images/COC%201-68a01fb9d80a2ea28d281bb030a8c111.webp" width="1000" height="667" class="img_RAU7"></p></div><div class="reset-p mb-4 col-md-6 col-sm-12"><p><img decoding="async" loading="lazy" alt="Alt text" src="https://answer.apache.org/zh-CN/assets/images/COC%202-11a1bd5eaf90a5263e065ff9fbd51c84.webp" width="1002" height="668" class="img_RAU7"></p></div><div class="reset-p mb-4 col-md-6 col-sm-12"><p><img decoding="async" loading="lazy" alt="Alt text" src="https://answer.apache.org/zh-CN/assets/images/COC3-6a9adcf235848729332d970dc52876b9.webp" width="1002" height="667" class="img_RAU7"></p></div><div class="reset-p mb-4 col-md-6 col-sm-12"><p><img decoding="async" loading="lazy" alt="Alt text" src="https://answer.apache.org/zh-CN/assets/images/COC%204-1992bf03c01f35163bd6a6f7d08cb418.webp" width="1000" height="666" class="img_RAU7"></p></div></div>
-<!-- --><h2 class="anchor anchorWithStickyNavbar_loeA" id="-cheers-to-contributors">🙌 Cheers to Contributors<!-- --><a href="https://answer.apache.org/zh-CN/blog/answer-recap-july#-cheers-to-contributors" class="hash-link" aria-label="🙌 Cheers to Contributors的直接链接" title="🙌 Cheers to Contributors的直接链接">​</a></h2>
-<!-- --><p>Meet and give your applause to the secret heroes!</p>
-<!-- --><p>Features architect:&nbsp;<!-- --><a href="https://github.com/hgaol" target="_blank" rel="noopener noreferrer">hgaol</a>,&nbsp;<!-- --><a href="https://github.com/LinkinStars" target="_blank" rel="noopener noreferrer">LinkinStars</a>,&nbsp;<!-- --><a href="https://github.com/shuashuai" target="_blank" rel="noopener noreferrer">shuaishuai</a><br>
-<!-- -->Improvement maker:&nbsp;<!-- --><a href="https://github.com/sy-records" target="_blank" rel="noopener noreferrer">sy-records</a><br>
-<!-- -->Bug fixer:&nbsp;<!-- --><a href="https://github.com/byerer" target="_blank" rel="noopener noreferrer">byerer</a>,&nbsp;<!-- --><a href="https://github.com/sy-records" target="_blank" rel="noopener noreferrer">sy-records</a>,&nbsp;<!-- --><a href="https://github.com/robinv8" target="_blank" rel="noopener noreferrer">robinv8</a>,&nbsp;<!-- --><a href="https://github.com/nayanthulkar28" target="_blank" rel="noopener noreferrer">nayanthulkar28</a>,&nbsp;<!-- --><a href="https://github.com/hgaol" target="_blank" rel="noopener noreferrer">hgaol</a>, <!-- --><a href="https://github.com/nayanthulkar28" target="_blank" rel="noopener noreferrer">nayanthulkar28</a>, <!-- --><a href="https://github.com/hgaol" target="_blank" rel="noopener noreferrer">hgaol</a></p>
-<!-- --><p>Cheers for the time and effort.</p>
-<!-- --><h2 class="anchor anchorWithStickyNavbar_loeA" id="️-coming-up-next">✌️ Coming up Next<!-- --><a href="https://answer.apache.org/zh-CN/blog/answer-recap-july#%EF%B8%8F-coming-up-next" class="hash-link" aria-label="✌️ Coming up Next的直接链接" title="✌️ Coming up Next的直接链接">​</a></h2>
-<!-- --><p>New version 1.3.6 is on the way, waiting for the votes.
-Interested in helping us with the release? Give it a go following the post below.</p>
-<!-- --><p><a href="https://answer.apache.org/community/how-to-release" target="_blank" rel="noopener noreferrer">https://answer.apache.org/community/how-to-release</a></p>
-<!-- --><h2 class="anchor anchorWithStickyNavbar_loeA" id="-share-your-ideas">🤲 Share Your Ideas<!-- --><a href="https://answer.apache.org/zh-CN/blog/answer-recap-july#-share-your-ideas" class="hash-link" aria-label="🤲 Share Your Ideas的直接链接" title="🤲 Share Your Ideas的直接链接">​</a></h2>
-<!-- --><p>We love ideas, especially from you. Tell us how you like the project, and</p>]]></content:encoded>
         </item>
     </channel>
 </rss>
