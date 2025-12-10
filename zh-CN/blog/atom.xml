@@ -94,10 +94,6 @@
 <!-- --><p>🌐 Explore Apache Answer: <!-- --><a href="https://answer.apache.org/" target="_blank" rel="noopener noreferrer">answer.apache.org</a></p>
 <!-- --><p>☁️ Try the hosted edition (AnswerGrowth): <!-- --><a href="https://answergrowth.com/?utm_source=apache_answer_blog&amp;utm_medium=blog&amp;utm_campaign=stack_overflow_alternatives" target="_blank" rel="noopener noreferrer">answergrowth.com</a></p>
 <!-- --></blockquote>]]></content>
-        <author>
-            <name>Fen</name>
-            <uri>https://github.com/fenbox</uri>
-        </author>
     </entry>
     <entry>
         <title type="html"><![CDATA[Apache Answer 1.7.0: Quicklinks 插件与布局改进]]></title>
