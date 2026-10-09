@@ -27,10 +27,12 @@ jobs:
         with:
           node-version: 20
 
-      - name: install dependencies
-        uses: pnpm/action-setup@v4
-        with:
-          version: 9
+      # Apache's Actions policy permits only approved actions.  Install pnpm
+      # through Node's bundled Corepack instead of pnpm/action-setup.
+      - name: Set up pnpm
+        run: |
+          corepack enable
+          corepack prepare pnpm@9 --activate
       - name: Get pnpm store directory
         shell: bash
         run: |
@@ -53,9 +55,17 @@ jobs:
       - name: build
         run: pnpm run build
 
-      - uses: peaceiris/actions-gh-pages@v4
+      # Keep publishing to the existing dist-pages branch without a third-party
+      # action, which is blocked by Apache's Actions policy.
+      - name: Publish site
         if: github.event_name != 'pull_request'
-        with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: ./build
-          publish_branch: dist-pages
+        run: |
+          publish_dir="$(mktemp -d)"
+          git worktree add --detach "$publish_dir" origin/dist-pages
+          rsync -a --delete build/ "$publish_dir/"
+          cd "$publish_dir"
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add --all
+          git diff --cached --quiet || git commit -m "deploy: ${GITHUB_SHA}"
+          git push origin HEAD:dist-pages
