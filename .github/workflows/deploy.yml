@@ -62,7 +62,7 @@ jobs:
         run: |
           publish_dir="$(mktemp -d)"
           git worktree add --detach "$publish_dir" origin/dist-pages
-          rsync -a --delete build/ "$publish_dir/"
+          rsync -a --delete --exclude=.git build/ "$publish_dir/"
           cd "$publish_dir"
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
