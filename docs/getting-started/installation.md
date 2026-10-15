@@ -107,6 +107,16 @@ After filling in the information, click Confirm to submit. The panel will automa
 Congratulations, start your Apache Answer journey!
 
   </TabItem>
+  <TabItem value="pethost" label="Pethost">
+
+[Pethost](https://pethost.dev) has a one-click template for Apache Answer. Open the [Apache Answer template](https://pethost.dev/templates/apache-answer/), click Deploy on Pethost and fill in:
+
+- Email: the admin's email, which you sign in with
+- Admin password: 8 to 32 characters
+
+Apache Answer installs itself with SQLite on the first start, with the project's address as the site URL and `admin` as the admin name. You do not need to operate the installation steps below: once the project is live, sign in at its address with the email and password you entered.
+
+  </TabItem>
 </Tabs>
 
 ## Install steps

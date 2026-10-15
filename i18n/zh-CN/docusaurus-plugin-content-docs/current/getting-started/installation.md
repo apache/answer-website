@@ -107,6 +107,16 @@ INSTALL_PORT=80 ./answer init -C ./answer-data/
 恭喜你！开始你的 Apache Answer 之旅吧！
 
   </TabItem>
+  <TabItem value="pethost" label="Pethost">
+
+[Pethost](https://pethost.dev) 提供 Apache Answer 的一键部署模板。打开 [Apache Answer 模板](https://pethost.dev/templates/apache-answer/)，点击 Deploy on Pethost，然后填写：
+
+- Email：管理员邮箱，用于登录
+- Admin password：管理员密码，8 到 32 个字符
+
+首次启动时 Apache Answer 会使用 SQLite 自动完成安装，站点 URL 为项目的地址，管理员用户名为 `admin`。你不需要执行下面的安装步骤：项目上线后，在项目地址用填写的邮箱和密码登录即可。
+
+  </TabItem>
 </Tabs>
 
 ## 安装步骤
