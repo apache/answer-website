@@ -66,6 +66,10 @@ Follow the [Install Steps](#install-steps) to complete the installation. **After
 
 You can specify the port on which to start the installation by specifying the environment variable `INSTALL_PORT`, default is 80.
 
+`INSTALL_PORT` only sets the port for the installer. Once installed, Answer listens on the address set by `server.http.addr` in `answer-data/conf/config.yaml`, which defaults to `0.0.0.0:80`, whatever port you used for the installer. To run Answer on a different port, change this value before running `./answer run`.
+
+On Linux, ports below 1024 require root. If you are running Answer as a regular user, for example to try it out, use a higher port such as `9080` for both the installer and `server.http.addr`.
+
 We use `-C` flag to indicate the directory where saved answer data.
 
 :::
