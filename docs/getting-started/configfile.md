@@ -56,7 +56,7 @@ ui:
 
 ### debug
 
-Run in debug mode, with more verbose logging. Default: `false`. Leave this off in production.
+Run the web server in debug mode. Default: `false`. Leave this off in production.
 
 ### server
 
