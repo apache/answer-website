@@ -20,7 +20,6 @@
     "contributors": "node ./scripts/contributor.js"
   },
   "dependencies": {
-    "-": "^0.0.1",
     "@crowdin/cli": "3",
     "@docusaurus/core": "3.1.1",
     "@docusaurus/plugin-client-redirects": "^3.1.1",
