@@ -46,6 +46,14 @@ INSTALL_PORT=9080 AUTO_INSTALL=true \
   ./answer init -C ./answer-data
 ```
 
+After initialization finishes, start Answer with the same port you used in `SITE_URL`. `INSTALL_PORT` only applies during installation.
+
+```bash
+SITE_ADDR=127.0.0.1:9080 ./answer run -C ./answer-data
+```
+
+Open [http://localhost:9080](http://localhost:9080) to view your site.
+
 ### For overriding the config file
 
 - `SWAGGER_HOST` - address for the swagger to display, like `192.168.12.12` or `answer.apache.org`
