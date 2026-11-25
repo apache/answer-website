@@ -117,6 +117,13 @@ Congratulations, start your Apache Answer journey!
 Apache Answer installs itself with SQLite on the first start, with the project's address as the site URL and `admin` as the admin name. You do not need to operate the installation steps below: once the project is live, sign in at its address with the email and password you entered.
 
   </TabItem>
+  <TabItem value="simafri" label="Simafri">
+
+[Simafri](https://www.simafri.com) publishes a [step-by-step guide](https://www.simafri.com/en/guides/self-host-apache-answer/) to run Apache Answer on its managed VPS with Docker Compose: the official `apache/answer` image with MySQL 8.4, the port published on `127.0.0.1` and Caddy in front for HTTPS.
+
+The guide completes the [Install Steps](#install-steps) from the terminal, before the site is public, then covers SMTP, backups with `mysqldump` and the `/data` volume, restores and upgrades. You keep full access to the server, while Simafri handles its system updates, monitoring and encrypted nightly backups.
+
+  </TabItem>
 </Tabs>
 
 ## Install steps

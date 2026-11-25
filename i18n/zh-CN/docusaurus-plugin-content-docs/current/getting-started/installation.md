@@ -117,6 +117,13 @@ INSTALL_PORT=80 ./answer init -C ./answer-data/
 首次启动时 Apache Answer 会使用 SQLite 自动完成安装，站点 URL 为项目的地址，管理员用户名为 `admin`。你不需要执行下面的安装步骤：项目上线后，在项目地址用填写的邮箱和密码登录即可。
 
   </TabItem>
+  <TabItem value="simafri" label="Simafri">
+
+[Simafri](https://www.simafri.com) 发布了一份[分步指南](https://www.simafri.com/en/guides/self-host-apache-answer/)（英文），介绍如何在 Simafri 托管 VPS 上用 Docker Compose 运行 Apache Answer：官方镜像 `apache/answer` 搭配 MySQL 8.4，端口只发布在 `127.0.0.1` 上，并由 Caddy 在前面提供 HTTPS。
+
+该指南在站点公开之前，于终端中完成下文的安装步骤，并介绍 SMTP 配置、用 `mysqldump` 和 `/data` 卷进行备份、恢复以及升级。你保留服务器的完整访问权限，Simafri 负责系统更新、监控和每晚加密备份。
+
+  </TabItem>
 </Tabs>
 
 ## 安装步骤
