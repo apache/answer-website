@@ -58,13 +58,15 @@ export default function LocaleDropdownNavbarItem({
   const items = [...dropdownItemsBefore, ...localeItems, ...dropdownItemsAfter];
 
   // Mobile is handled a bit differently
+  // Desktop keeps only the language icon to save horizontal space;
+  // the accessible label comes from aria-label instead.
   const dropdownLabel = mobile
     ? translate({
         message: 'Languages',
         id: 'theme.navbar.mobileLanguageDropdown.label',
         description: 'The label for the mobile language switcher dropdown',
       })
-    : localeConfigs[currentLocale]!.label;
+    : '';
 
   return (
     <DropdownNavbarItem
@@ -76,6 +78,7 @@ export default function LocaleDropdownNavbarItem({
           {dropdownLabel}
         </>
       }
+      {...(mobile ? {} : { 'aria-label': localeConfigs[currentLocale]!.label })}
       items={items}
     />
   );
