@@ -41,14 +41,8 @@ module.exports = {
         'guides/tags',
         'guides/users',
         'guides/review',
-        {
-          type: 'category',
-          label: 'Moderation',
-          collapsed: true,
-          items: [
-            'guides/settings',
-          ],
-        },
+        'guides/moderation',
+        'guides/settings',
         {
           type: 'category',
           label: 'Commons',
