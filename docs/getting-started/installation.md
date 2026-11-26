@@ -73,7 +73,7 @@ We use `-C` flag to indicate the directory where saved answer data.
   </TabItem>
   <TabItem value="aapanel" label="aaPanel">
 
-To install Apache Answer on aaPanel, you need to install the aaPanel first. Go to the [aaPanel](https://www.aapanel.com/new/download.html?r=dk_answer) official website, download and install the script.
+To install Apache Answer on aaPanel, you need to install the aaPanel first. Go to the [aaPanel](https://www.aapanel.com/new/download.html) official website, download and install the script.
 
 After the installation is complete, log in to the aaPanel, click the left menu bar `Docker`, enter `One-Click Install`, search for `Apache Answer`, click Install to configure:
 
@@ -105,16 +105,6 @@ You need to fill in the following information to complete the basic configuratio
 After filling in the information, click Confirm to submit. The panel will automatically initialize the application after you click OK to submit. You do not need to operate the installation steps below. Wait for the initialization to complete, and you can access it through the **site URL** you just set.
 
 Congratulations, start your Apache Answer journey!
-
-  </TabItem>
-  <TabItem value="pethost" label="Pethost">
-
-[Pethost](https://pethost.dev) has a one-click template for Apache Answer. Open the [Apache Answer template](https://pethost.dev/templates/apache-answer/), click Deploy on Pethost and fill in:
-
-- Email: the admin's email, which you sign in with
-- Admin password: 8 to 32 characters
-
-Apache Answer installs itself with SQLite on the first start, with the project's address as the site URL and `admin` as the admin name. You do not need to operate the installation steps below: once the project is live, sign in at its address with the email and password you entered.
 
   </TabItem>
 </Tabs>
