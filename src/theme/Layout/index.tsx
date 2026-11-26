@@ -49,8 +49,8 @@ export default function Layout(props: Props): JSX.Element {
 
       <AnnouncementBar />
 
-      <Navbar />
       <BrowserLanguage />
+      <Navbar />
 
       <div
         id={SkipToContentFallbackId}

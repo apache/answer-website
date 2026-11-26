@@ -245,3 +245,24 @@ img {
 .searchBar_lA1l .dropdownMenu_n6rT {
   color: #000;
 }
+
+.browser-language-alert {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  text-align: center;
+  font-size: 0.875rem;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  padding-right: 3rem; // reserve room for the absolutely positioned close button
+
+  .close {
+    position: absolute;
+    right: var(--ifm-alert-padding-horizontal);
+    top: 50%;
+    margin: 0; // 覆盖 Infima .alert .close 自带的负边距
+    transform: translateY(-50%);
+  }
+}

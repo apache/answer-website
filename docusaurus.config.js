@@ -214,7 +214,6 @@ const config = {
       },
     ],
     'docusaurus-plugin-sass',
-    // '@docusaurus/theme-mermaid',
     [
       '@docusaurus/plugin-content-docs',
       {
