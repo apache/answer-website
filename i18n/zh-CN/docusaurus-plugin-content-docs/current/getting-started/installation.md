@@ -73,7 +73,7 @@ INSTALL_PORT=80 ./answer init -C ./answer-data/
   </TabItem>
   <TabItem value="baota" label="宝塔面板">
 
-首先需要安装宝塔面板 9.2.0 及以上版本，前往[宝塔面板](https://www.bt.cn/new/download.html?r=dk_answer)官网，选择正式版的脚本下载安装。
+首先需要安装宝塔面板 9.2.0 及以上版本，前往[宝塔面板](https://www.bt.cn/new/download.html)官网，选择正式版的脚本下载安装。
 
 安装完成后，登录宝塔面板，点击左侧菜单栏的 `Docker`，进入应用商店，搜索 `Apache Answer`，点击安装进行配置：
 
@@ -105,16 +105,6 @@ INSTALL_PORT=80 ./answer init -C ./answer-data/
 点击确定提交后面板会自动进行应用初始化，不需要操作下文的安装步骤，等待初始化完成后即可通过刚才设置的**访问地址**进行访问。
 
 恭喜你！开始你的 Apache Answer 之旅吧！
-
-  </TabItem>
-  <TabItem value="pethost" label="Pethost">
-
-[Pethost](https://pethost.dev) 提供 Apache Answer 的一键部署模板。打开 [Apache Answer 模板](https://pethost.dev/templates/apache-answer/)，点击 Deploy on Pethost，然后填写：
-
-- Email：管理员邮箱，用于登录
-- Admin password：管理员密码，8 到 32 个字符
-
-首次启动时 Apache Answer 会使用 SQLite 自动完成安装，站点 URL 为项目的地址，管理员用户名为 `admin`。你不需要执行下面的安装步骤：项目上线后，在项目地址用填写的邮箱和密码登录即可。
 
   </TabItem>
 </Tabs>
